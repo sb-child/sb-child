@@ -1,7 +1,7 @@
 ### Who am i? / 我是...
 + I am studying at a vocational school in Shandong, China.
 我在山东的一个职业学校上学.
-### Habits / 爱好
+### Hobbies / 爱好
 + Programming / 编程
 + + I like using / 我喜欢用
 + + + `Python`, `Golang`, `php`, `html/js/css`
