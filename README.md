@@ -3,8 +3,6 @@
 |:---:|
 |<img src="https://www.sbc-io.xyz:81/gh_counter/svg.php" width="75%">|
 
-
-
 (然而, 有些人还是拿起了他的 apache benchmark 轰炸我的计数器...)
 
 
@@ -23,4 +21,3 @@
 
 
  -->
-<img src="https://www.sbc-io.xyz:81/gh_counter/counter.php" width="0%">
