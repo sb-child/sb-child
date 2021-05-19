@@ -1,7 +1,12 @@
-### Who am i? / 我是...
-+ I am studying at a vocational school in Shandong, China.
-我在山东的一个职业学校上学.
-### Hobbies / 爱好
+# 访问量大赏~
+|daily|
+|:---:|
+|<img src="https://www.sbc-io.xyz:81/gh_counter/img.php" width="75%">|
+
+(然而, 有些人还是拿起了他的 apache benchmark 轰炸我的计数器...)
+
+
+<!-- ### Hobbies / 爱好
 + Programming / 编程
 + + I like using / 我喜欢用
 + + + `Python`, `Golang`, `php`, `html/js/css`
@@ -13,3 +18,6 @@
 + + 只是画过几块pcb, 最多也就能熟练的焊个lqfp64..
 + 伪音 爱好者 (我为什么要写在这里...)
 + + 我受不了我自己了.. 没啥好说的, 懂的都懂
+
+<img src="https://www.sbc-io.xyz:81/gh_counter/counter.php" width="0%">
+ -->
