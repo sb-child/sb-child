@@ -1,7 +1,7 @@
 # 访问量大赏~
 |daily|
 |:---:|
-|<img src="https://www.sbc-io.xyz:81/gh_counter/img.php?random=2324567" width="75%">|
+|<img src="https://www.sbc-io.xyz:81/gh_counter/svg.php" width="75%">|
 
 
 
