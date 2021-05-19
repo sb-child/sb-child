@@ -1,8 +1,16 @@
-大家好, 欢迎<sub>~~轰炸我的计数器~~</sub>刷爆我的访问量.
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=sb-child&show_icons=true&icon_color=0366d6&theme=dark" />
 
-# 访问量大赏~
-|  图 |
-|:---:|
+大家好, 我太不是人了, 竟然公开了自己的私人玩具.
+# 我 的 玩 具
+## 自动化工具
++ b站机器人
++ + https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://img.shields.io/github/stars/sb-child/bilibili-daily-task?label=stars%2F%E6%98%9F%E6%A0%87&style=flat-square)](https://github.com/sb-child/bilibili-daily-task/stargazers)
++ lsp的专属二三次元电影下载器<sub>我不对劲</sub>
++ + https://github.com/sb-child/lsp [![GitHub stars](https://img.shields.io/github/stars/sb-child/lsp?label=stars%2F%E6%98%9F%E6%A0%87&style=flat-square)](https://github.com/sb-child/lsp/stargazers)
+
+# 页面访问量
+| 数据 |
+|:----:|
 |<img src="https://www.sbc-io.xyz:81/gh_counter/svg.php" width="100%">|
 |~~随便刷~~ 别刷爆我服务器就行|
 |(然而, 有些人还是拿起了他的 apache bench 轰炸我的计数器...)|
@@ -10,9 +18,6 @@
 # 网站
 [![网站](https://img.shields.io/badge/%E7%BD%91%E7%AB%99(todo)-www.sbc--io.xyz:81-information)](https://www.sbc-io.xyz:81)
 
-# 我 的 玩 具
-+ b站机器人 https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://img.shields.io/github/stars/sb-child/bilibili-daily-task?label=stars%2F%E6%98%9F%E6%A0%87&style=flat-square)](https://github.com/sb-child/bilibili-daily-task/stargazers)
-+ lsp的专属二三次元电影下载器<sub>我不对劲</sub> https://github.com/sb-child/lsp [![GitHub stars](https://img.shields.io/github/stars/sb-child/lsp?label=stars%2F%E6%98%9F%E6%A0%87&style=flat-square)](https://github.com/sb-child/lsp/stargazers)
 
 
 <!-- ### Hobbies / 爱好
