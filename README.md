@@ -3,6 +3,8 @@
 |:---:|
 |<img src="https://www.sbc-io.xyz:81/gh_counter/img.php" width="75%">|
 
+
+
 (然而, 有些人还是拿起了他的 apache benchmark 轰炸我的计数器...)
 
 
@@ -19,5 +21,6 @@
 + 伪音 爱好者 (我为什么要写在这里...)
 + + 我受不了我自己了.. 没啥好说的, 懂的都懂
 
-<img src="https://www.sbc-io.xyz:81/gh_counter/counter.php" width="0%">
+
  -->
+<img src="https://www.sbc-io.xyz:81/gh_counter/counter.php" width="0%">
