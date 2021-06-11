@@ -4,12 +4,12 @@
 # 我 的 玩 具
 ## 自动化工具
 + b站机器人
-+ + https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://img.shields.io/github/stars/sb-child/bilibili-daily-task?label=stars%2F%E6%98%9F%E6%A0%87&style=flat-square)](https://github.com/sb-child/bilibili-daily-task/stargazers)
+  > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?code=1&anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
 + lsp的专属二三次元电影下载器<sub>我不对劲</sub>
-+ + https://github.com/sb-child/lsp [![GitHub stars](https://img.shields.io/github/stars/sb-child/lsp?label=stars%2F%E6%98%9F%E6%A0%87&style=flat-square)](https://github.com/sb-child/lsp/stargazers)
+  > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?code=1&anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
 ## 实用插件
 + 迷你 jsDec
-+ + https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://img.shields.io/github/stars/sb-child/jsdec-tiny?label=stars%2F%E6%98%9F%E6%A0%87&style=flat-square)](https://github.com/sb-child/jsdec-tiny/stargazers)
++ + https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?code=1&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
 
 # 页面访问量
 | 数据 |
