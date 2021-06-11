@@ -9,7 +9,7 @@
   > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?code=1&anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
 ## 实用插件
 + 迷你 jsDec
-+ + https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?code=1&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
+  > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?code=1&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
 
 # 页面访问量
 | 数据 |
