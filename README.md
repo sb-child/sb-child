@@ -14,7 +14,7 @@
 # 页面访问量
 | 数据 |
 |:----:|
-|<img src="https://sbc-io.xyz:81/gh_counter/svg.php" width="100%">|
+|<img src="https://sbc-io.xyz:81/www/gh_counter/svg.php" width="100%">|
 |~~随便刷~~ 别刷爆我服务器就行|
 |(然而, 有些人还是拿起了他的 apache bench 轰炸我的计数器...)|
 
