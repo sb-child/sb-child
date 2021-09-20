@@ -9,6 +9,14 @@
 |[![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]()|
 
 # 我 的 玩 具
+## 本子
++ 《群友伪娘原理》
+  > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
+
+## 文档
++ 幼女资料文献库
+  > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
+
 ## 自动化工具
 + b站机器人
   > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
@@ -25,4 +33,4 @@
 |换上了性能超强的web服务器, 随便刷! (|
 
 # 网站
-[![网站](https://img.shields.io/badge/%E7%BD%91%E7%AB%99(todo)-sbc--io.xyz:81-information)](https://sbc-io.xyz:81)
+[![网站](https://img.shields.io/badge/%E7%BD%91%E7%AB%99(正在打造)-sbc--io.xyz:81-information)](https://sbc-io.xyz:81)
