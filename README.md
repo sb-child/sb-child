@@ -8,6 +8,12 @@
 |[![-](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)]() [![-](https://img.shields.io/badge/Python-3772a2?style=flat-square&logo=python&logoColor=white)]() [![-](https://img.shields.io/badge/JavaScript-d4b41a?style=flat-square&logo=javascript&logoColor=white)]() [![-](https://img.shields.io/badge/TypeScript-2d79c6?style=flat-square&logo=typescript&logoColor=white)]()|
 |[![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]()|
 
+# 页面访问量
+| 数据 |
+|:----:|
+|<img src="https://sbc-io.xyz:81/_sbcounter/sbchild/rw/card" width="100%">|
+|写了个新计数器, 随便刷! (|
+
 # 我 的 玩 具
 ## 本子
 + 《群友伪娘原理》
@@ -25,12 +31,6 @@
 ## 实用插件
 + 迷你 jsDec
   > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
-
-# 页面访问量
-| 数据 |
-|:----:|
-|<img src="https://sbc-io.xyz:81/gh_counter/svg.php" width="100%">|
-|换上了性能超强的web服务器, 随便刷! (|
 
 # 网站
 [![网站](https://img.shields.io/badge/%E7%BD%91%E7%AB%99(正在打造)-sbc--io.xyz:81-information)](https://sbc-io.xyz:81)
