@@ -15,6 +15,11 @@
 |写了个[新计数器](https://github.com/sb-child/sb-counter), 随便刷! (|
 
 # 我 的 玩 具
+
+## [sbc-io]色逼实验室
++ sb-counter 色逼数 | 访问量计数器
+  > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
+
 ## 本子
 + 《群友伪娘原理》
   > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
@@ -28,6 +33,7 @@
   > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
 + lsp的专属二三次元电影下载器<sub>我不对劲</sub>
   > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
+
 ## 实用插件
 + 迷你 jsDec
   > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
