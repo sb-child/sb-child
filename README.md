@@ -12,7 +12,7 @@
 | 数据 |
 |:----:|
 |<img src="https://sbc-io.xyz:81/_sbcounter/sbchild/rw/card" width="100%">|
-|写了个新计数器, 随便刷! (|
+|写了个[新计数器](https://github.com/sb-child/sb-counter), 随便刷! (|
 
 # 我 的 玩 具
 ## 本子
