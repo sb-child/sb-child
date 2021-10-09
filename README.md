@@ -17,6 +17,9 @@
 # 我 的 玩 具
 
 ## [sbc-io]色逼实验室
+
+[![网站](https://img.shields.io/badge/实验室入口-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81)
+
 + sb-counter 色逼数 | 访问量计数器
   > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
 
@@ -29,10 +32,8 @@
 ## 本子
 + 《群友伪娘原理》
   > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
-
-## 文档
-+ 幼女资料文献库
-  > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
+  + 幼女资料文献库
+    > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
 ## 自动化工具
 + b站机器人
@@ -43,6 +44,3 @@
 ## 实用插件
 + 迷你 jsDec
   > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
-
-# 网站
-[![网站](https://img.shields.io/badge/%E7%BD%91%E7%AB%99(正在打造)-sbc--io.xyz:81-information)](https://sbc-io.xyz:81)
