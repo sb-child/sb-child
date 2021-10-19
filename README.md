@@ -1,21 +1,21 @@
-大家好, 我是1个萝莉控, 快来康康我的私人玩具!
+大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!
 
-| 「轮子」 |
-|:-----|
-|操作系统 [![-](https://img.shields.io/badge/ArchLinux-1793d1?style=flat-square&logo=archlinux&logoColor=white)]() [![-](https://img.shields.io/badge/Debian-a80030?style=flat-square&logo=debian&logoColor=white)]() [![-](https://img.shields.io/badge/Ubuntu-dd4714?style=flat-square&logo=ubuntu&logoColor=white)]()|
-|编程语言 [![-](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)]() [![-](https://img.shields.io/badge/Python-3772a2?style=flat-square&logo=python&logoColor=white)]() [![-](https://img.shields.io/badge/JavaScript-d4b41a?style=flat-square&logo=javascript&logoColor=white)]() [![-](https://img.shields.io/badge/TypeScript-2d79c6?style=flat-square&logo=typescript&logoColor=white)]()|
-|框架 [![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]()|
-|工具 [![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()|
+## 好康的... 嘿嘿
+类别|badges
+:---:|:---:
+操作系统|[![-](https://img.shields.io/badge/ArchLinux-1793d1?style=flat-square&logo=archlinux&logoColor=white)]() [![-](https://img.shields.io/badge/Debian-a80030?style=flat-square&logo=debian&logoColor=white)]() [![-](https://img.shields.io/badge/Ubuntu-dd4714?style=flat-square&logo=ubuntu&logoColor=white)]()
+编程语言|[![-](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)]() [![-](https://img.shields.io/badge/Python-3772a2?style=flat-square&logo=python&logoColor=white)]() [![-](https://img.shields.io/badge/JavaScript-d4b41a?style=flat-square&logo=javascript&logoColor=white)]() [![-](https://img.shields.io/badge/TypeScript-2d79c6?style=flat-square&logo=typescript&logoColor=white)]()
+框架|[![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]()
+工具|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()
+
+| 本页面访问量 |
+|:----:|
+|<img src="https://sbc-io.xyz:81/_sbcounter/sbchild/rw/card" width="100%">|
+|写了个[新计数器](https://github.com/sb-child/sb-counter), 随便刷! (|
 
 [![stat](https://github-readme-stats.vercel.app/api?username=sb-child&show_icons=true&icon_color=0366d6&theme=dark)]()
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sb-child&layout=compact&icon_color=0366d6&theme=dark)]()
-
-## 页面访问量
-| 数据 |
-|:----:|
-|<img src="https://sbc-io.xyz:81/_sbcounter/sbchild/rw/card" width="100%">|
-|写了个[新计数器](https://github.com/sb-child/sb-counter), 随便刷! (|
 
 [![个人主页](https://img.shields.io/badge/个人主页(todo)-sbchild.top:81-information?style=flat-square)](https://sbc-io.xyz:81)
 
@@ -32,7 +32,7 @@
   > 
   > https://github.com/sb-child/nekos **尚未开源, 敬请期待**
 
-### 莉沫酱周边「合作共赢」
+### 莉沫酱周边 ~~「合作共赢」~~
 + 莉沫酱家
   > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
 + 幼女币
