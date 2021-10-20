@@ -27,7 +27,7 @@
 
 + sb-counter 色逼数 | 访问量计数器
   > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
-+ sb-chat 色逼聊 | 1套分布式IM解决方案
++ sb-chat 色撩呗 | 1套分布式IM解决方案
   > https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
   > https://github.com/sb-child/nekos **尚未开源, 敬请期待**
