@@ -30,7 +30,7 @@
 + sb-chat 色撩呗 | 1套分布式IM解决方案
   > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
-  > 客户端(桌面/移动端) https://github.com/sb-child/nekos [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/nekos)](https://github.com/sb-child/nekos/stargazers)
+  > 客户端(桌面/移动端) https://github.com/sb-child/nekos **尚未开源,敬请期待** [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/nekos)](https://github.com/sb-child/nekos/stargazers)
   > 
   > 子项目:api混淆工具 https://github.com/sb-child/shadow-api **todo**
 
