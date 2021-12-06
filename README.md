@@ -17,7 +17,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sb-child&layout=compact&icon_color=0366d6&theme=dark)]()
 
-[![个人主页](https://img.shields.io/badge/个人主页(暂时废弃)-sbchild.top:81-information?style=flat-square)](https://sbc-io.xyz:81)
+[![个人主页](https://img.shields.io/badge/个人主页(暂时废弃)-sbchild.top:81-information?style=flat-square)](./)
+[![个人主页](https://img.shields.io/badge/个人主页(现用)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress)
 
 ## 项目
 
