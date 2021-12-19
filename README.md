@@ -60,7 +60,7 @@ telegram: https://t.me/sbchild
   > 
   > 子项目:api混淆工具 https://github.com/sb-child/shadow-api **todo**
 
-+ sb-crossdress | 色妹妹也要尝试女装了? (todo)
++ sb-crossdress | 色妹妹也要尝试女装~~(RLE!)~~了? (todo)
   > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
 + sb-counter 色逼数 | 访问量计数器
