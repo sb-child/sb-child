@@ -3,7 +3,9 @@
 ## 写在前面
 :rainbow_flag: [**支持 LGBT+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
 
-transles | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
+:transgender_flag: transles | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
+
+nickname: 色妹妹 or 纱月酱(别人帮咱起的) | sorry that I haven't English name
 
 telegram: https://t.me/sbchild
 
@@ -42,11 +44,15 @@ telegram: https://t.me/sbchild
 ## 项目
 
 ### [sbc-io]色逼实验室
+(只是个小小的实验室哦~ 但是有些涩涩的...)
 
 [![网站](https://img.shields.io/badge/实验室入口-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81)
 
-+ sb-counter 色逼数 | 访问量计数器
-  > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
++ 《群友伪娘原理》
+  > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
+  + 幼女资料文献库(没啥用, 暂时丢掉)
+    > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
+
 + sb-chat 色撩呗 | 1套分布式IM解决方案(正在开发, 现在不能用)
   > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
@@ -54,17 +60,17 @@ telegram: https://t.me/sbchild
   > 
   > 子项目:api混淆工具 https://github.com/sb-child/shadow-api **todo**
 
++ sb-crossdress | 色妹妹也要尝试女装了? (todo)
+  > (todo)
+
++ sb-counter 色逼数 | 访问量计数器
+  > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
+
 ### 莉沫酱周边 ~~「合作共赢」~~
 + 莉沫酱家
   > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
 + 幼女币
   > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
-
-### 本子
-+ 《群友伪娘原理》
-  > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
-  + 幼女资料文献库(没啥用, 暂时丢掉)
-    > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
 ### 自动化工具
 + b站机器人(可能坏掉了)
