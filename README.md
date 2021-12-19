@@ -3,11 +3,23 @@
 ## 写在前面
 :rainbow_flag: [**支持 LGBT+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
 
-pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
+transles | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
 
-(transles)
+telegram: https://t.me/sbchild
 
-## 好康的... 嘿嘿
+## status
+### working on
++ https://github.com/sb-child/sea
++ https://github.com/sb-child/crossdressing-principle
+
+### fix/improve later
++ https://github.com/sb-child/sb-counter
++ https://github.com/sb-child/lsp
+
+### todo
++ https://github.com/sb-child/nekos
+
+## ~~好康的... 嘿嘿~~
 类别|badges
 :---:|:---:
 操作系统|[![-](https://img.shields.io/badge/ArchLinux-1793d1?style=flat-square&logo=archlinux&logoColor=white)]() [![-](https://img.shields.io/badge/Debian-a80030?style=flat-square&logo=debian&logoColor=white)]() [![-](https://img.shields.io/badge/Ubuntu-dd4714?style=flat-square&logo=ubuntu&logoColor=white)]()
