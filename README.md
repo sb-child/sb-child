@@ -1,5 +1,12 @@
 大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!
 
+## 写在前面
+:rainbow_flag: [**支持 LGBT+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
+
+pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
+
+(transles)
+
 ## 好康的... 嘿嘿
 类别|badges
 :---:|:---:
@@ -28,7 +35,7 @@
 
 + sb-counter 色逼数 | 访问量计数器
   > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
-+ sb-chat 色撩呗 | 1套分布式IM解决方案
++ sb-chat 色撩呗 | 1套分布式IM解决方案(正在开发, 现在不能用)
   > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
   > 客户端(桌面/移动端) https://github.com/sb-child/nekos **尚未开源,敬请期待** [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/nekos)](https://github.com/sb-child/nekos/stargazers)
@@ -44,13 +51,13 @@
 ### 本子
 + 《群友伪娘原理》
   > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
-  + 幼女资料文献库
+  + 幼女资料文献库(没啥用, 暂时丢掉)
     > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
 ### 自动化工具
-+ b站机器人
++ b站机器人(可能坏掉了)
   > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
-+ lsp的专属二三次元电影下载器<sub>我不对劲</sub>
++ lsp的专属二三次元电影下载器<sub>我不对劲</sub>(可能坏掉了, 待修复)
   > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
 
 ### 实用插件
