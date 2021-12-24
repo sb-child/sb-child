@@ -1,26 +1,26 @@
 大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!
 
 ## 写在前面
-:rainbow_flag: [**支持 LGBT+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
+:rainbow_flag: [**支持 LGBTQIA+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
 
 :transgender_flag: transles | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
 
-nickname: 色妹妹 or 纱月酱(别人帮咱起的) | sorry that I haven't English name
+nickname/昵称: 色妹妹 or 纱月酱(别人帮咱起的) | sorry that I haven't English name
 
-telegram: https://t.me/sbchild
+telegram/电报: https://t.me/sbchild
 
-## status
-### working on
+## 咱的计划
+### 正在进行
 + https://github.com/sb-child/sea
 + https://github.com/sb-child/crossdressing-principle
 
-### fix/improve later
+### 修复和改进
 + https://github.com/sb-child/sb-counter
 + https://github.com/sb-child/lsp
 
-### todo
-+ https://github.com/sb-child/nekos
+### 待办
 + https://github.com/sb-child/crossdress
++ https://github.com/sb-child/nekos
 
 ## ~~好康的... 嘿嘿~~
 类别|badges
@@ -54,15 +54,15 @@ telegram: https://t.me/sbchild
   + 幼女资料文献库(没啥用, 暂时丢掉)
     > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
++ 色妹妹也要尝试女装 ~~(RLE!)~~ 了?
+  > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
+
 + sb-chat 色撩呗 | 1套分布式IM解决方案(正在开发, 现在不能用)
   > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
   > 客户端(桌面/移动端) https://github.com/sb-child/nekos **尚未开源,敬请期待** [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/nekos)](https://github.com/sb-child/nekos/stargazers)
   > 
   > 子项目:api混淆工具 https://github.com/sb-child/shadow-api **todo**
-
-+ sb-crossdress | 色妹妹也要尝试女装 ~~(RLE!)~~ 了? (todo)
-  > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
 + sb-counter 色逼数 | 访问量计数器
   > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
