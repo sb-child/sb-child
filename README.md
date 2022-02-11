@@ -26,7 +26,7 @@ telegram/电报: https://t.me/sbchild
 类别|badges
 :---:|:---:
 操作系统|[![-](https://img.shields.io/badge/ArchLinux-1793d1?style=flat-square&logo=archlinux&logoColor=white)]() [![-](https://img.shields.io/badge/Debian-a80030?style=flat-square&logo=debian&logoColor=white)]() [![-](https://img.shields.io/badge/Ubuntu-dd4714?style=flat-square&logo=ubuntu&logoColor=white)]()
-编程语言|[![-](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)]() [![-](https://img.shields.io/badge/Python-3772a2?style=flat-square&logo=python&logoColor=white)]() [![-](https://img.shields.io/badge/JavaScript-d4b41a?style=flat-square&logo=javascript&logoColor=white)]() [![-](https://img.shields.io/badge/TypeScript-2d79c6?style=flat-square&logo=typescript&logoColor=white)]()
+编程语言|[![-](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)]() [![-](https://img.shields.io/badge/Rust-dea584?style=flat-square&logo=rust&logoColor=white)]() [![-](https://img.shields.io/badge/Python-3772a2?style=flat-square&logo=python&logoColor=white)]() [![-](https://img.shields.io/badge/JavaScript-d4b41a?style=flat-square&logo=javascript&logoColor=white)]() [![-](https://img.shields.io/badge/TypeScript-2d79c6?style=flat-square&logo=typescript&logoColor=white)]()
 框架|[![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]()
 工具|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()
 
