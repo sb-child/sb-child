@@ -61,8 +61,6 @@ telegram/电报: https://t.me/sbchild
   > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
   > 客户端(桌面/移动端) https://github.com/sb-child/nekos **尚未开源,敬请期待** [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/nekos)](https://github.com/sb-child/nekos/stargazers)
-  > 
-  > 子项目:api混淆工具 https://github.com/sb-child/shadow-api **todo**
 
 + sb-counter 色逼数 | 访问量计数器
   > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
@@ -78,6 +76,11 @@ telegram/电报: https://t.me/sbchild
   > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
 + lsp的专属二三次元电影下载器<sub>我不对劲</sub>(可能坏掉了, 待修复)
   > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
+
+### 小工具
++ 神圣跨性别帝国护照生成器
+  > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/transport/stargazers)
+
 
 ### 实用插件
 + 迷你 jsDec
