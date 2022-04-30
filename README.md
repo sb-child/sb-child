@@ -3,22 +3,22 @@
 ## 写在前面
 :rainbow_flag: [**支持 LGBTQIA+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
 
-:transgender_flag: transles | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
+:transgender_flag: transgender girl | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
 
-nickname/昵称: 色妹妹 or 纱月酱(别人帮咱起的) | sorry that I haven't English name
+nickname/昵称: `色妹妹` or `纱月酱`(别人帮咱起的) | ~~sorry that I haven't English name~~ just call me `sbchild`
 
 telegram/电报: https://t.me/sbchild
 
 ## 咱的计划
 ### 正在进行
 + https://github.com/sb-child/sea
-+ https://github.com/sb-child/crossdressing-principle
 
 ### 修复和改进
 + https://github.com/sb-child/sb-counter
 + https://github.com/sb-child/lsp
 
 ### 待办
++ https://github.com/sb-child/crossdressing-principle
 + https://github.com/sb-child/crossdress
 + https://github.com/sb-child/nekos
 
@@ -39,7 +39,7 @@ telegram/电报: https://t.me/sbchild
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sb-child&layout=compact&icon_color=0366d6&theme=dark)]()
 
-[![个人主页](https://img.shields.io/badge/个人主页(暂时废弃)-sbchild.top:81-information?style=flat-square)](./)
+[![个人主页](https://img.shields.io/badge/个人主页(正在重建)-sbchild.top:81-information?style=flat-square)](./)
 [![个人主页](https://img.shields.io/badge/个人主页(现用)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress)
 
 ## 项目
@@ -57,10 +57,10 @@ telegram/电报: https://t.me/sbchild
 + 色妹妹也要尝试女装 ~~(RLE!)~~ 了?
   > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
-+ sb-chat 色撩呗 | 1套分布式IM解决方案(正在开发, 现在不能用)
++ sb-chat 色撩呗 | 1套分布式数据传输隧道解决方案(fuck GFW)**(正在开发, 现在不能用)**
   > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
-  > 客户端(桌面/移动端) https://github.com/sb-child/nekos **尚未开源,敬请期待** [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/nekos)](https://github.com/sb-child/nekos/stargazers)
+  > 客户端(桌面/移动端) https://github.com/sb-child/?? **正在策划**
 
 + sb-counter 色逼数 | 访问量计数器
   > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
