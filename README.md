@@ -20,7 +20,6 @@ telegram/电报: https://t.me/sbchild
 ### 待办
 + https://github.com/sb-child/crossdressing-principle
 + https://github.com/sb-child/crossdress
-+ https://github.com/sb-child/nekos
 
 ## ~~好康的... 嘿嘿~~
 类别|badges
@@ -76,7 +75,7 @@ telegram/电报: https://t.me/sbchild
   > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
 + lsp的专属二三次元电影下载器<sub>我不对劲</sub>(可能坏掉了, 待修复)
   > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
-+ 神奇机器人: 「这可事QQ机器人」!
++ 神奇机器人: 「这可事QQ机器人!」
   > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
 
 ### 小工具
