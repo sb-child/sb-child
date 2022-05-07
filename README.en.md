@@ -48,12 +48,12 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 
 [![website](https://img.shields.io/badge/website-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81)
 
-+ 《group owner crossdressing principle》
++ 《group owner cross dressing principle》
   > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
-  + 幼女资料文献库(没啥用, 暂时丢掉)
+  + 幼女's docs(useless, deprecated)
     > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
-+ do i want to try crossdressing, too? ~~(RLE!)~~
++ do i wanna to try cross dressing, too? ~~([RLE](https://en.wikipedia.org/wiki/Real-life_experience_(transgender))!)~~
   > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
 + sb-chat (just chatting sexy) | a distributed data transfer tunnel (fuck GFW)**(work in progress, not available)**

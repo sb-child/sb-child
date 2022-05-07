@@ -55,7 +55,7 @@ telegram/电报: https://t.me/sbchild
   + 幼女资料文献库(没啥用, 暂时丢掉)
     > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
-+ 色妹妹也要尝试女装 ~~(RLE!)~~ 了?
++ 色妹妹也要尝试女装 ~~([RLE](https://zh.wikipedia.org/zh-cn/%e5%ae%9e%e9%99%85%e7%94%9f%e6%b4%bb%e4%bd%93%e9%aa%8c)!)~~ 了?
   > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
 + sb-chat 色撩呗 | 1套分布式数据传输隧道解决方案(fuck GFW)**(正在开发, 现在不能用)**
