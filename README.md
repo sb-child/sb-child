@@ -1,5 +1,7 @@
 大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!
 
+# [> English version here <](./README.en.md)
+
 ## 写在前面
 :rainbow_flag: [**支持 LGBTQIA+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
 
