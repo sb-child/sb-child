@@ -51,40 +51,40 @@ telegram/电报: https://t.me/sbchild
 [![网站](https://img.shields.io/badge/实验室入口-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81)
 
 + 《群友伪娘原理》
-  > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
+  > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
   + 幼女资料文献库(没啥用, 暂时丢掉)
-    > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
+    > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
 + 色妹妹也要尝试女装 ~~([RLE](https://zh.wikipedia.org/zh-cn/%e5%ae%9e%e9%99%85%e7%94%9f%e6%b4%bb%e4%bd%93%e9%aa%8c)!)~~ 了?
-  > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
+  > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
 + sb-chat 色撩呗 | 1套分布式数据传输隧道解决方案(fuck GFW)**(正在开发, 现在不能用)**
-  > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
+  > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
   > 
   > 客户端(桌面/移动端) https://github.com/sb-child/?? **正在策划**
 
 + sb-counter 色逼数 | 访问量计数器
-  > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
+  > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
 
 ### 莉沫酱周边 ~~「合作共赢」~~
 + 莉沫酱家
-  > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
+  > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
 + 幼女币
-  > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
+  > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
 
 ### 自动化工具
 + b站机器人(可能坏掉了)
-  > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
+  > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
 + lsp的专属二三次元电影下载器<sub>我不对劲</sub>(可能坏掉了, 待修复)
-  > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
+  > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
 + 神奇机器人: 「这可事QQ机器人!」
-  > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
+  > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
 
 ### 小工具
 + 神圣跨性别帝国护照生成器
-  > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
+  > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
 
 
 ### 实用插件
 + 迷你 jsDec
-  > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
+  > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
