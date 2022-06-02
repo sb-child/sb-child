@@ -40,7 +40,7 @@ telegram/电报: https://t.me/sbchild
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sb-child&layout=compact&icon_color=0366d6&theme=dark)]()
 
-[![个人主页](https://img.shields.io/badge/个人主页(正在重建)-sbchild.top:8443-information?style=flat-square)](https://sbchild.top:8443/)
+[![个人主页](https://img.shields.io/badge/个人主页(新站!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
 [![个人主页](https://img.shields.io/badge/个人主页(现用)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress/)
 
 ## 项目
