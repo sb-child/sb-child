@@ -11,8 +11,8 @@
 + **I have NO twitter account**
 
 ## website
-[![sbc-io.xyz](https://img.shields.io/badge/my website(NEW!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
-[![sbchild.top](https://img.shields.io/badge/my website(old)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress/)
+[![sbc-io.xyz](https://img.shields.io/badge/my-website(NEW!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
+[![sbchild.top](https://img.shields.io/badge/my-website(old)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress/)
 
 
 ## todo list
