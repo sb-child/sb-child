@@ -16,8 +16,9 @@
 
 
 ## todo list
-### 🥇 doing
+### 🥇 currently doing
 + https://github.com/sb-child/sea
++ https://github.com/sb-child/crossdress
 
 ### 🥈 fix and improve
 + https://github.com/sb-child/sb-counter
@@ -25,7 +26,6 @@
 
 ### 🥉 do later
 + https://github.com/sb-child/crossdressing-principle
-+ https://github.com/sb-child/crossdress
 
 ## my skills
 key|value
