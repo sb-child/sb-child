@@ -14,6 +14,7 @@ telegram/电报: https://t.me/sbchild
 ## 咱的计划
 ### 正在进行
 + https://github.com/sb-child/sea
++ https://github.com/sb-child/crossdress
 
 ### 修复和改进
 + https://github.com/sb-child/sb-counter
@@ -21,7 +22,6 @@ telegram/电报: https://t.me/sbchild
 
 ### 待办
 + https://github.com/sb-child/crossdressing-principle
-+ https://github.com/sb-child/crossdress
 
 ## ~~好康的... 嘿嘿~~
 类别|badges
