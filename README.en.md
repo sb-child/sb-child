@@ -1,7 +1,7 @@
 # Hello there 👐
 
 ## who i am?
-+ you can call me `sbchild`
++ you can call me `sb child`
 + i am born in China
 + 🏳️‍⚧️ pride as a transgender girl
 + > 🏳️‍🌈: People were born free and equal.
@@ -11,8 +11,8 @@
 + **I have NO twitter account**
 
 ## website
-[![sbc-io.xyz](https://img.shields.io/badge/website(NEW!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
-[![sbchild.top](https://img.shields.io/badge/website(old)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress/)
+[![sbchild.top](https://img.shields.io/badge/website(NEW!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
+[![sbc-io.xyz](https://img.shields.io/badge/website(closed)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress/)
 
 
 ## todo list
