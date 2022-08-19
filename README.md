@@ -4,7 +4,7 @@
     <h2>这是咱的GitHub主页!</h2>
   </span>
   <a href="https://picrew.me/image_maker/47161/complete?cd=Dxrph1AliC">
-    <img src="https://user-images.githubusercontent.com/55868015/185658076-3c9c3919-6c5f-4855-b66f-ab2877629d96.png" align='right'>
+    <img src="https://user-images.githubusercontent.com/55868015/185658076-3c9c3919-6c5f-4855-b66f-ab2877629d96.png" align='right' width='410px'>
   </a>
 </div>
 
