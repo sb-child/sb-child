@@ -1,4 +1,21 @@
-# Hello there 👐
+<div>
+  <span>
+    <h1> 👐 Hello there</h1>
+    <h2>Welcome to my profile!</h2>
+  </span>
+  <a href="https://picrew.me/image_maker/47161/complete?cd=Dxrph1AliC">
+    <img src="https://user-images.githubusercontent.com/55868015/185658076-3c9c3919-6c5f-4855-b66f-ab2877629d96.png" align='right' width='410px'>
+  </a>
+</div>
+
+## [> Chinese version here / 点击查看中文版 <](./README.md)
+
+## NOTICE ⬇️ ⚠️ ⚠️ ⚠️ ⬇️
+- **‼️👉this is NOT a resume !👈‼️**
+- NSFW Warning
+- if you are feeling that's ok to continue, let's go~
+
+---
 
 ## who i am?
 + you can call me `sb child`
