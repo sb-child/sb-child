@@ -56,7 +56,7 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 | value |
 |:----:|
 |<img src="https://my.sbchild.top:81/_sbcounter/sbchild/rw/card" width="100%">|
-|this is my [new counter](https://github.com/sb-child/sb-counter), just play for fun! (|
+|this is my [new counter](https://github.com/sb-child/sb-counter), just play for fun! :)|
 
 ## stats
 [![stat](https://github-readme-stats.vercel.app/api?username=sb-child&show_icons=true&icon_color=0366d6&theme=dark)]()
