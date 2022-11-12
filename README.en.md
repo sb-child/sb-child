@@ -55,7 +55,7 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 ## visit counter
 | value |
 |:----:|
-|<img src="https://sbc-io.xyz:81/_sbcounter/sbchild/rw/card" width="100%">|
+|<img src="https://my.sbchild.top:81/_sbcounter/sbchild/rw/card" width="100%">|
 |this is my [new counter](https://github.com/sb-child/sb-counter), just play for fun! (|
 
 ## stats
