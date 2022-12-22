@@ -68,8 +68,6 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 ### [sbc-io] SB's lab
 (just a lab, but a bit sexy)
 
-[![website](https://img.shields.io/badge/website-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81)
-
 + 《group owner cross dressing principle》
   > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
   + 幼女's docs(useless, deprecated)
