@@ -43,6 +43,7 @@ telegram/电报: https://t.me/sbchild
 
 ## 🤔 咱的计划
 ### 正在进行
++ https://github.com/sb-child/unsafe-key-source
 + https://github.com/sb-child/sea
 + https://github.com/sb-child/crossdress
 
@@ -89,6 +90,11 @@ telegram/电报: https://t.me/sbchild
   > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
 + 幼女币
   > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
+
+### 神奇硬件
++ 一点都不安全的安全密钥
+  > 固件源代码 https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
+  > 电路板 (尚未开源)
 
 ### 自动化工具
 + b站机器人(可能坏掉了)
