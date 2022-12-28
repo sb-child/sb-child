@@ -34,6 +34,7 @@
 
 ## todo list
 ### 🥇 currently doing
++ https://github.com/sb-child/unsafe-key-source
 + https://github.com/sb-child/sea
 + https://github.com/sb-child/crossdress
 
@@ -89,6 +90,11 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
   > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
 + *幼女*'s coin
   > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
+
+### strange hardware
++ The security key that not safe
+  > firmware sources https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
+  > board (will open source soon)
 
 ### automatic tools
 + bilibili bot (maybe broken)
