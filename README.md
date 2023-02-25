@@ -67,8 +67,6 @@ telegram/电报: https://t.me/sbchild
 ### [sbc-io]色逼实验室
 (只是个小小的实验室哦~ 但是有些涩涩的...)
 
-[![网站](https://img.shields.io/badge/实验室入口(已废弃)-sbc--io.xyz:81-information?style=flat-square)](https://my.sbchild.top:81)
-
 + 《群友伪娘原理》
   > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
   + ~~幼女资料文献库~~ (已废弃)
