@@ -105,6 +105,10 @@ telegram/电报: https://t.me/sbchild
 + 神奇机器人: 「这可事QQ机器人!」
   > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
 
+### 改头换面! 好康的主题哦
++ 越来越像 Github 的 Gitea
+  > https://github.com/sb-child/gitea-theme-github-dark [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/gitea-theme-github-dark)](https://github.com/sb-child/gitea-theme-github-dark/stargazers)
+
 ### 小工具
 + 神圣跨性别帝国护照生成器
   > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
