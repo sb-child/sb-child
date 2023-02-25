@@ -28,8 +28,7 @@
 + **I have NO twitter account**
 
 ## website
-[![sbchild.top](https://img.shields.io/badge/website(NEW!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
-[![sbc-io.xyz](https://img.shields.io/badge/website(closed)-sbc--io.xyz:81-information?style=flat-square)](https://sbc-io.xyz:81/wp/wordpress/)
+[![sbchild.top](https://img.shields.io/badge/website-sbchild.top-information?style=flat-square)](https://sbchild.top/)
 
 
 ## todo list
@@ -96,6 +95,11 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
   > firmware sources https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
   > 
   > board (will open source soon)
+
+
+### awesome themes
++ the gitea theme that looks like github-dark
+  > https://github.com/sb-child/gitea-theme-github-dark [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/gitea-theme-github-dark)](https://github.com/sb-child/gitea-theme-github-dark/stargazers)
 
 ### automatic tools
 + bilibili bot (maybe broken)
