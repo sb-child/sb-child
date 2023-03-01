@@ -95,6 +95,11 @@ telegram/电报: https://t.me/sbchild
   > 
   > 电路板 (尚未开源)
 
+### 网络手！ 🌐 ✋ 🌐
+
++ 似乎挺安全的网关
+  > https://github.com/sb-child/seifu-gateway [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/seifu-gateway)](https://github.com/sb-child/seifu-gateway/stargazers)
+
 ### 自动化工具
 + b站机器人(可能坏掉了)
   > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
