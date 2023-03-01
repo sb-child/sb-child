@@ -43,6 +43,7 @@ telegram/电报: https://t.me/sbchild
 
 ## 🤔 咱的计划
 ### 正在进行
++ https://github.com/sb-child/seifu-gateway
 + https://github.com/sb-child/unsafe-key-source
 + https://github.com/sb-child/sea
 + https://github.com/sb-child/crossdress
