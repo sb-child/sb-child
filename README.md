@@ -49,7 +49,6 @@ telegram/电报: https://t.me/sbchild
 + https://github.com/sb-child/crossdress
 
 ### 修复和改进
-+ https://github.com/sb-child/sb-counter
 + https://github.com/sb-child/lsp
 
 ### 待办
