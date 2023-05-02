@@ -39,7 +39,6 @@
 + https://github.com/sb-child/crossdress
 
 ### 🥈 fix and improve
-+ https://github.com/sb-child/sb-counter
 + https://github.com/sb-child/lsp
 
 ### 🥉 do later
