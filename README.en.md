@@ -96,6 +96,9 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
   > 
   > board (will open source soon)
 
++ the simple spectrum analyzer(at least it's physical)
+  > firmware/host computer sources https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
+
 ### network handler！ 🌐 ✋ 🌐
 
 + a gateway that seems safety
