@@ -95,6 +95,9 @@ telegram/电报: https://t.me/sbchild
   > 
   > 电路板 (尚未开源)
 
++ 简简单单的频谱仪(迫真物理)
+  > 固件/上位机源代码 https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
+
 ### 网络手！ 🌐 ✋ 🌐
 
 + 似乎挺安全的网关
