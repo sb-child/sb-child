@@ -24,6 +24,7 @@
 + > 🏳️‍🌈: People were born free and equal.
 
 <img src="https://my.sbchild.top:81/omd/_?c=lily&o=My%20name%20is%20SbChild&t=我的名字是色妹妹" width="50%">
+
 [Generate your Duolingo sticker](https://github.com/sb-child/OhMyDuo)
 
 ## contact me
