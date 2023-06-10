@@ -118,6 +118,8 @@ telegram/电报: https://t.me/sbchild
 ### 小工具
 + 神圣跨性别帝国护照生成器
   > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
++ Oh My Duo 哦我的多儿~ | 多邻国贴纸生成器!
+  > https://github.com/sb-child/OhMyDuo [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/OhMyDuo)](https://github.com/sb-child/OhMyDuo/stargazers)
 
 ### 实用插件
 + 迷你 jsDec
