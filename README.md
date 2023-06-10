@@ -32,6 +32,8 @@
 
 [![个人主页](https://img.shields.io/badge/个人主页(新站!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
 
+<img src="https://my.sbchild.top:81/omd/_?c=lily&o=My%20name%20is%20SbChild&t=我的名字是色妹妹" width="50%">
+
 ## 🔰 写在~~前面~~中间
 :rainbow_flag: [**支持 LGBTQIA+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
 
