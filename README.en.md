@@ -119,6 +119,8 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 ### simple tools
 + holy transgender empire passport generator
   > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
++ Oh My Duo | Duolingo stickers generator
+  > https://github.com/sb-child/OhMyDuo [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/OhMyDuo)](https://github.com/sb-child/OhMyDuo/stargazers)
 
 ### utility plug-in 
 + tiny jsDec
