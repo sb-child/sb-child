@@ -32,7 +32,7 @@
 
 [![个人主页](https://img.shields.io/badge/个人主页(新站!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
 
-<img src="https://my.sbchild.top:81/omd/_?c=lily&o=My%20name%20is%20SbChild&t=我的名字是色妹妹" width="50%">
+<img src="https://my.sbchild.top:81/omd/_?c=lily&o=My%20name%20is%20SbChild&t=我的名字是色妹妹?x=iufsu4i45g34" width="50%">
 
 [生成你的多邻国贴纸](https://github.com/sb-child/OhMyDuo)
 
