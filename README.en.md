@@ -1,6 +1,6 @@
 <div>
   <span>
-    <h1> 👐 Hello there</h1>
+    <h1> 👐 Hi there</h1>
     <h2>Welcome to my profile!</h2>
   </span>
   <a href="https://picrew.me/image_maker/47161/complete?cd=Dxrph1AliC">
@@ -67,6 +67,10 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sb-child&layout=compact&icon_color=0366d6&theme=dark)]()
 
 ## my projects
+
+I like making something cute and interesting, but some projects are not open-source currently, that causes my contribution graph becomes weird.
+
+咱致力于制作一些可爱而且有趣的东西，当然有一部分东西仍然未开源或未提交到GitHub, 导致咱的瓷砖破烂不堪的...
 
 ### [sbc-io] SB's lab
 (just a lab, but a bit sexy)
