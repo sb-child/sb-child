@@ -1,6 +1,6 @@
 <div>
   <span>
-    <h1> 👐 Hello there</h1>
+    <h1> 👐 Hi there</h1>
     <h2>这是咱的GitHub主页!</h2>
   </span>
   <a href="https://picrew.me/image_maker/47161/complete?cd=Dxrph1AliC">
@@ -67,6 +67,8 @@ telegram/电报: https://t.me/sbchild
 工具|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()
 
 ## 📦 项目
+
+咱致力于制作一些可爱而且有趣的东西，当然有一部分东西仍然未开源或未提交到GitHub, 导致咱的瓷砖破烂不堪的...
 
 ### [sbc-io]色逼实验室
 (只是个小小的实验室哦~ 但是有些涩涩的...)
