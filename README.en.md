@@ -70,8 +70,6 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 
 I like making something cute and interesting, but some projects are not open-source currently, that causes my contribution graph becomes weird.
 
-咱致力于制作一些可爱而且有趣的东西，当然有一部分东西仍然未开源或未提交到GitHub, 导致咱的瓷砖破烂不堪的...
-
 ### [sbc-io] SB's lab
 (just a lab, but a bit sexy)
 
