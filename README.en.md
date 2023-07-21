@@ -34,17 +34,18 @@
 ## website
 [![sbchild.top](https://img.shields.io/badge/website-sbchild.top-information?style=flat-square)](https://sbchild.top/)
 
-## todo list
+## task list
 ### 🥇 currently doing
++ https://github.com/sb-child/digitized
 + https://github.com/sb-child/seifu-gateway
-+ https://github.com/sb-child/unsafe-key-source
-+ https://github.com/sb-child/sea
 + https://github.com/sb-child/crossdress
 
 ### 🥈 fix and improve
-+ https://github.com/sb-child/lsp
++ https://github.com/sb-child/unsafe-key-source
 
-### 🥉 do later
+### 🥉 todo
++ https://github.com/sb-child/sea
++ https://github.com/sb-child/lsp
 + https://github.com/sb-child/crossdressing-principle
 
 ## my skills
@@ -103,6 +104,9 @@ I like making something cute and interesting, but some projects are not open-sou
 
 + the simple spectrum analyzer(at least it's physical)
   > firmware/host computer sources https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
+
++ Digitized your life (todo)
+  > hardware and source code (todo) https://github.com/sb-child/digitized [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/digitized)](https://github.com/sb-child/digitized/stargazers)
 
 ### network handler！ 🌐 ✋ 🌐
 
