@@ -47,15 +47,16 @@ telegram/电报: https://t.me/sbchild
 
 ## 🤔 咱的计划
 ### 正在进行
++ https://github.com/sb-child/digitized
 + https://github.com/sb-child/seifu-gateway
-+ https://github.com/sb-child/unsafe-key-source
-+ https://github.com/sb-child/sea
 + https://github.com/sb-child/crossdress
 
 ### 修复和改进
-+ https://github.com/sb-child/lsp
++ https://github.com/sb-child/unsafe-key-source
 
 ### 待办
++ https://github.com/sb-child/sea
++ https://github.com/sb-child/lsp
 + https://github.com/sb-child/crossdressing-principle
 
 ## 😍 ~~好康的... 嘿嘿~~
@@ -103,6 +104,9 @@ telegram/电报: https://t.me/sbchild
 
 + 简简单单的频谱仪(迫真物理)
   > 固件/上位机源代码 https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
+
++ 永恒的数字人生(todo)
+  > 电路板,源代码(todo) https://github.com/sb-child/digitized [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/digitized)](https://github.com/sb-child/digitized/stargazers)
 
 ### 网络手！ 🌐 ✋ 🌐
 
