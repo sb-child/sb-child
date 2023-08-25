@@ -96,6 +96,10 @@ telegram/电报: https://t.me/sbchild
 + 幼女币
   > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
 
+### 咱的周边
++ 可爱的设计们！
+  > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
+
 ### 神奇硬件
 + 一点都不安全的安全密钥
   > 固件源代码 https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
