@@ -96,6 +96,10 @@ I like making something cute and interesting, but some projects are not open-sou
 + *幼女*'s coin
   > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
 
+### my merch
++ cute design!
+  > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
+
 ### strange hardware
 + The security key that not safe
   > firmware sources https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
