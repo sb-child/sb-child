@@ -36,16 +36,16 @@
 
 ## task list
 ### 🥇 currently doing
-+ https://github.com/sb-child/digitized
-+ https://github.com/sb-child/seifu-gateway
-+ https://github.com/sb-child/crossdress
++ https://github.com/sb-child/painless
 
 ### 🥈 fix and improve
 + https://github.com/sb-child/unsafe-key-source
++ https://github.com/sb-child/crossdress
++ https://github.com/sb-child/lsp
 
 ### 🥉 todo
++ https://github.com/sb-child/seifu-gateway
 + https://github.com/sb-child/sea
-+ https://github.com/sb-child/lsp
 + https://github.com/sb-child/crossdressing-principle
 
 ## my skills
