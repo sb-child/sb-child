@@ -114,7 +114,9 @@ telegram/电报: https://t.me/sbchild
 
 + 自制机械键盘!
   > 固件源代码:
+  > 
   > 按键扫描部分 https://github.com/sb-child/keyboard-software-scanner [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-scanner)](https://github.com/sb-child/keyboard-software-scanner/stargazers)
+  > 
   > 核心部分 (正在重写新版...)
   > 
   > 电路板 https://github.com/sb-child/keyboard-hardware [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-hardware)](https://github.com/sb-child/keyboard-hardware/stargazers)
