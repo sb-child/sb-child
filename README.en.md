@@ -112,6 +112,15 @@ I like making something cute and interesting, but some projects are not open-sou
 + Digitized your life (todo)
   > hardware and source code (todo) https://github.com/sb-child/digitized [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/digitized)](https://github.com/sb-child/digitized/stargazers)
 
++ DIY mechanical keyboard!
+  > firmware sources:
+  > 
+  > Key-scanner part https://github.com/sb-child/keyboard-software-scanner [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-scanner)](https://github.com/sb-child/keyboard-software-scanner/stargazers)
+  > 
+  > Core part (rewriting for new version...)
+  > 
+  > board https://github.com/sb-child/keyboard-hardware [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-hardware)](https://github.com/sb-child/keyboard-hardware/stargazers)
+
 ### network handler！ 🌐 ✋ 🌐
 
 + a gateway that seems safety
