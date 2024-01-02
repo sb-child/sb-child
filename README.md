@@ -145,6 +145,8 @@ telegram/电报: https://t.me/sbchild
   > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
 + Oh My Duo 哦我的多儿~ | 多邻国贴纸生成器!
   > https://github.com/sb-child/OhMyDuo [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/OhMyDuo)](https://github.com/sb-child/OhMyDuo/stargazers)
++ MC-Auth 《我的世界》第三方认证服务器([Yggdrasil](https://github.com/yushijinhun/authlib-injector) 协议)
+  > https://github.com/sb-child/mc-auth [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-auth)](https://github.com/sb-child/mc-auth/stargazers)
 
 ### 实用插件
 + 迷你 jsDec
