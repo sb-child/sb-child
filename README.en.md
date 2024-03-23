@@ -139,6 +139,8 @@ I like making something cute and interesting, but some projects are not open-sou
   > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
 + Minecraft version list fetcher
   > https://github.com/sb-child/mc-version-list [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-version-list)](https://github.com/sb-child/mc-version-list/stargazers)
++ Short-Link server, written in rust
+  > https://github.com/sb-child/short-link [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/short-link)](https://github.com/sb-child/short-link/stargazers)
 
 ### simple tools
 + holy transgender empire passport generator
