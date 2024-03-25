@@ -71,6 +71,11 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 
 I like making something cute and interesting, but some projects are not open-source currently, that causes my contribution graph becomes weird.
 
+### Personal Blog
+Website: https://sbchild.top/blog
+
+Source code: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
+
 ### [sbc-io] SB's lab
 (just a lab, but a bit sexy)
 
