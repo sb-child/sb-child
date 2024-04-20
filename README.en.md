@@ -122,7 +122,7 @@ Source code: https://github.com/sb-child/blog [![GitHub stars](https://unv-shiel
   > 
   > Key-scanner part https://github.com/sb-child/keyboard-software-scanner [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-scanner)](https://github.com/sb-child/keyboard-software-scanner/stargazers)
   > 
-  > Core part (rewriting for new version...)
+  > Core part https://github.com/sb-child/keyboard-software-core [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-core)](https://github.com/sb-child/keyboard-software-core/stargazers)
   > 
   > board https://github.com/sb-child/keyboard-hardware [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-hardware)](https://github.com/sb-child/keyboard-hardware/stargazers)
 
