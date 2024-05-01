@@ -104,6 +104,8 @@ telegram/电报: https://t.me/sbchild
 ### 咱的周边
 + 可爱的设计们！
   > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
++ 咱的周边竟然是咱自己！
+  > https://github.com/sb-child/for-you [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/for-you)](https://github.com/sb-child/for-you/stargazers)
 
 ### 神奇硬件
 + 一点都不安全的安全密钥
