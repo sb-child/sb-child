@@ -104,6 +104,8 @@ Source code: https://github.com/sb-child/blog [![GitHub stars](https://unv-shiel
 ### my merch
 + cute design!
   > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
++ and... my self! (Chinese only)
+  > https://github.com/sb-child/for-you [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/for-you)](https://github.com/sb-child/for-you/stargazers)
 
 ### strange hardware
 + The security key that not safe
