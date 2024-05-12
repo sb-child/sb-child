@@ -160,3 +160,5 @@ Source code: https://github.com/sb-child/blog [![GitHub stars](https://unv-shiel
 ### utility plug-in 
 + tiny jsDec
   > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
++ a simple database wrapper
+  > https://github.com/sb-child/dbee [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/dbee)](https://github.com/sb-child/dbee/stargazers)
