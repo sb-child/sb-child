@@ -156,6 +156,8 @@ telegram/电报: https://t.me/sbchild
   > https://github.com/sb-child/mc-auth [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-auth)](https://github.com/sb-child/mc-auth/stargazers)
 + rust 写的 Short-Link 短链接服务端
   > https://github.com/sb-child/short-link [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/short-link)](https://github.com/sb-child/short-link/stargazers)
++ 涩涩数据防腐剂! ~~我们开淫趴(impare)吧~~
+  > https://github.com/sb-child/impare [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/impare)](https://github.com/sb-child/impare/stargazers)
 
 ### 实用插件
 + 迷你 jsDec
