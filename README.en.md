@@ -36,17 +36,14 @@
 
 ## task list
 ### 🥇 currently doing
-+ https://github.com/sb-child/painless
++ https://github.com/sb-child/passchain
++ https://github.com/sb-child/unsafe-key-source
 
 ### 🥈 fix and improve
-+ https://github.com/sb-child/unsafe-key-source
 + https://github.com/sb-child/crossdress
-+ https://github.com/sb-child/lsp
 
 ### 🥉 todo
-+ https://github.com/sb-child/seifu-gateway
-+ https://github.com/sb-child/sea
-+ https://github.com/sb-child/crossdressing-principle
++ None
 
 ## my skills
 key|value
