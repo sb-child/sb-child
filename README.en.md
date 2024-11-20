@@ -73,6 +73,11 @@ Website: https://sbchild.top/blog
 
 Source code: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
 
+### Notes
+
++ Personal notes
+  > https://github.com/sb-child/notes [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/notes)](https://github.com/sb-child/notes/stargazers)
+
 ### [sbc-io] SB's lab
 (just a lab, but a bit sexy)
 
