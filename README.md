@@ -73,6 +73,11 @@ telegram/电报: https://t.me/sbchild
 
 源代码: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
 
+### 笔记
+
++ 私人小笔记
+  > https://github.com/sb-child/notes [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/notes)](https://github.com/sb-child/notes/stargazers)
+
 ### [sbc-io]色逼实验室
 (只是个小小的实验室哦~ 但是有些涩涩的...)
 
