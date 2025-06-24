@@ -78,6 +78,14 @@ Source code: https://github.com/sb-child/blog [![GitHub stars](https://unv-shiel
 + Personal notes
   > https://github.com/sb-child/notes [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/notes)](https://github.com/sb-child/notes/stargazers)
 
+### Light industry
+
+Estrogen drugs DIY guide, *for [Feminizing hormone therapy](https://en.wikipedia.org/wiki/Feminizing_hormone_therapy)*:
+- [Calculator](https://github.com/sb-child/Estradiol-Drugs-Diy-Calculator)
+- [Estradiol Cream](https://github.com/sb-child/Estradiol-Cream-Diy-Guide)
+- [Estradiol Pill](https://github.com/sb-child/Estradiol-Pill-Diy-Guide) | like Estrofem
+- ~~Estradiol Gel | like oestrogel~~ (So much guides on GitHub)
+
 ### [sbc-io] SB's lab
 (just a lab, but a bit sexy)
 
