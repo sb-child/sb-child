@@ -80,7 +80,7 @@ telegram/电报: https://t.me/sbchild
 
 ### 轻工业
 
-雌激素类药物自制指南:
+雌激素类药物自制指南, *用于[女性化激素疗法](https://zh.wikipedia.org/wiki/%E5%A5%B3%E6%80%A7%E5%8C%96%E6%BF%80%E7%B4%A0%E7%96%97%E6%B3%95)*:
 - [计算器](https://github.com/sb-child/Estradiol-Drugs-Diy-Calculator)
 - [雌二醇软膏](https://github.com/sb-child/Estradiol-Cream-Diy-Guide)
 - [雌二醇片](https://github.com/sb-child/Estradiol-Pill-Diy-Guide)
