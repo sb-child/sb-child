@@ -47,14 +47,14 @@ telegram/电报: https://t.me/sbchild
 
 ## 🤔 咱的计划
 ### 正在进行
++ https://github.com/sb-child/notes
 + https://github.com/sb-child/passchain
-+ https://github.com/sb-child/unsafe-key-source
 
 ### 修复和改进
 + https://github.com/sb-child/crossdress
 
 ### 待办
-+ 暂无
++ https://github.com/sb-child/unsafe-key-source
 
 ## 😍 ~~好康的... 嘿嘿~~
 类别|badges
@@ -69,9 +69,11 @@ telegram/电报: https://t.me/sbchild
 咱致力于制作一些可爱而且有趣的东西，当然有一部分东西仍然未开源或未提交到GitHub, 导致咱的瓷砖破烂不堪的...
 
 ### 个人博客
-地址: https://sbchild.top/blog
 
-源代码: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
+- 关站重建中，敬请期待
+- 地址: https://sbchild.top/blog
+- 旧站源代码: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
+- 新站源代码: https://github.com/sb-child/blog
 
 ### 笔记
 
