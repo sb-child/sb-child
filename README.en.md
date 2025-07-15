@@ -35,15 +35,16 @@
 [![sbchild.top](https://img.shields.io/badge/website-sbchild.top-information?style=flat-square)](https://sbchild.top/)
 
 ## task list
+
 ### 🥇 currently doing
++ https://github.com/sb-child/notes
 + https://github.com/sb-child/passchain
-+ https://github.com/sb-child/unsafe-key-source
 
 ### 🥈 fix and improve
 + https://github.com/sb-child/crossdress
 
 ### 🥉 todo
-+ None
++ https://github.com/sb-child/unsafe-key-source
 
 ## my skills
 key|value
@@ -69,9 +70,11 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 I like making something cute and interesting, but some projects are not open-source currently, that causes my contribution graph becomes weird.
 
 ### Personal Blog
-Website: https://sbchild.top/blog
 
-Source code: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
+- refactoring, website is closed for now
+- Address: https://sbchild.top/blog
+- Old website: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
+- New website: https://github.com/sb-child/blog
 
 ### Notes
 
