@@ -28,8 +28,6 @@
 + 🏳️‍⚧️ pride as a transgender girl
 + > 🏳️‍🌈: People were born free and equal.
 
-<img src="https://my.sbchild.top:81/omd/_?c=lily&o=My%20name%20is%20SbChild&t=我的名字是色妹妹&x=zwoifeniu4w5" width="50%">
-
 [Generate your Duolingo sticker](https://github.com/sb-child/OhMyDuo)
 
 ## contact me
@@ -58,12 +56,6 @@ OS|[![-](https://img.shields.io/badge/ArchLinux-1793d1?style=flat-square&logo=ar
 Programming languages|[![-](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)]() [![-](https://img.shields.io/badge/Rust-dea584?style=flat-square&logo=rust&logoColor=white)]() [![-](https://img.shields.io/badge/Python-3772a2?style=flat-square&logo=python&logoColor=white)]() [![-](https://img.shields.io/badge/JavaScript-d4b41a?style=flat-square&logo=javascript&logoColor=white)]() [![-](https://img.shields.io/badge/TypeScript-2d79c6?style=flat-square&logo=typescript&logoColor=white)]()
 Frameworks|[![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Tauri-black?style=flat-square&logo=tauri&logoColor=ffc131)]()
 Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()
-
-## visit counter
-| value |
-|:----:|
-|<img src="https://my.sbchild.top:81/_sbcounter/sbchild/rw/card" width="100%">|
-|this is my [new counter](https://github.com/sb-child/sb-counter), just play for fun! :)|
 
 ## stats
 [![stat](https://github-readme-stats.vercel.app/api?username=sb-child&show_icons=true&icon_color=0366d6&theme=dark)]()
