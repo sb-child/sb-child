@@ -22,11 +22,6 @@
 - [Nano](https://nano.org/): `nano_3qtq4ttsm9wfct1tjdzbhocywihr6sjsiscjmys8ebch89kafk6pgqfdiund`
 - USDT ETH/POL/OP: `0x61b5d628f5275c39fcb8979c0aFdb9a89abDCa9C`
 
-| 本页面访问量 |
-|:----:|
-|<img src="https://my.sbchild.top:81/_sbcounter/sbchild/rw/card" width="100%">|
-|写了个[新计数器](https://github.com/sb-child/sb-counter), 随便刷! (|
-
 <sub>大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!</sub>
 
 ---
@@ -36,8 +31,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sb-child&layout=compact&icon_color=0366d6&theme=dark)]()
 
 [![个人主页](https://img.shields.io/badge/个人主页(新站!)-sbchild.top-information?style=flat-square)](https://sbchild.top/)
-
-<img src="https://my.sbchild.top:81/omd/_?c=lily&o=My%20name%20is%20SbChild&t=我的名字是色妹妹&x=iufsu4i45g34" width="50%">
 
 [生成你的多邻国贴纸](https://github.com/sb-child/OhMyDuo)
 
