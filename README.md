@@ -36,6 +36,11 @@
 
 [生成你的多邻国贴纸](https://github.com/sb-child/OhMyDuo)
 
+## 投喂我
+
+- Nano: `nano_3qtq4ttsm9wfct1tjdzbhocywihr6sjsiscjmys8ebch89kafk6pgqfdiund`
+- USDT ETH/POL/OP: `0x61b5d628f5275c39fcb8979c0aFdb9a89abDCa9C`
+
 ## 🔰 写在~~前面~~中间
 :rainbow_flag: [**支持 LGBTQIA+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
 
