@@ -71,7 +71,7 @@ telegram/电报: https://t.me/sbchild
 - 关站重建中，敬请期待
 - 地址: https://sbchild.top/blog
 - 旧站源代码: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
-- 新站源代码: https://github.com/sb-child/blog
+- 新站源代码: https://github.com/sb-child/blog-next [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog-next)](https://github.com/sb-child/blog-next/stargazers)
 
 ### 笔记
 
