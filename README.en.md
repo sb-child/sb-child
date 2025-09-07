@@ -71,7 +71,7 @@ I like making something cute and interesting, but some projects are not open-sou
 - refactoring, website is closed for now
 - Address: https://sbchild.top/blog
 - Old website: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
-- New website: https://github.com/sb-child/blog
+- New website: https://github.com/sb-child/blog-next [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog-next)](https://github.com/sb-child/blog-next/stargazers)
 
 ### Notes
 
