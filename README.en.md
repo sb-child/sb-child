@@ -32,6 +32,7 @@
 
 ## contact me
 + telegram: https://t.me/sbchild
++ NanChat: ID `sbchild` | Address `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 + **I have NO twitter account**
 
 ## website
