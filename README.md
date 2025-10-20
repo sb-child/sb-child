@@ -43,6 +43,8 @@ nickname/昵称: `色妹妹` or `纱月酱`(别人帮咱起的) | ~~sorry that I
 
 telegram/电报: https://t.me/sbchild
 
+Discord: [@sb_child](https://discord.gg/yFnvtD3W)
+
 来 NanChat 聊天吧: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 
 ## 🤔 咱的计划
