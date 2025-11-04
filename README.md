@@ -61,6 +61,12 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 
 ## 📦 项目
 
+正在迁移到: https://github.com/users/sb-child/projects/3
+
+以下内容后续会搬走
+
+---
+
 咱致力于制作一些可爱而且有趣的东西，当然有一部分东西仍然未开源或未提交到GitHub, 导致咱的瓷砖破烂不堪的...
 
 ### 个人博客
