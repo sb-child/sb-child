@@ -41,15 +41,7 @@
 
 ## task list
 
-### 🥇 currently doing
-+ https://github.com/sb-child/notes
-+ https://github.com/sb-child/passchain
-
-### 🥈 fix and improve
-+ https://github.com/sb-child/crossdress
-
-### 🥉 todo
-+ https://github.com/sb-child/unsafe-key-source
+Moved to https://github.com/sb-child/ecosystem
 
 ## my skills
 key|value
