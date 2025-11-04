@@ -48,15 +48,8 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 来 NanChat 聊天吧: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 
 ## 🤔 咱的计划
-### 正在进行
-+ https://github.com/sb-child/notes
-+ https://github.com/sb-child/passchain
 
-### 修复和改进
-+ https://github.com/sb-child/crossdress
-
-### 待办
-+ https://github.com/sb-child/unsafe-key-source
+搬到这里了: https://github.com/sb-child/ecosystem
 
 ## 😍 ~~好康的... 嘿嘿~~
 类别|badges
