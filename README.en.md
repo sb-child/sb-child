@@ -58,6 +58,10 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 
 ## my projects
 
+Contents below will be moved to: https://github.com/users/sb-child/projects/3
+
+---
+
 I like making something cute and interesting, but some projects are not open-source currently, that causes my contribution graph becomes weird.
 
 ### Personal Blog
