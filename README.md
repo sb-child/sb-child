@@ -49,7 +49,7 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 
 ## 🤔 咱的计划
 
-搬到这里了: https://github.com/sb-child/ecosystem
+搬到这里了: https://github.com/users/sb-child/projects/3
 
 ## 😍 ~~好康的... 嘿嘿~~
 类别|badges
@@ -61,7 +61,7 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 
 ## 📦 项目
 
-正在迁移到: https://github.com/users/sb-child/projects/3
+正在迁移到: https://github.com/sb-child/ecosystem
 
 以下内容后续会搬走
 
