@@ -41,7 +41,7 @@
 
 ## task list
 
-Moved to https://github.com/sb-child/ecosystem
+Moved to: https://github.com/users/sb-child/projects/3
 
 ## my skills
 key|value
@@ -58,7 +58,7 @@ Tools|[![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=b
 
 ## my projects
 
-Contents below will be moved to: https://github.com/users/sb-child/projects/3
+Contents below will be moved to: https://github.com/sb-child/ecosystem
 
 ---
 
