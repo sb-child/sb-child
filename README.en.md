@@ -20,8 +20,8 @@
 ## Donation
 
 - [Nano](https://nano.org/): `nano_3qtq4ttsm9wfct1tjdzbhocywihr6sjsiscjmys8ebch89kafk6pgqfdiund`
-- [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Ethereum](https://ethereum.org/): `0x61b5d628f5275c39fcb8979c0aFdb9a89abDCa9C`
+- [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
 
 ## who i am?
