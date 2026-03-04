@@ -2,6 +2,7 @@ baseURL = 'https://gh.sbchild.top/'
 languageCode = 'zh-cn'
 title = '色妹妹的裙底'
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 [params]
 description = "色妹妹的裙底"
