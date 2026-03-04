@@ -18,3 +18,9 @@ description = "现在没有游戏手柄可以摔了，你就是主角。"
 > 哪朵裙撑，没有勃起？_最好的报复是歌姬，最美的盛开是操逼！_
 
 当你以为我在冒犯所有人，其实我只是在冒犯我自己。
+
+## 版权
+
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+作者是我，引用或转载这篇文章请注明来源。
