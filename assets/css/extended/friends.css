@@ -1,8 +1,10 @@
-/* 友链卡片样式 */
+.main:has(.friends-container) {
+    max-width: 1400px !important;
+}
+
 .friends-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
     margin: 20px 0;
 }
 
@@ -14,7 +16,8 @@
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    break-inside: avoid;
+    margin-bottom: 20px;
 }
 
 .friend-card:hover {
@@ -171,7 +174,6 @@
     box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.2);
 }
 
-/* 深色模式下的时间线颜色调整 */
 [data-theme="dark"] .timeline-warning::before {
     background: #ffb300;
 }
@@ -222,9 +224,21 @@
     color: var(--primary);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1200px) {
     .friends-container {
-        grid-template-columns: 1fr;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .friends-container {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 767px) {
+    .friends-container {
+        column-count: 1;
     }
     
     .friend-card {

@@ -1,7 +1,8 @@
 +++
 date = '2026-03-04T16:34:30+08:00'
-draft = true
+draft = false
 title = '好朋友们'
+disableAnchoredHeadings = true
 +++
 
 ## 之前的东西去哪了？
@@ -10,15 +11,16 @@ title = '好朋友们'
 
 ## 加入游戏？
 
-如果你想和我交换友链，请通过以下方式联系我：
+如果你想和我交换友链：
 
-- 在你的博客添加本站的友情链接
-- 通过私聊方式联系我
-
-记得找个联系方式，私聊我~
+1. 在你的博客添加[**色妹妹的裙底**](https://gh.sbchild.top)
+2. 然后[联系]({{< relref "/about.md#联系方式" >}})我
+3. 等我加上
 
 ---
 
-## 占位符
+<div class="friends-container">
 
-还没有新朋友加入喵
+{{< friend name="色妹妹的裙底" avatar="/avatar.jpg" desc="底裤被掀了，现在只剩一条随风飘荡的长裙。" link="https://gh.sbchild.top/" />}}
+
+</div>

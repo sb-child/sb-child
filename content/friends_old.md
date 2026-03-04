@@ -3,6 +3,7 @@ title: "之前的好朋友们"
 date: 2024-10-20
 draft: false
 description: "友情链接"
+disableAnchoredHeadings: true
 ---
 
 以下信息已经封存，最后更新于 2024 年 10 月 20 日。
@@ -27,9 +28,9 @@ description: "友情链接"
 {{< /friend >}}
 
 {{< friend name="starmoe's site" avatar="/images/friends/starmoe.webp" desc="「生亦何苦，死亦何哀」" link="https://hexo.hydi.xyz/" >}}
-2025.7.16; error; @ElihusoQ(风庄) 已去世
-2023.11.26; error; 经 @ElihusoQ(风庄) 现场确认，残念已吞药去世
-2024.2.6; warning; 域名 hydi.xyz 已过期，贵站源代码仓库位于 https://github.com/Bro-Xun/hexo，备份于 https://github.com/sb-child/broxun-hexo-backup
+2023.11.26; error; 经 @ElihusoQ(风庄) 现场确认，残念已吞药去世。
+2024.2.6; warning; 域名 hydi.xyz 已过期，贵站源代码仓库位于 https://github.com/Bro-Xun/hexo，备份于 https://github.com/sb-child/broxun-hexo-backup。
+2025.7.16; error; @ElihusoQ(风庄) 已去世。
 {{< /friend >}}
 
 {{< friend name="Sharelter" avatar="/images/friends/sharelter.jpeg" desc="喜欢喵喵的可爱大姐姐的blog哦" link="https://sharelter.github.io/" />}}
