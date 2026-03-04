@@ -1,10 +1,13 @@
 ---
-title: "旧站依赖爆炸，新站遥遥无期"
+title: "你好喵"
 date: 2026-03-04T14:55:00+08:00
 draft: false
+description: "喜报，旧站依赖爆炸，新站遥遥无期"
 tags: ["website"]
 categories: ["系统信息"]
 ---
+
+时隔一年我们又见面了。
 
 ## 我博客死了
 
@@ -17,5 +20,9 @@ categories: ["系统信息"]
 - 新原因导致网站 sbchild.top 的站点地图中的网页无法被编入索引
 
 本站 (https://gh.sbchild.top/) 部署在 GitHub Pages。
+
+放心，故居已经全部 302 重定向到本站。
+
+为什么不是 301？我怕 GitHub Pages 也爆炸。
 
 如果你怀念我的旧站，请移步[这里]({{< relref "/about.md#你博客去哪了" >}})。

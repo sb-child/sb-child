@@ -2,7 +2,7 @@
 title: "之前的好朋友们"
 date: 2024-10-20
 draft: false
-description: "友情链接"
+description: "旧站残存的友情链接"
 disableAnchoredHeadings: true
 ---
 
