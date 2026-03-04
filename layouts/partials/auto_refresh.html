@@ -1,0 +1,35 @@
+<script>
+  (function () {
+    if (
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1"
+    ) {
+      return;
+    }
+    let currentVersion = null;
+    const CHECK_INTERVAL = 5000;
+    async function checkVersion() {
+      try {
+        const response = await fetch("/version.json?t=" + Date.now(), {
+          cache: "no-cache",
+        });
+        if (!response.ok) {
+          return;
+        }
+        const data = await response.json();
+        if (currentVersion === null) {
+          currentVersion = data.version;
+          return;
+        }
+        if (data.version !== currentVersion) {
+          console.log("检测到新版本，正在刷新页面...");
+          window.location.reload();
+        }
+      } catch (error) {
+        console.error("版本检查失败:", error);
+      }
+    }
+    checkVersion();
+    setInterval(checkVersion, CHECK_INTERVAL);
+  })();
+</script>
