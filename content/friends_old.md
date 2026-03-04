@@ -27,7 +27,8 @@ description: "友情链接"
 {{< /friend >}}
 
 {{< friend name="starmoe's site" avatar="/images/friends/starmoe.webp" desc="「生亦何苦，死亦何哀」" link="https://hexo.hydi.xyz/" >}}
-2023.11.26; error; 经 @ElihusoQ 现场确认，残念已吞药去世
+2025.7.16; error; @ElihusoQ(风庄) 已去世
+2023.11.26; error; 经 @ElihusoQ(风庄) 现场确认，残念已吞药去世
 2024.2.6; warning; 域名 hydi.xyz 已过期，贵站源代码仓库位于 https://github.com/Bro-Xun/hexo，备份于 https://github.com/sb-child/broxun-hexo-backup
 {{< /friend >}}
 
