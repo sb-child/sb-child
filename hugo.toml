@@ -1,0 +1,102 @@
+baseURL = 'https://sb-child.github.io/'
+languageCode = 'zh-cn'
+title = '色妹妹的裙底'
+theme = 'PaperMod'
+
+[params]
+description = "色妹妹的裙底"
+author = "色妹妹"
+keywords = [
+  "博客",
+  "技术",
+  "Rust",
+  "Go",
+  "Python",
+  "LGBT",
+  "sbchild",
+  "blog",
+  "色妹妹",
+  "纱月",
+  "纱月酱",
+  "transgender",
+  "sbchild.top",
+]
+
+# PaperMod 主题配置
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[params.homeInfoParams]
+Title = "色妹妹的裙底"
+Content = """
+底裤被掀了，现在只剩一条随风飘荡的长裙。
+"""
+
+[[params.profileMode.buttons]]
+name = "文章"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "归档"
+url = "/archives"
+
+[[params.profileMode.buttons]]
+name = "标签"
+url = "/tags"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/sb-child"
+
+[[params.socialIcons]]
+name = "telegram"
+url = "https://t.me/sbchild"
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discord.gg/yFnvtD3W"
+
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 40
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
