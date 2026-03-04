@@ -85,6 +85,10 @@ name = "discord"
 url = "https://discord.gg/yFnvtD3W"
 
 [[params.socialIcons]]
+name = "email"
+url = "mailto:admin@sbchild.top"
+
+[[params.socialIcons]]
 name = "rss"
 url = "/index.xml"
 

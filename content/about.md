@@ -33,6 +33,7 @@ Alias:
 - **Telegram**: https://t.me/sbchild
 - **Discord**: [@sb_child](https://discord.gg/yFnvtD3W)
 - **GitHub**: https://github.com/sb-child
+- **电子邮箱**: sbchild0@gmail.com
 - **NanChat**: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 
 ## 投喂我
