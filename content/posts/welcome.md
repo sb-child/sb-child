@@ -16,4 +16,6 @@ categories: ["系统信息"]
 - 在针对 sbchild.top 提交的网址中检测到新的网页索引编制问题
 - 新原因导致网站 sbchild.top 的站点地图中的网页无法被编入索引
 
+本站 (https://gh.sbchild.top/) 部署在 GitHub Pages。
+
 如果你怀念我的旧站，请移步[这里]({{< relref "/about.md#你博客去哪了" >}})。
