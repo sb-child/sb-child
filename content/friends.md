@@ -7,7 +7,7 @@ disableAnchoredHeadings = true
 
 ## 之前的东西去哪了？
 
-[这里]({{< relref "/friends_old.md" >}})。
+好问题，我全搬过来了，点[这里]({{< relref "/friends_old.md" >}})。
 
 ## 加入游戏？
 
