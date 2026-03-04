@@ -39,6 +39,15 @@ hideSummary = false
 showtoc = true
 tocopen = false
 
+[params.profileMode]
+enabled = true
+title = "色妹妹的裙底"
+subtitle = "底裤被掀了，现在只剩一条随风飘荡的长裙。"
+imageUrl = "/avatar.jpg"
+imageTitle = "色妹妹"
+imageWidth = 120
+imageHeight = 120
+
 [params.homeInfoParams]
 Title = "色妹妹的裙底"
 Content = """
