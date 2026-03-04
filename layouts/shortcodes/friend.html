@@ -1,0 +1,48 @@
+{{- $name := .Get "name" -}}
+{{- $avatar := .Get "avatar" -}}
+{{- $desc := .Get "desc" -}}
+{{- $link := .Get "link" -}}
+{{- $timeline := strings.TrimSpace .Inner -}}
+
+<div class="friend-card">
+  <div class="friend-card-header">
+    <img src="{{ $avatar }}" alt="{{ $name }}" class="friend-avatar">
+    <div class="friend-info">
+      <h3 class="friend-name">{{ $name }}</h3>
+      <p class="friend-desc">{{ $desc }}</p>
+    </div>
+  </div>
+  {{- if $timeline -}}
+  {{- $lines := split $timeline "\n" -}}
+  {{- $hasItems := false -}}
+  {{- range $lines -}}
+    {{- $line := strings.TrimSpace . -}}
+    {{- if $line -}}
+      {{- $hasItems = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $hasItems -}}
+  <div class="friend-timeline">
+    {{- range $lines -}}
+      {{- $line := strings.TrimSpace . -}}
+      {{- if $line -}}
+        {{- $parts := split $line ";" -}}
+        {{- if eq (len $parts) 3 -}}
+          {{- $date := strings.TrimSpace (index $parts 0) -}}
+          {{- $status := strings.TrimSpace (index $parts 1) -}}
+          {{- $message := strings.TrimSpace (index $parts 2) -}}
+          <div class="timeline-item timeline-{{ $status }}">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">{{ $date }}</div>
+            <div class="timeline-content">{{ $message | markdownify }}</div>
+          </div>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </div>
+  {{- end -}}
+  {{- end -}}
+  <div class="friend-link">
+    <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">访问网站 →</a>
+  </div>
+</div>
