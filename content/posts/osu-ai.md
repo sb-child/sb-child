@@ -40,6 +40,8 @@ keywords = ["AI", "LLM", "osu!", "World Championship", "科幻", "虚构", "tran
 > “你们玩加密的不会下个 osu 打两把再买吗”
 >
 > “[两年前](https://www.reddit.com/r/Damnthatsinteresting/comments/15relbf/youtuber_chrisdacow_taught_kanzi_the_bonobo_ape/) [Kanzi 学会 Minecraft](https://www.youtube.com/watch?v=UKpFoYqN9-0)，重仓押注猴子队，利好[脑机接口](https://zh.wikipedia.org/zh-hans/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3)，AI 将成为电子垃圾废墟。”
+>
+> “整个机械队就像[蓝翔工人](https://zh.wikipedia.org/zh-hans/%E5%B1%B1%E4%B8%9C%E8%93%9D%E7%BF%94%E6%8A%80%E5%B8%88%E5%AD%A6%E9%99%A2)开[挖掘机](https://zh.moegirl.org.cn/%E6%8C%96%E6%8E%98%E6%9C%BA%E6%8A%80%E6%9C%AF%E5%93%AA%E5%AE%B6%E5%BC%BA)游玩 osu。这不合适，我做空。”
 
 与此同时，osu [官网](https://osu.ppy.sh/)显示的在线玩家数量已经突破三万，随时区转动的图表上呈现出巨大的尖峰，是平常的整整两倍。
 
