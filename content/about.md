@@ -30,10 +30,32 @@ Alias:
 
 ## 联系方式
 
+我更喜欢即时聊天，我不太主动，希望你能理解。
+
+### 时效性**最高**
+
 - **Telegram**: https://t.me/sbchild
 - **Discord**: [@sb_child](https://discord.gg/yFnvtD3W)
-- **GitHub**: https://github.com/sb-child
-- **电子邮箱**: sbchild0@gmail.com
+
+### 时效性**一般**
+
+- **Email**: sbchild0@gmail.com
+- **GitHub**: [@sb-child](https://github.com/sb-child)
+
+### 时效性**差**
+
+- **Email**: zinu5k7d1k2uzsxa@proton.me
+- **Codeberg**: [@sbchild](https://codeberg.org/sbchild)
+- **GitLab**: [@sb-child](https://gitlab.com/sb-child)
+
+### 时效性**很差**
+
+- **bsky.app**: [@sbchild.bsky.social](https://bsky.app/profile/sbchild.bsky.social)
+- **misskey.io**: [@sbchild@misskey.io](https://misskey.io/@sbchild)
+- **nya.one**: [@sbchild@nya.one](https://nya.one/@sbchild)
+
+### 时效性**不可能**
+
 - **NanChat**: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 
 ## 投喂我
