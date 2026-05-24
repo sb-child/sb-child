@@ -32,29 +32,29 @@ Alias:
 
 我更喜欢即时聊天，我不太主动，希望你能理解。
 
-### 时效性**最高**
+时效性**最高** (你发消息我就会收到通知)
 
 - **Telegram**: https://t.me/sbchild
 - **Discord**: [@sb_child](https://discord.gg/yFnvtD3W)
 
-### 时效性**一般**
+时效性**一般** (最长半个月随缘翻邮箱)
 
 - **Email**: sbchild0@gmail.com
 - **GitHub**: [@sb-child](https://github.com/sb-child)
 
-### 时效性**差**
+时效性**差** (等我想起来再说吧)
 
 - **Email**: zinu5k7d1k2uzsxa@proton.me
 - **Codeberg**: [@sbchild](https://codeberg.org/sbchild)
 - **GitLab**: [@sb-child](https://gitlab.com/sb-child)
 
-### 时效性**很差**
+时效性**很差** (我没什么可发的其实)
 
 - **bsky.app**: [@sbchild.bsky.social](https://bsky.app/profile/sbchild.bsky.social)
 - **misskey.io**: [@sbchild@misskey.io](https://misskey.io/@sbchild)
 - **nya.one**: [@sbchild@nya.one](https://nya.one/@sbchild)
 
-### 时效性**不可能**
+时效性**不可能** (下辈子见)
 
 - **NanChat**: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 
