@@ -14,7 +14,7 @@ disableAnchoredHeadings = true
 
 如果你想和我交换友链：
 
-1. 在你的博客添加[**色妹妹的裙底**](https://gh.sbchild.top)
+1. 在你的网站添加[**色妹妹的裙底**](https://gh.sbchild.top)
 2. 然后[联系]({{< relref "/about.md#联系方式" >}})我
 3. 等我加上
 
@@ -23,5 +23,9 @@ disableAnchoredHeadings = true
 <div class="friends-container">
 
 {{< friend name="色妹妹的裙底" avatar="/avatar.jpg" desc="底裤被掀了，现在只剩一条随风飘荡的长裙。" link="https://gh.sbchild.top/" />}}
+
+{{< friend name="27Onion" avatar="/images/friends/27Onion.png" desc="Android will become a locked-down platform in 99d 1h 46m 13s" link="https://onion108.github.io/" />}}
+
+{{< friend name="Website of HosinoNeko" avatar="/images/friends/HosinoNeko.png" desc="一隻可愛的小藥娘的網站" link="https://hosinoneko.me/" />}}
 
 </div>
