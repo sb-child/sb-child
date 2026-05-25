@@ -1,0 +1,23 @@
+{{ $rootURL := site.Home.RelPermalink }}
+{{ $queryParams := querify "root_url" $rootURL }}
+{{ $url := printf "http://127.0.0.1:8964/func_trans_story?%s" $queryParams }}
+{{ with try (resources.GetRemote $url) }}
+  {{ with .Err }}
+    {{ errorf "无法访问后端: %s" . }}
+  {{ else with .Value }}
+    {{ $json := .Content | transform.Unmarshal }}
+    {{ $timestamp := int $json.updated_at }}
+    {{ $datetime := (time.AsTime $timestamp).Local }}
+    <ul>
+        <li>最后修改于 {{ $datetime.Format "2006-01-02 15:04:05" }}</li>
+        <li>提交 ID: <a href="https://github.com/sb-child/notes/blob/{{ $json.rev }}/trans-story.md">{{ $json.rev }}</a></li>
+    </ul>
+    <p>以下是正文:</p>
+    <hr>
+    <div class="remote-content">
+      {{ $json.content | safeHTML }}
+    </div>
+  {{ else }}
+    {{ errorf "无法获取资源: %q" $url }}
+  {{ end }}
+{{ end }}

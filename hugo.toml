@@ -135,3 +135,11 @@ unsafe = true
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+[security.http]
+methods = ['GET']
+urls = ['http://127.0.0.1:8964/.*']
+
+[caches.getResource]
+dir = ':cacheDir/:project'
+maxAge = '0s'

@@ -1,0 +1,12 @@
+# uv-specific files
+.venv/
+
+# Ignore uv.lock only if you are developing a library
+# uv.lock
+
+# standard python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/

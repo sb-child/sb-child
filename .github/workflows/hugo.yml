@@ -34,6 +34,12 @@ jobs:
         with:
           go-version: ${{ env.GO_VERSION }}
           cache: false
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Set up Python
+        run: uv python install 3.14
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -63,6 +69,7 @@ jobs:
           echo "Go: $(go version)"
           echo "Hugo: $(hugo version)"
           echo "Node.js: $(node --version)"
+          echo "uv: $(uv --version)"
       - name: Install Node.js dependencies
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
@@ -76,13 +83,13 @@ jobs:
           path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
           restore-keys: hugo-
-      - name: Build the site
+      - name: Run Hugo CI Script
         run: |
-          hugo build \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
+          cd script
+          uv run hugo_ci.py \
+            --base-url "${{ steps.pages.outputs.base_url }}" \
+            --runner-temp "${{ runner.temp }}"
+          cd ..
       - name: Generate version file
         run: |
           echo "{\"version\":\"${{ github.sha }}\",\"timestamp\":$(date +%s)}" > ./public/version.json
