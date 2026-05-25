@@ -86,7 +86,7 @@ jobs:
       - name: Run Hugo CI Script
         run: |
           cd script
-          uv run hugo_ci.py \
+          uv run hugo-ci.py \
             --base-url "${{ steps.pages.outputs.base_url }}" \
             --runner-temp "${{ runner.temp }}"
           cd ..
