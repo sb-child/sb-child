@@ -1,0 +1,25 @@
+name: IndexNow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-and-submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup IndexNow 
+        run: echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt
+
+      - name: Automatically Submit URLs to IndexNow
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-url: "https://gh.sbchild.top/sitemap.xml"
+          server-url: "bing.com"
+          key: ${{ secrets.INDEXNOW_KEY }}
