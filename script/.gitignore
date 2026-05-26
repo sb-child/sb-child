@@ -10,3 +10,5 @@ __pycache__/
 *$py.class
 dist/
 build/
+
+.gh_api_token

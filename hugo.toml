@@ -3,6 +3,7 @@ languageCode = 'zh-cn'
 title = '色妹妹的裙底'
 theme = 'PaperMod'
 enableRobotsTXT = true
+enableGitInfo = true
 
 [params]
 description = "色妹妹的裙底"
@@ -60,6 +61,9 @@ Title = "色妹妹的裙底"
 Content = """
 底裤被掀了，现在只剩一条随风飘荡的长裙。
 """
+
+[frontmatter]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [[params.profileMode.buttons]]
 name = "文章"

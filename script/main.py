@@ -3,6 +3,7 @@ import requests
 import base64
 import uvicorn
 # import nh3
+from pathlib import Path
 from typing import Callable
 from datetime import datetime
 from fastapi import FastAPI
@@ -36,8 +37,20 @@ def fetch_gh_file(
     provided_params = [p for p in [branch, tag, rev] if p is not None]
     ref = provided_params[0] if len(provided_params) == 1 else None
     base_url = f"https://api.github.com/repos/{repo}"
-    # headers = {"Authorization": "Bearer xxx"}
+    gh_api_token_file = Path(".gh_api_token")
+    if gh_api_token_file.is_file():
+        try:
+            with open(gh_api_token_file) as f:
+                gh_api_token = f.read().strip()
+        except Exception as e:
+            print("读取 gh_api_token 失败: {e}")
+            gh_api_token = None
+    else:
+        gh_api_token = None
     headers = {"Accept": "application/vnd.github.v3+json"}
+    if gh_api_token:
+        print("使用 gh_api_token")
+        headers["Authorization"] = f"Bearer {gh_api_token}"
     content_url = f"{base_url}/contents/{file}"
     content_params = {}
     if ref:
