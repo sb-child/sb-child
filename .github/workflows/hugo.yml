@@ -4,13 +4,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+  repository_dispatch:
+    types: [on-notes-commited]
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 defaults:
   run:
     shell: bash
