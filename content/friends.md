@@ -14,9 +14,9 @@ disableAnchoredHeadings = true
 
 如果你想和我交换友链：
 
-1. 在你的网站添加[**色妹妹的裙底**](https://gh.sbchild.top)
+1. 在你的网站添加[**色妹妹的裙底**](https://gh.sbchild.top)，示例看下面第一个
 2. 然后[联系]({{< relref "/about.md#联系方式" >}})我
-3. 等我加上
+3. 等我看到你的消息，我会尽快加上的
 
 ---
 
