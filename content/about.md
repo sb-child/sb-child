@@ -8,7 +8,7 @@ draft: false
 
 关站重建中，敬请期待，其实你这辈子别想等到
 
-https://sbchild.top/blog
+这个是旧站地址 <https://sbchild.top/blog> 但是现在它会重定向到这里
 
 不过你可以脑内编译源代码：
 
