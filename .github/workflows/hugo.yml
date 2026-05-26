@@ -86,6 +86,7 @@ jobs:
       - name: Run Hugo CI Script
         run: |
           cd script
+          echo ${{ secrets.GITHUB_TOKEN }} > .gh_api_token
           uv run hugo-ci.py \
             --base-url "${{ steps.pages.outputs.base_url }}" \
             --runner-temp "${{ runner.temp }}"
