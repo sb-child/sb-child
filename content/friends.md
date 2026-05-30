@@ -28,4 +28,6 @@ disableAnchoredHeadings = true
 
 {{< friend name="Website of HosinoNeko" avatar="/images/friends/HosinoNeko.png" desc="一隻可愛的小藥娘的網站" link="https://hosinoneko.me/" />}}
 
+{{< friend name="社会易姐QwQ" avatar="/images/friends/shakaianee.png" desc="给岁月以文明，而不是给文明以岁月。" link="https://shakaianee.top/" />}}
+
 </div>
