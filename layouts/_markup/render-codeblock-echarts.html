@@ -1,0 +1,35 @@
+<!-- 数据文件放在 assets/ -->
+<!-- 如果同时指定 src 和 inner, 则 inner 拥有更高的优先级 -->
+{{ $src := .Attributes.src }}
+{{ $dataURL := "" }}
+{{ if $src }}
+  {{ with resources.Get $src }}
+    {{ $fingerprintData := . | fingerprint }}
+    {{ $dataURL = $fingerprintData.RelPermalink }}
+  {{ else }}
+    {{ errorf "ECharts: 找不到数据文件 assets/%s" $src }}
+  {{ end }}
+{{ end }}
+
+{{ $uniqueStr := printf "%d-%s-%s" .Ordinal .Inner $src }}
+{{ $id := printf "echart-%s" (sha256 $uniqueStr) }}
+{{ $height := .Attributes.height | default "400px" }}
+{{ $width := .Attributes.width | default "100%" }}
+
+<div id="{{ $id }}" class="echarts-codeblock" style="width: {{ $width }}; height: {{ $height }};"></div>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    var localOption = {{ if .Inner }}
+                        {{ .Inner | safeJS }}
+                      {{ else }}
+                        {}
+                      {{ end }};
+    {{ if $dataURL }}
+      window.HugoECharts.renderFromUrl('{{ $id }}', '{{ $dataURL }}', localOption);
+    {{ else }}
+      window.HugoECharts.render('{{ $id }}', localOption);
+    {{ end }}
+  });
+</script>
+
+{{ .Page.Store.Set "hasECharts" true }}

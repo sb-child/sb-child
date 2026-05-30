@@ -1,0 +1,219 @@
+{{- if lt hugo.Version "0.146.0" }}
+{{- errorf "=> hugo v0.146.0 or greater is required for hugo-PaperMod to build " }}
+{{- end -}}
+
+<!DOCTYPE html>
+{{- $theme := site.Params.defaultTheme | default "auto" }}
+{{- if eq $theme "dark" }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="dark">
+{{- else if eq $theme "light" }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+{{- else }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="auto">
+{{- end }}
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) }}
+<body class="list" id="top">
+{{- else }}
+<body id="top">
+{{- end }}
+    {{ partialCached "header.html" . .Page -}}
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+</body>
+
+{{ if .Store.Get "hasMermaid" }}
+{{ $js := resources.Get "js/mermaid.min.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<script>
+  function changeMermaidTheme(theme) {
+    // https://www.bodunhu.com/blog/posts/add-mermaid-to-hugo-with-dark-mode/
+    let mermaidConfig = {
+      theme: theme,
+      logLevel: 'fatal',
+      securityLevel: 'strict',
+      startOnLoad: false,
+      arrowMarkerAbsolute: false,
+      er: {
+        diagramPadding: 20,
+        layoutDirection: 'TB',
+        minEntityWidth: 100,
+        minEntityHeight: 75,
+        entityPadding: 15,
+        stroke: 'gray',
+        fill: 'honeydew',
+        fontSize: 12,
+        useMaxWidth: true,
+      },
+      flowchart: {
+        diagramPadding: 8,
+        htmlLabels: true,
+        curve: 'basis',
+      },
+      sequence: {
+        diagramMarginX: 50,
+        diagramMarginY: 10,
+        actorMargin: 50,
+        width: 150,
+        height: 65,
+        boxMargin: 10,
+        boxTextMargin: 5,
+        noteMargin: 10,
+        messageMargin: 35,
+        messageAlign: 'center',
+        mirrorActors: true,
+        bottomMarginAdj: 1,
+        useMaxWidth: true,
+        rightAngles: false,
+        showSequenceNumbers: false,
+      },
+      gantt: {
+        titleTopMargin: 25,
+        barHeight: 20,
+        barGap: 4,
+        topPadding: 50,
+        leftPadding: 75,
+        gridLineStartPadding: 35,
+        fontSize: 11,
+        fontFamily: '"Open-Sans", "sans-serif"',
+        numberSectionStyles: 4,
+        axisFormat: '%Y-%m-%d',
+        topAxis: false,
+      },
+    };
+    mermaid.initialize(mermaidConfig);
+    mermaid.run();
+  }
+  // FIXME: https://github.com/mermaid-js/mermaid/issues/1945
+  const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  function handleThemeChange(e) {
+    if (e.matches) {
+      console.log('prefers-color-scheme = dark');
+      changeMermaidTheme("dark");
+    } else {
+      console.log('prefers-color-scheme != dark');
+      changeMermaidTheme("default");
+    }
+  }
+  darkModeQuery.addEventListener('change', handleThemeChange);
+  const targetNode = document.documentElement;
+  const config = { attributes: true, attributeFilter: ['class', 'data-theme'] };
+  const callback = function(mutationsList, observer) {
+    for(let mutation of mutationsList) {
+      if (mutation.type === 'attributes') {
+        const isDark = targetNode.classList.contains('dark') || targetNode.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          console.log('isDark = true');
+          changeMermaidTheme("dark");
+        } else {
+          console.log('isDark = false');
+          changeMermaidTheme("default");
+        }
+      }
+    }
+  };
+  const observer = new MutationObserver(callback);
+  observer.observe(targetNode, config);
+  const isDarkByClass = document.documentElement.classList.contains('dark');
+  const isDarkByAttribute = document.documentElement.getAttribute('data-theme') === 'dark';
+  const isCurrentDark = isDarkByClass || isDarkByAttribute;
+  if (isCurrentDark) {
+    console.log('isCurrentDark = true');
+    changeMermaidTheme("dark");
+  } else {
+    console.log('isCurrentDark = false');
+    changeMermaidTheme("default");
+  }
+</script>
+{{ end }}
+
+{{ if .Store.Get "hasECharts" }}
+{{ $js := resources.Get "js/echarts.min.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<script>
+  window.HugoECharts = {
+    instances: new Map(),
+    isDarkMode() {
+      return document.documentElement.classList.contains('dark') ||
+        document.documentElement.getAttribute('data-theme') === 'dark' ||
+        document.body.classList.contains('dark');
+    },
+    render(id, option) {
+      const chartDom = document.getElementById(id);
+      if (!chartDom) return;
+
+      let instance = this.instances.get(id)?.instance;
+      if (instance) {
+        instance.dispose();
+      }
+      const theme = this.isDarkMode() ? 'dark' : null;
+      if (theme === 'dark' && !option.backgroundColor) {
+        option.backgroundColor = 'transparent';
+      }
+      instance = echarts.init(chartDom, theme);
+      instance.setOption(option);
+      this.instances.set(id, { instance, option });
+    },
+    deepMerge(target, source) {
+      if (typeof target !== 'object' || target === null || typeof source !== 'object' || source === null) {
+        return source;
+      }
+      for (const key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          const targetValue = target[key];
+          const sourceValue = source[key];
+          if (Array.isArray(targetValue) && Array.isArray(sourceValue)) {
+            target[key] = [...targetValue, ...sourceValue];
+          } 
+          else if (typeof targetValue === 'object' && targetValue !== null && 
+                  typeof sourceValue === 'object' && sourceValue !== null) {
+            target[key] = this.deepMerge({ ...targetValue }, sourceValue);
+          } 
+          else {
+            target[key] = sourceValue;
+          }
+        }
+      }
+      return target;
+    },
+    async renderFromUrl(id, url, localOption = {}) {
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`HugoECharts: ${url}: HTTP Error ${response.status}`);
+        const remoteOption = await response.json();
+        const mergedOption = this.deepMerge(localOption, remoteOption);
+        // const mergedOption = this.deepMerge(remoteOption, localOption);
+        this.render(id, mergedOption);
+        // console.log(mergedOption);
+      } catch (e) {
+        console.error(`HugoECharts: ${url}: 图表数据加载失败:`, e);
+        const chartDom = document.getElementById(id);
+        if (chartDom) chartDom.innerHTML = `<p style="color:red;text-align:center;padding:20px;">图表数据加载失败，刷新试试?</p>`;
+      }
+    },
+    init() {
+      const observer = new MutationObserver(() => {
+        this.instances.forEach((value, id) => {
+          this.render(id, value.option);
+        });
+      });
+      observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class', 'data-theme'] });
+      observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+      window.addEventListener('resize', () => {
+        this.instances.forEach((value) => {
+          value.instance && value.instance.resize();
+        });
+      });
+    }
+  };
+  window.HugoECharts.init();
+</script>
+{{ end }}
+
+</html>

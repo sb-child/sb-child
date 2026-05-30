@@ -77,6 +77,10 @@ url = "/archives"
 name = "标签"
 url = "/tags"
 
+[[params.profileMode.buttons]]
+name = "杂项"
+url = "/other"
+
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/sb-child"
