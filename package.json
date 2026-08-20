@@ -1,0 +1,29 @@
+{
+  "name": "sb-child",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.14.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "@types/node": "^26.2.0",
+    "glob": "^13.0.6",
+    "svelte": "^5.56.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
+  }
+}

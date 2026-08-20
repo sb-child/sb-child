@@ -1,0 +1,19 @@
+{{- $componentName := .Get 0 -}}
+{{- $manifestPath := "static/svelte-components/.vite/manifest.json" -}}
+{{- $manifest := dict -}}
+
+{{- if os.FileExists $manifestPath -}}
+  {{- $manifest = os.ReadFile $manifestPath | transform.Unmarshal -}}
+{{- else -}}
+  {{- errorf "请先构建 svelte 组件！未找到配置文件: %s" $manifestPath -}}
+{{- end -}}
+
+{{- $entry := index $manifest ( printf "src-svelte/%s/main.ts" $componentName ) -}}
+{{- if $entry -}}
+
+{{- else -}}
+  {{- errorf "找不到 svelte 组件: %s" $componentName -}}
+{{- end -}}
+
+<div id="{{ $componentName }}-svelte-container"></div>
+<script src="/svelte-components/{{ $entry.file }}" defer></script>

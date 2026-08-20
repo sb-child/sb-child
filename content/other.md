@@ -9,12 +9,10 @@ description: "不在明面上的东西"
 
 ## 药娘是怎么炼成的
 
-就是 https://github.com/sb-child/notes/blob/main/trans.md 但是搬到[这里]({{< relref "/trans/_index.md" >}})了
+就是 https://github.com/sb-child/notes/blob/main/trans.md 但是搬到[这里]({{< relref "/trans" >}})了
 
-## 我的项目
+## [我的项目]({{< relref "/project" >}})
 
-[这里]({{< relref "/project/_index.md" >}})
+## [测试页面]({{< relref "/test" >}})
 
-## 测试页面
-
-[这里]({{< relref "/test/_index.md" >}})
+## [闪兑平台]({{< relref "/swap" >}})
