@@ -20,7 +20,7 @@ export const containerHeaderColorClass = cn(
 );
 
 export const containerHeaderSizeClass = cn(
-  "h-8 p-2 space-x-1 text-sm items-center",
+  "h-8 p-2 space-x-1 text-sm items-center flex",
 );
 
 export const containerHeaderButtonOverrideClass = cn(

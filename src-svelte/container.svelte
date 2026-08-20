@@ -23,11 +23,33 @@
   import { get_root } from "./root.svelte";
   import { containerWidth } from "./meta";
   import * as DropdownMenu from "$lib/components/ui/dropdown-menu";
-  const bp = containerWidth * 0.6;
   const headerMode = global_width((w) =>
     w < containerWidth * 0.6 ? "merged" : "wide",
   );
   const rootNode = get_root();
+
+  let headerMergedContainerWidth = $state(0);
+  let headerMergedLeftWidth = $state(0);
+  let headerMergedButtonsIntrinsicWidth = $state(0);
+  let headerMergedMoreWidth = $state(0);
+  const headerMergedModeGapMin = 24;
+  let headerMergedShowInlineButtons = $derived(
+    headerMergedContainerWidth > 0 &&
+      headerMergedContainerWidth >=
+        headerMergedLeftWidth +
+          headerMergedButtonsIntrinsicWidth +
+          headerMergedMoreWidth +
+          headerMergedModeGapMin,
+  );
+  // $effect(() => {
+  //   console.log("resize", {
+  //     container: headerMergedContainerWidth,
+  //     left: headerMergedLeftWidth,
+  //     buttonsIntrinsic: headerMergedButtonsIntrinsicWidth,
+  //     more: headerMergedMoreWidth,
+  //     showInline: headerMergedShowInlineButtons,
+  //   });
+  // });
 
   let containerOptions: ContainerHeaderOptions = $state({
     name: "sbchild Swap",
@@ -62,11 +84,11 @@
     <div
       class={containerHeaderColorClass +
         containerHeaderSizeClass +
-        " rounded-tl-lg rounded-br-lg flex"}
+        " rounded-tl-lg rounded-br-lg"}
     >
-      <span class="font-bold tracking-tight pl-1 pr-1 [align-self:end]"
-        >{opt.name}</span
-      >
+      <span class="font-bold tracking-tight px-1">
+        {opt.name}
+      </span>
       {#if [OnlineStatus.Connecting, OnlineStatus.WaitRetry].includes(opt.onlineStatus)}
         <Spinner />
       {/if}
@@ -105,14 +127,16 @@
 
 {#snippet HeaderMerged(opt: ContainerHeaderOptions)}
   <div
-    class={containerHeaderColorClass +
-      containerHeaderSizeClass +
-      " rounded-lg flex"}
+    bind:clientWidth={headerMergedContainerWidth}
+    class={containerHeaderColorClass + containerHeaderSizeClass + " rounded-lg"}
   >
-    <div class="flex-none overflow-x-clip whitespace-nowrap max-w-md">
-      <span class="font-bold tracking-tight pl-1 pr-1 [align-self:end]"
-        >{opt.name}</span
-      >
+    <div
+      bind:clientWidth={headerMergedLeftWidth}
+      class="flex flex-none items-center space-x-1 overflow-x-clip"
+    >
+      <span class="font-bold tracking-tight px-1">
+        {opt.name}
+      </span>
       {#if [OnlineStatus.Connecting, OnlineStatus.WaitRetry].includes(opt.onlineStatus)}
         <Spinner />
       {/if}
@@ -126,16 +150,68 @@
         <Badge variant="default"><CheckIcon />Online</Badge>
       {/if}
     </div>
-
     <div class="flex-auto"></div>
-
-    <div class="flex gap-1 overflow-x-clip whitespace-nowrap max-w-md">
+    {#if headerMergedShowInlineButtons}
+      <div class="flex gap-1 overflow-x-clip flex-none mr-0">
+        {#each opt.buttons as butt}
+          <Button
+            class={containerHeaderButtonOverrideClass}
+            variant="outline"
+            size="xs"
+            onclick={butt.onClick}
+          >
+            {#if butt.icon}
+              <butt.icon />
+            {/if}
+            {butt.title}
+          </Button>
+        {/each}
+      </div>
+    {:else}
+      <div bind:clientWidth={headerMergedMoreWidth} class="flex-none mr-0">
+        <DropdownMenu.Root>
+          <DropdownMenu.Trigger>
+            {#snippet child({ props })}
+              <Button
+                {...props}
+                size="xs"
+                variant="outline"
+                class={containerHeaderButtonOverrideClass}
+              >
+                <EllipsisIcon />More
+              </Button>
+            {/snippet}
+          </DropdownMenu.Trigger>
+          <DropdownMenu.Content
+            class="w-auto"
+            align="end"
+            portalProps={{ to: rootNode?.current }}
+          >
+            <DropdownMenu.Group>
+              {#each opt.buttons as butt}
+                <DropdownMenu.Item onclick={butt.onClick}>
+                  {#if butt.icon}
+                    <butt.icon />
+                  {/if}
+                  <div class="transform-[translateY(2px)]">{butt.title}</div>
+                </DropdownMenu.Item>
+              {/each}
+            </DropdownMenu.Group>
+          </DropdownMenu.Content>
+        </DropdownMenu.Root>
+      </div>
+    {/if}
+    <div
+      bind:clientWidth={headerMergedButtonsIntrinsicWidth}
+      aria-hidden="true"
+      class="absolute left-0 top-0 pointer-events-none opacity-0 flex gap-1 whitespace-nowrap -z-50"
+      style="visibility: hidden;"
+    >
       {#each opt.buttons as butt}
         <Button
           class={containerHeaderButtonOverrideClass}
           variant="outline"
           size="xs"
-          onclick={butt.onClick}
         >
           {#if butt.icon}
             <butt.icon />
@@ -144,45 +220,16 @@
         </Button>
       {/each}
     </div>
-
-    <div class="flex-none">
-      <DropdownMenu.Root>
-        <DropdownMenu.Trigger>
-          {#snippet child({ props })}
-            <Button
-              {...props}
-              size="xs"
-              variant="outline"
-              class={containerHeaderButtonOverrideClass}
-              ><EllipsisIcon />More</Button
-            >
-          {/snippet}
-        </DropdownMenu.Trigger>
-        <DropdownMenu.Content
-          class="w-auto"
-          align="end"
-          portalProps={{ to: rootNode.current }}
-        >
-          <DropdownMenu.Group>
-            {#each opt.buttons as butt}
-              <DropdownMenu.Item onclick={butt.onClick}>
-                {#if butt.icon}
-                  <butt.icon />
-                {/if}
-                <div class="transform-[translateY(2px)]">{butt.title}</div>
-              </DropdownMenu.Item>
-            {/each}
-          </DropdownMenu.Group>
-        </DropdownMenu.Content>
-      </DropdownMenu.Root>
-    </div>
   </div>
 {/snippet}
 
 <div class={compContainerClass}>
   <div use:headerMode.attach use:rootNode.attach>
-    {@render HeaderWide(containerOptions)}
-    {@render HeaderMerged(containerOptions)}
+    {#if headerMode.current == "wide"}
+      {@render HeaderWide(containerOptions)}
+    {:else}
+      {@render HeaderMerged(containerOptions)}
+    {/if}
   </div>
   <div class="pt-4 pl-4 pr-4">
     {@render children()}
