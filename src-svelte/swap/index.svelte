@@ -4,11 +4,10 @@
   import * as Card from "$lib/components/ui/card/index.js";
   import * as Item from "$lib/components/ui/item";
   import Container from "../container.svelte";
-  import { global_width } from "../widthListener.svelte";
-  const BREAKPOINT_WIDTH = 1100 * 0.7;
-  const displayMode = global_width((w) =>
-    w < BREAKPOINT_WIDTH ? "single" : "split",
-  );
+  import { global_width } from "../globalWidthListener.svelte";
+  import { containerWidth } from "../meta";
+  const bp = containerWidth * 0.7;
+  const displayMode = global_width((w) => (w < bp ? "single" : "split"));
 </script>
 
 <div use:displayMode.attach>

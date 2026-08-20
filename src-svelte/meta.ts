@@ -6,6 +6,7 @@ export function toContainerId(name: string): string {
 }
 
 export const containerWidthClass = cn("w-full max-w-275");
+export const containerWidth = 1100;
 
 export const compContainerClass = cn(
   "bg-background text-foreground pb-4 pt-0 pl-0 pr-0 rounded-lg shadow-md",
@@ -19,7 +20,7 @@ export const containerHeaderColorClass = cn(
 );
 
 export const containerHeaderSizeClass = cn(
-  "h-8 p-2 inline-flex space-x-1 text-sm items-center",
+  "h-8 p-2 space-x-1 text-sm items-center",
 );
 
 export const containerHeaderButtonOverrideClass = cn(
