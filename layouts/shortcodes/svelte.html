@@ -8,7 +8,7 @@
   {{- errorf "请先构建 svelte 组件！未找到配置文件: %s" $manifestPath -}}
 {{- end -}}
 
-{{- $entry := index $manifest ( printf "src-svelte/%s/main.ts" $componentName ) -}}
+{{- $entry := index $manifest ( printf "virtual:svelte-entry:%s" $componentName ) -}}
 {{- if $entry -}}
 
 {{- else -}}

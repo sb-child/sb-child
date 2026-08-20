@@ -14,5 +14,3 @@ description: "不在明面上的东西"
 ## [我的项目]({{< relref "/project" >}})
 
 ## [测试页面]({{< relref "/test" >}})
-
-## [闪兑平台]({{< relref "/swap" >}})

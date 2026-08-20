@@ -1,27 +1,30 @@
 import { defineConfig } from "vite";
-import { svelte } from "@sveltejs/vite-plugin-svelte";
 import { resolve } from "path";
-import { globSync } from "glob";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
+import tailwindcss from "@tailwindcss/vite";
+import {
+  svelteAutoMountPlugin,
+  getSvelteEntries,
+} from "./vite/svelte-entry-plugin.ts";
 
 export default defineConfig({
-  plugins: [svelte({})],
+  plugins: [svelteAutoMountPlugin(), svelte(), tailwindcss()],
+  server: {
+    open: "/svelte-components/svelte-playground.html",
+  },
+  resolve: {
+    alias: {
+      $lib: resolve("./src-svelte/lib"),
+    },
+  },
+  base: "/svelte-components/",
   build: {
     outDir: resolve(import.meta.dirname, "static/svelte-components"),
     emptyOutDir: true,
     manifest: true,
     copyPublicDir: false,
     rollupOptions: {
-      input: globSync("src-svelte/**/main.ts").reduce(
-        (acc, file) => {
-          const entryName = file
-            .replace(/\\/g, "/")
-            .replace(/^src-svelte\//, "")
-            .replace(/\/main\.ts$/, "");
-          acc[entryName] = resolve(import.meta.dirname, file);
-          return acc;
-        },
-        {} as Record<string, string>,
-      ),
+      input: getSvelteEntries(),
       output: {
         entryFileNames: "[name]-[hash].js",
         chunkFileNames: "chunks/[name]-[hash].js",

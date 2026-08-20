@@ -10,7 +10,11 @@
     "strictFunctionTypes": true,
     "strict": true,
     "sourceMap": true,
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "paths": {
+      "$lib": ["./src-svelte/lib"],
+      "$lib/*": ["./src-svelte/lib/*"]
+    }
   },
   "exclude": [
     "public",

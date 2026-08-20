@@ -5,4 +5,10 @@ title = 'sbchild Swap'
 description = "自用的闪兑平台，来试试吧~"
 +++
 
+<div class="wide-container-1100">
 {{< svelte "swap" >}}
+</div>
+
+---
+
+[回到项目页]({{< relref "/project" >}})

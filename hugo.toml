@@ -103,21 +103,15 @@ url = "/index.xml"
 
 [menu]
 [[menu.main]]
-identifier = "posts"
-name = "文章"
-url = "/posts/"
-weight = 10
-
-[[menu.main]]
 identifier = "archives"
 name = "归档"
 url = "/archives/"
 weight = 20
 
 [[menu.main]]
-identifier = "tags"
-name = "标签"
-url = "/tags/"
+identifier = "project"
+name = "项目"
+url = "/project/"
 weight = 30
 
 [[menu.main]]
