@@ -33,12 +33,6 @@
         background: rgba(24, 24, 27, 0.8);
         border-color: #27272a;
       }
-      .preview-card {
-        padding: 10px;
-        border-radius: 12px;
-        border: 1px dashed #a1a1aa;
-        margin-bottom: 20px;
-      }
       .comp-title {
         display: flex;
         margin-bottom: 10px;
@@ -57,6 +51,45 @@
         font-weight: bolder;
         line-height: 25px;
         padding: 3px 8px 3px 6px;
+      }
+      .preview-card {
+        position: relative;
+        padding: 12px 24px 12px 12px;
+        border-radius: 12px;
+        border: 1px dashed #a1a1aa;
+        margin-bottom: 20px;
+        min-width: 200px;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      .resize-handle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 14px;
+        height: 100%;
+        cursor: ew-resize;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+      }
+      .resize-handle::after {
+        content: "";
+        width: 4px;
+        height: 28px;
+        border-radius: 9999px;
+        background-color: #a1a1aa;
+        transition:
+          background-color 0.2s,
+          height 0.2s,
+          width 0.2s;
+      }
+      .resize-handle:hover::after,
+      .resize-handle.is-dragging::after {
+        background-color: rgb(110, 73, 135);
+        height: 38px;
+        width: 4px;
       }
     </style>
   </head>
@@ -81,7 +114,22 @@
           html.classList.remove("dark");
           document.body.classList.remove("dark");
         }
+        localStorage.setItem("theme-preference", theme);
       }
+
+      function initTheme() {
+        const savedTheme = localStorage.getItem("theme-preference");
+        if (savedTheme) {
+          setTheme(savedTheme);
+        } else {
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          setTheme(prefersDark ? "dark" : "light");
+        }
+      }
+
+      initTheme();
 
       function insert_component(name) {
         const container = document.getElementById("component-place-here");
@@ -89,17 +137,55 @@
           console.error("未找到 target 容器 #component-place-here");
           return;
         }
-        const template = document.createElement("template");
-        template.innerHTML = `
+        const wrapper = document.createElement("div");
+        wrapper.innerHTML = `
           <div class="comp-title">
             <span class="title-left">Component</span>
             <span class="title-right">${name}</span>
           </div>
           <div class="preview-card">
             <div id="${name}-svelte-container">Loading...</div>
+            <div class="resize-handle" title="按住拖拽调整宽度"></div>
           </div>
         `.trim();
-        container.appendChild(template.content);
+        container.appendChild(wrapper);
+        const card = wrapper.querySelector(".preview-card");
+        const handle = wrapper.querySelector(".resize-handle");
+        makeResizable(card, handle);
+      }
+
+      function makeResizable(element, handle) {
+        let isResizing = false;
+        let startX = 0;
+        let startWidth = 0;
+        handle.addEventListener("mousedown", (e) => {
+          isResizing = true;
+          startX = e.clientX;
+          startWidth = element.getBoundingClientRect().width;
+          const maxWidth = element.parentElement.clientWidth;
+          handle.classList.add("is-dragging");
+          document.body.style.cursor = "ew-resize";
+          document.body.style.userSelect = "none";
+          const onMouseMove = (moveEvent) => {
+            if (!isResizing) return;
+            const deltaX = moveEvent.clientX - startX;
+            const clampedWidth = Math.min(
+              Math.max(200, startWidth + deltaX),
+              maxWidth,
+            );
+            element.style.width = `${clampedWidth}px`;
+          };
+          const onMouseUp = () => {
+            isResizing = false;
+            handle.classList.remove("is-dragging");
+            document.body.style.cursor = "";
+            document.body.style.userSelect = "";
+            window.removeEventListener("mousemove", onMouseMove);
+            window.removeEventListener("mouseup", onMouseUp);
+          };
+          window.addEventListener("mousemove", onMouseMove);
+          window.addEventListener("mouseup", onMouseUp);
+        });
       }
     </script>
     <script type="module" src="/src-svelte/playground.ts"></script>

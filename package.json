@@ -32,7 +32,9 @@
   "devDependencies": {
     "@fontsource-variable/noto-sans": "^5.3.0",
     "@fontsource-variable/nunito-sans": "^5.3.0",
+    "@internationalized/date": "^3.12.3",
     "@lucide/svelte": "^1.33.0",
+    "bits-ui": "^2.18.2",
     "clsx": "^2.1.1",
     "shadcn-svelte": "^1.5.0",
     "tailwind-merge": "^3.6.0",

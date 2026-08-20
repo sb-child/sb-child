@@ -5,6 +5,24 @@ import { toContainerId } from "../meta";
 const sheet = new CSSStyleSheet();
 sheet.replaceSync(globalCss);
 
+if (typeof document !== "undefined") {
+  const propertySheet = new CSSStyleSheet();
+  const propertyRules = Array.from(sheet.cssRules)
+    .filter((rule) => rule.cssText.startsWith("@property"))
+    .map((rule) => rule.cssText)
+    .join("\n");
+
+  if (propertyRules) {
+    propertySheet.replaceSync(propertyRules);
+    if (!document.adoptedStyleSheets.includes(propertySheet)) {
+      document.adoptedStyleSheets = [
+        ...document.adoptedStyleSheets,
+        propertySheet,
+      ];
+    }
+  }
+}
+
 export function mountShadowApp(App: Component, componentName: string) {
   const targetId = toContainerId(componentName);
   const target = document.getElementById(targetId);
