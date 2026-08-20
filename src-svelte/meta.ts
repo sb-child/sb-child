@@ -19,6 +19,10 @@ export const containerHeaderColorClass = cn(
   "dark:bg-purple-400/15 bg-purple-200 dark:text-purple-300 text-purple-600",
 );
 
+export const containerHeaderCornerColorClass = cn(
+  "dark:text-purple-400/15 text-purple-200",
+);
+
 export const containerHeaderSizeClass = cn(
   "h-8 p-2 space-x-1 text-sm items-center flex",
 );

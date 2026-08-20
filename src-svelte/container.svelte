@@ -7,6 +7,7 @@
     compContainerClass,
     containerHeaderButtonOverrideClass,
     containerHeaderColorClass,
+    containerHeaderCornerColorClass,
     type ContainerHeaderOptions,
     containerHeaderSizeClass,
     OnlineStatus,
@@ -23,6 +24,8 @@
   import { get_root } from "./root.svelte";
   import { containerWidth } from "./meta";
   import * as DropdownMenu from "$lib/components/ui/dropdown-menu";
+  import Cc from "./concaveCorner.svelte";
+  import { cn } from "$lib/utils";
   const headerMode = global_width((w) =>
     w < containerWidth * 0.6 ? "merged" : "wide",
   );
@@ -80,7 +83,14 @@
 </script>
 
 {#snippet HeaderWide(opt: ContainerHeaderOptions)}
-  <div class="flex">
+  <div class="flex [anchor-name:--HeaderWideLeft]">
+    <Cc
+      class={cn(
+        containerHeaderCornerColorClass,
+        "w-4 h-4 [position-anchor:--HeaderWideLeft] absolute top-[anchor(bottom)]",
+      )}
+      corner="top-right"
+    ></Cc>
     <div
       class={containerHeaderColorClass +
         containerHeaderSizeClass +
@@ -95,18 +105,24 @@
       {#if opt.onlineStatus == OnlineStatus.Connecting}
         <Badge variant="outline"><SatelliteDishIcon />Connecting...</Badge>
       {:else if opt.onlineStatus == OnlineStatus.Offline}
-        <Badge variant="destructive"><SatelliteDishIcon />Offline</Badge>
+        <Badge variant="destructive"><SatelliteDishIcon />Server Offline</Badge>
       {:else if opt.onlineStatus == OnlineStatus.WaitRetry}
         <Badge variant="secondary"><SatelliteDishIcon />Retry in 5s...</Badge>
       {:else}
-        <Badge variant="default"><CheckIcon />Online</Badge>
+        <Badge variant="default"><CheckIcon />Server Online</Badge>
       {/if}
     </div>
+    <Cc
+      class={cn(containerHeaderCornerColorClass, "w-4 h-4")}
+      corner="top-right"
+    ></Cc>
     <div class="flex-1"></div>
+    <Cc class={cn(containerHeaderCornerColorClass, "w-4 h-4")} corner="top-left"
+    ></Cc>
     <div
       class={containerHeaderColorClass +
         containerHeaderSizeClass +
-        " rounded-tr-lg rounded-bl-lg"}
+        " rounded-tr-lg rounded-bl-lg [anchor-name:--HeaderWideRight]"}
     >
       {#each opt.buttons as butt}
         <Button
@@ -121,6 +137,13 @@
           {butt.title}
         </Button>
       {/each}
+      <Cc
+        class={cn(
+          containerHeaderCornerColorClass,
+          "w-4 h-4 [position-anchor:--HeaderWideRight] absolute top-[anchor(bottom)] right-[anchor(right)]",
+        )}
+        corner="top-left"
+      ></Cc>
     </div>
   </div>
 {/snippet}
@@ -128,8 +151,17 @@
 {#snippet HeaderMerged(opt: ContainerHeaderOptions)}
   <div
     bind:clientWidth={headerMergedContainerWidth}
-    class={containerHeaderColorClass + containerHeaderSizeClass + " rounded-lg"}
+    class={containerHeaderColorClass +
+      containerHeaderSizeClass +
+      " rounded-t-lg [anchor-name:--HeaderMerged]"}
   >
+    <Cc
+      class={cn(
+        containerHeaderCornerColorClass,
+        "w-4 h-4 [position-anchor:--HeaderMerged] absolute top-[anchor(bottom)] left-[anchor(left)] mr-0",
+      )}
+      corner="top-right"
+    ></Cc>
     <div
       bind:clientWidth={headerMergedLeftWidth}
       class="flex flex-none items-center space-x-1 overflow-x-clip"
@@ -143,11 +175,11 @@
       {#if opt.onlineStatus == OnlineStatus.Connecting}
         <Badge variant="outline"><SatelliteDishIcon />Connecting...</Badge>
       {:else if opt.onlineStatus == OnlineStatus.Offline}
-        <Badge variant="destructive"><SatelliteDishIcon />Offline</Badge>
+        <Badge variant="destructive"><SatelliteDishIcon />Server Offline</Badge>
       {:else if opt.onlineStatus == OnlineStatus.WaitRetry}
         <Badge variant="secondary"><SatelliteDishIcon />Retry in 5s...</Badge>
       {:else}
-        <Badge variant="default"><CheckIcon />Online</Badge>
+        <Badge variant="default"><CheckIcon />Server Online</Badge>
       {/if}
     </div>
     <div class="flex-auto"></div>
@@ -201,6 +233,13 @@
         </DropdownMenu.Root>
       </div>
     {/if}
+    <Cc
+      class={cn(
+        containerHeaderCornerColorClass,
+        "w-4 h-4 [position-anchor:--HeaderMerged] absolute top-[anchor(bottom)] right-[anchor(right)] mr-0",
+      )}
+      corner="top-left"
+    ></Cc>
     <div
       bind:clientWidth={headerMergedButtonsIntrinsicWidth}
       aria-hidden="true"
