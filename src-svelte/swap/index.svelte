@@ -1,29 +1,42 @@
 <script lang="ts">
   import { Button } from "$lib/components/ui/button";
+  import { onMount } from "svelte";
   import * as Card from "$lib/components/ui/card/index.js";
   import * as Item from "$lib/components/ui/item";
   import Container from "../container.svelte";
-  import { compContainerClass } from "../meta";
-  let count = $state(0);
+  import { global_width } from "../widthListener.svelte";
+  const BREAKPOINT_WIDTH = 1100 * 0.7;
+  const displayMode = global_width((w) =>
+    w < BREAKPOINT_WIDTH ? "single" : "split",
+  );
 </script>
 
-<!-- {@render Container(<div></div>)} -->
-
-<Container>
-  <Button onclick={() => count++} variant="outline">
-    Click1111s: {count}
-  </Button>
-  <Item.Root variant="outline" size="sm">
-    <Item.Content>
-      <Item.Title>Your profile has been verified.</Item.Title>
-    </Item.Content>
-  </Item.Root>
-  <Card.Root>
-    <Button onclick={() => count++} variant="outline">
-      Click1111s: {count}
-    </Button>
-  </Card.Root>
-</Container>
+<div use:displayMode.attach>
+  <Container>
+    {#if displayMode.current === "split"}
+      <div class="flex gap-4">
+        <div
+          class="flex-1 rounded-lg bg-blue-500 p-10 text-center text-xl font-bold text-white shadow-md"
+        >
+          Container A
+        </div>
+        <div
+          class="flex-1 rounded-lg bg-emerald-500 p-10 text-center text-xl font-bold text-white shadow-md"
+        >
+          Container B
+        </div>
+      </div>
+    {:else}
+      <div class="w-full">
+        <div
+          class="rounded-lg bg-amber-500 p-10 text-center text-xl font-bold text-white shadow-md"
+        >
+          Container C
+        </div>
+      </div>
+    {/if}
+  </Container>
+</div>
 
 <style>
 </style>
