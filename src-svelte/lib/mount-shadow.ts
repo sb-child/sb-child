@@ -2,8 +2,9 @@ import { mount, unmount, type Component } from "svelte";
 import globalCss from "../global.css?inline";
 import { toContainerId } from "../meta";
 
+const cssToApply = globalCss;
 const sheet = new CSSStyleSheet();
-sheet.replaceSync(globalCss);
+sheet.replaceSync(cssToApply);
 
 if (typeof document !== "undefined") {
   const propertySheet = new CSSStyleSheet();
@@ -11,7 +12,6 @@ if (typeof document !== "undefined") {
     .filter((rule) => rule.cssText.startsWith("@property"))
     .map((rule) => rule.cssText)
     .join("\n");
-
   if (propertyRules) {
     propertySheet.replaceSync(propertyRules);
     if (!document.adoptedStyleSheets.includes(propertySheet)) {
@@ -36,7 +36,7 @@ export function mountShadowApp(App: Component, componentName: string) {
     shadow.adoptedStyleSheets = [sheet];
   } else {
     const style = document.createElement("style");
-    style.textContent = globalCss;
+    style.textContent = cssToApply;
     shadow.appendChild(style);
   }
   const container = document.createElement("div");
