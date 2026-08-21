@@ -1,7 +1,6 @@
 <script lang="ts">
   import { Badge } from "$lib/components/ui/badge";
   import { Button } from "$lib/components/ui/button";
-  import { Separator } from "$lib/components/ui/separator";
   import Spinner from "$lib/components/ui/spinner/spinner.svelte";
   import {
     compContainerClass,
@@ -15,17 +14,28 @@
   import {
     Check as CheckIcon,
     SatelliteDish as SatelliteDishIcon,
-    Heart as HeartIcon,
-    DatabaseSearch as DatabaseSearchIcon,
     Ellipsis as EllipsisIcon,
+    FileScan as FileScanIcon,
   } from "@lucide/svelte";
-  let { children } = $props();
   import { global_width } from "./globalWidthListener.svelte";
   import { get_root } from "./root.svelte";
   import { containerWidth } from "./meta";
   import * as DropdownMenu from "$lib/components/ui/dropdown-menu";
+  import * as Empty from "$lib/components/ui/empty";
   import Cc from "./concaveCorner.svelte";
   import { cn } from "$lib/utils";
+  import type { Snippet } from "svelte";
+
+  interface Props {
+    children?: Snippet;
+    headerOptions: ContainerHeaderOptions;
+  }
+  let { children, headerOptions }: Props = $props();
+
+  function hardReload() {
+    window.location.reload();
+  }
+
   const headerMode = global_width((w) =>
     w < containerWidth * 0.6 ? "merged" : "wide",
   );
@@ -53,33 +63,6 @@
   //     showInline: headerMergedShowInlineButtons,
   //   });
   // });
-
-  let containerOptions: ContainerHeaderOptions = $state({
-    name: "sbchild Swap",
-    onlineLog: (brief: boolean) => {
-      return "";
-    },
-    onlineStatus: OnlineStatus.Online,
-    buttons: [
-      {
-        onClick: () => {},
-        title: "Order Status",
-        icon: DatabaseSearchIcon,
-      },
-      {
-        onClick: () => {
-          setTimeout(() => {
-            containerOptions.name = "test";
-            containerOptions.onlineStatus = OnlineStatus.Offline;
-            containerOptions.buttons[0].title = "aaa";
-            console.log(containerOptions);
-          }, 1000);
-        },
-        title: "Donate me",
-        icon: HeartIcon,
-      },
-    ],
-  });
 </script>
 
 {#snippet HeaderServerStatus(opt: ContainerHeaderOptions)}
@@ -230,7 +213,7 @@
                   {#if butt.icon}
                     <butt.icon />
                   {/if}
-                  <div class="transform-[translateY(0.15rem)]">
+                  <div>
                     {butt.title}
                   </div>
                 </DropdownMenu.Item>
@@ -269,15 +252,44 @@
   </div>
 {/snippet}
 
+{#snippet emptyContainer()}
+  <Empty.Root>
+    <Empty.Header>
+      <Empty.Media variant="icon">
+        <FileScanIcon />
+      </Empty.Media>
+      <Empty.Title>Container is empty</Empty.Title>
+      <Empty.Description>
+        This situation typically occurs when there is an error in the code or
+        when there is actually no content inside the
+        <code
+          class="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold"
+          >{"<Container></Container>"}</code
+        >.
+      </Empty.Description>
+    </Empty.Header>
+    <Empty.Content>
+      <div class="flex gap-2">
+        <Button onclick={hardReload}>Reload Page</Button>
+        <!-- <Button variant="outline">Go Back</Button> -->
+      </div>
+    </Empty.Content>
+  </Empty.Root>
+{/snippet}
+
 <div class={compContainerClass}>
   <div use:headerMode.attach use:rootNode.attach>
     {#if headerMode.current == "wide"}
-      {@render HeaderWide(containerOptions)}
+      {@render HeaderWide(headerOptions)}
     {:else}
-      {@render HeaderMerged(containerOptions)}
+      {@render HeaderMerged(headerOptions)}
     {/if}
   </div>
   <div class="pt-4 pl-4 pr-4">
-    {@render children()}
+    {#if children}
+      {@render children()}
+    {:else}
+      {@render emptyContainer()}
+    {/if}
   </div>
 </div>

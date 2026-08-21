@@ -24,9 +24,10 @@ Alias:
 - sbchild
 - 纱月酱
 
-## 我的项目
+## 我在做哪些项目
 
-请移步 https://github.com/sb-child/ecosystem
+- [站内]({{< relref "/project" >}})
+- 站外: https://github.com/sb-child/ecosystem
 
 ## 联系方式
 
