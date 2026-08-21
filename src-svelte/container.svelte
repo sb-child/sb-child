@@ -107,7 +107,9 @@
       {:else if opt.onlineStatus == OnlineStatus.Offline}
         <Badge variant="destructive"><SatelliteDishIcon />Server Offline</Badge>
       {:else if opt.onlineStatus == OnlineStatus.WaitRetry}
-        <Badge variant="secondary"><SatelliteDishIcon />Retry in 5s...</Badge>
+        <Badge variant="secondary"><SatelliteDishIcon />
+          {}
+          Retry in 5s...</Badge>
       {:else}
         <Badge variant="default"><CheckIcon />Server Online</Badge>
       {/if}
@@ -225,7 +227,7 @@
                   {#if butt.icon}
                     <butt.icon />
                   {/if}
-                  <div class="transform-[translateY(2px)]">{butt.title}</div>
+                  <div class="transform-[translateY(0.15rem)]">{butt.title}</div>
                 </DropdownMenu.Item>
               {/each}
             </DropdownMenu.Group>
