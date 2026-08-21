@@ -82,12 +82,45 @@
   });
 </script>
 
+{#snippet HeaderServerStatus(opt: ContainerHeaderOptions)}
+  <span class="font-bold tracking-tight px-1">
+    {opt.name}
+  </span>
+  {#if [OnlineStatus.Connecting, OnlineStatus.WaitRetry].includes(opt.onlineStatus)}
+    <Spinner />
+  {/if}
+  {#if opt.onlineStatus == OnlineStatus.Connecting}
+    <Badge variant="outline"><SatelliteDishIcon />Connecting...</Badge>
+  {:else if opt.onlineStatus == OnlineStatus.Offline}
+    <Badge variant="destructive"><SatelliteDishIcon />Server Offline</Badge>
+  {:else if opt.onlineStatus == OnlineStatus.WaitRetry}
+    <Badge variant="secondary"
+      ><SatelliteDishIcon />
+      {#if opt.RetrySeconds != undefined}
+        {`Retry in ${opt.RetrySeconds.toFixed(2)}s...`}
+      {:else}
+        Retry soon...
+      {/if}
+    </Badge>
+  {:else}
+    <Badge variant="default"><CheckIcon />Server Online</Badge>
+  {/if}
+  {#if opt.onForceReconnect != undefined && [OnlineStatus.WaitRetry, OnlineStatus.Offline].includes(opt.onlineStatus)}
+    <Button
+      class={containerHeaderButtonOverrideClass}
+      variant="outline"
+      onclick={opt.onForceReconnect}
+      size="xs">Retry Now</Button
+    >
+  {/if}
+{/snippet}
+
 {#snippet HeaderWide(opt: ContainerHeaderOptions)}
   <div class="flex [anchor-name:--HeaderWideLeft]">
     <Cc
       class={cn(
         containerHeaderCornerColorClass,
-        "w-4 h-4 [position-anchor:--HeaderWideLeft] absolute top-[anchor(bottom)]",
+        "w-4 h-4 [position-anchor:--HeaderWideLeft] absolute top-[calc(anchor(bottom)-0.1px)]",
       )}
       corner="top-right"
     ></Cc>
@@ -96,23 +129,7 @@
         containerHeaderSizeClass +
         " rounded-tl-lg rounded-br-lg"}
     >
-      <span class="font-bold tracking-tight px-1">
-        {opt.name}
-      </span>
-      {#if [OnlineStatus.Connecting, OnlineStatus.WaitRetry].includes(opt.onlineStatus)}
-        <Spinner />
-      {/if}
-      {#if opt.onlineStatus == OnlineStatus.Connecting}
-        <Badge variant="outline"><SatelliteDishIcon />Connecting...</Badge>
-      {:else if opt.onlineStatus == OnlineStatus.Offline}
-        <Badge variant="destructive"><SatelliteDishIcon />Server Offline</Badge>
-      {:else if opt.onlineStatus == OnlineStatus.WaitRetry}
-        <Badge variant="secondary"><SatelliteDishIcon />
-          {}
-          Retry in 5s...</Badge>
-      {:else}
-        <Badge variant="default"><CheckIcon />Server Online</Badge>
-      {/if}
+      {@render HeaderServerStatus(opt)}
     </div>
     <Cc
       class={cn(containerHeaderCornerColorClass, "w-4 h-4")}
@@ -142,7 +159,7 @@
       <Cc
         class={cn(
           containerHeaderCornerColorClass,
-          "w-4 h-4 [position-anchor:--HeaderWideRight] absolute top-[anchor(bottom)] right-[anchor(right)]",
+          "w-4 h-4 [position-anchor:--HeaderWideRight] absolute top-[calc(anchor(bottom)-0.1px)] right-[anchor(right)]",
         )}
         corner="top-left"
       ></Cc>
@@ -160,7 +177,7 @@
     <Cc
       class={cn(
         containerHeaderCornerColorClass,
-        "w-4 h-4 [position-anchor:--HeaderMerged] absolute top-[anchor(bottom)] left-[anchor(left)] mr-0",
+        "w-4 h-4 [position-anchor:--HeaderMerged] absolute top-[calc(anchor(bottom)-0.1px)] left-[anchor(left)] mr-0",
       )}
       corner="top-right"
     ></Cc>
@@ -168,21 +185,7 @@
       bind:clientWidth={headerMergedLeftWidth}
       class="flex flex-none items-center space-x-1 overflow-x-clip"
     >
-      <span class="font-bold tracking-tight px-1">
-        {opt.name}
-      </span>
-      {#if [OnlineStatus.Connecting, OnlineStatus.WaitRetry].includes(opt.onlineStatus)}
-        <Spinner />
-      {/if}
-      {#if opt.onlineStatus == OnlineStatus.Connecting}
-        <Badge variant="outline"><SatelliteDishIcon />Connecting...</Badge>
-      {:else if opt.onlineStatus == OnlineStatus.Offline}
-        <Badge variant="destructive"><SatelliteDishIcon />Server Offline</Badge>
-      {:else if opt.onlineStatus == OnlineStatus.WaitRetry}
-        <Badge variant="secondary"><SatelliteDishIcon />Retry in 5s...</Badge>
-      {:else}
-        <Badge variant="default"><CheckIcon />Server Online</Badge>
-      {/if}
+      {@render HeaderServerStatus(opt)}
     </div>
     <div class="flex-auto"></div>
     {#if headerMergedShowInlineButtons}
@@ -227,7 +230,9 @@
                   {#if butt.icon}
                     <butt.icon />
                   {/if}
-                  <div class="transform-[translateY(0.15rem)]">{butt.title}</div>
+                  <div class="transform-[translateY(0.15rem)]">
+                    {butt.title}
+                  </div>
                 </DropdownMenu.Item>
               {/each}
             </DropdownMenu.Group>
@@ -238,7 +243,7 @@
     <Cc
       class={cn(
         containerHeaderCornerColorClass,
-        "w-4 h-4 [position-anchor:--HeaderMerged] absolute top-[anchor(bottom)] right-[anchor(right)] mr-0",
+        "w-4 h-4 [position-anchor:--HeaderMerged] absolute top-[calc(anchor(bottom)-0.1px)] right-[anchor(right)] mr-0",
       )}
       corner="top-left"
     ></Cc>
