@@ -63,11 +63,11 @@ Crypto only for now; I can't think of anything else suitable besides crypto.
 
 ### Star leaderboard
 
-- **No.1** ![stars](https://img.shields.io/github/stars/sb-child/lsp?style=plastic) [lsp](https://github.com/sb-child/lsp) porn video downloader | not maintained for a long time
-- **No.2** ![stars](https://img.shields.io/github/stars/sb-child/crossdress?style=plastic) [crossdress](https://github.com/sb-child/crossdress) crossdressing photos | no new photos for a long time
-- **No.3** ![stars](https://img.shields.io/github/stars/sb-child/OhMyDuo?style=plastic) [OhMyDuo](https://github.com/sb-child/OhMyDuo) Duolingo sticker generator | haven't kept the streak for a long time
-- **No.4** ![stars](https://img.shields.io/github/stars/sb-child/crossdressing-principle?style=plastic) [crossdressing-principle](https://github.com/sb-child/crossdressing-principle) why groupmates become femboys | I admit I can't write novels
-- **No.5** ![stars](https://img.shields.io/github/stars/sb-child/gitea-theme-github-dark?style=plastic) [gitea-theme-github-dark](https://github.com/sb-child/gitea-theme-github-dark) ~~Gitea~~ GitHub theme | my server died long ago
+- **No.1** ![stars](https://img.shields.io/github/stars/sb-child/lsp?style=plastic) [lsp](https://github.com/sb-child/lsp) porn video downloader | **not maintained** for a long time
+- **No.2** ![stars](https://img.shields.io/github/stars/sb-child/crossdress?style=plastic) [crossdress](https://github.com/sb-child/crossdress) crossdressing photos | **no new photos** for a long time
+- **No.3** ![stars](https://img.shields.io/github/stars/sb-child/OhMyDuo?style=plastic) [OhMyDuo](https://github.com/sb-child/OhMyDuo) Duolingo sticker generator | **haven't kept the streak** for a long time
+- No.4 ![stars](https://img.shields.io/github/stars/sb-child/crossdressing-principle?style=plastic) [crossdressing-principle](https://github.com/sb-child/crossdressing-principle) why groupmates become femboys | I admit **I can't write** novels
+- No.5 ![stars](https://img.shields.io/github/stars/sb-child/gitea-theme-github-dark?style=plastic) [gitea-theme-github-dark](https://github.com/sb-child/gitea-theme-github-dark) ~~Gitea~~ GitHub theme | **my server died** long ago
 
 ### My websites
 
