@@ -64,22 +64,62 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 |   框架   |                                                                                               [![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Tauri-black?style=flat-square&logo=tauri&logoColor=ffc131)]()                                                                                                |
 |   工具   |                                                                                                                                                 [![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()                                                                                                                                                  |
 
-## 📦 项目
+## 📦 项目们
 
-正在迁移到: https://github.com/sb-child/ecosystem
+### Star 榜
 
-以下内容后续会搬走
+- **榜一** ![stars](https://img.shields.io/github/stars/sb-child/lsp?style=plastic) [lsp](https://github.com/sb-child/lsp) 黄片下载器 | 好久没维护了
+- **榜二** ![stars](https://img.shields.io/github/stars/sb-child/crossdress?style=plastic) [crossdress](https://github.com/sb-child/crossdress) 女装照 | 好久没发图了
+- **榜三** ![stars](https://img.shields.io/github/stars/sb-child/OhMyDuo?style=plastic) [OhMyDuo](https://github.com/sb-child/OhMyDuo) 多邻国贴纸生成器 | 好久没续连胜了
+- 榜四 ![stars](https://img.shields.io/github/stars/sb-child/crossdressing-principle?style=plastic) [crossdressing-principle](https://github.com/sb-child/crossdressing-principle) 群友伪娘原理 | 我承认我不会写小说
+- 榜五 ![stars](https://img.shields.io/github/stars/sb-child/gitea-theme-github-dark?style=plastic) [gitea-theme-github-dark](https://github.com/sb-child/gitea-theme-github-dark) ~~Gitea~~ GitHub 主题 | 我服务器早死了
+
+### 我的网站
+
+请点击 <https://gh.sbchild.top>。
+
+- 旧站: <https://github.com/sb-child/blog>
+- 死项目: <https://github.com/sb-child/blog-next>
+- 现役: <https://github.com/sb-child/sb-child> 对，和profile在同一个仓库
 
 ---
 
+接下来你应该去看 https://github.com/sb-child/ecosystem 不过这里是一些 brief：
+
+### 密码学/安全相关
+
+(完成度比较低)
+
+- 一些 Unsafe { [查看详情](https://github.com/sb-child/ecosystem/blob/main/unsafe.md) } 的东西。
+- 密码链 -> 让你的解锁变得更困难 -> [这里](https://github.com/sb-child/ecosystem/blob/main/passchain.md)。
+
+### 你下个项目就可以导入的类库
+
+女生自用全新依赖零错零警告类库9.9包邮，[立刻拿下](https://github.com/sb-child/ecosystem#%E8%87%AA%E7%94%A8%E7%B1%BB%E5%BA%93)！
+
+### Minecraft 相关
+
+虽然我很久没再玩了但是这里有[一些遗产](https://github.com/sb-child/ecosystem#minecraft-%E7%9B%B8%E5%85%B3)。
+
+### Duolingo 相关
+
+如果你喜欢收集小卡片你也许对[这个项目](https://github.com/sb-child/ecosystem/blob/main/oh-my-duo.md)感兴趣。
+
+### 从零开始搓一块键盘(真)
+
+在学校闲得没事干做了块键盘但是没有写完固件(对我想自己写)...
+
+如果你感兴趣可以[去看看](https://github.com/sb-child/ecosystem/blob/main/keyboard.md)。
+
+### 迷因
+
+但是不是迷因币。你可以[看下](https://github.com/sb-child/ecosystem#meme)有哪些。
+
+---
+
+<details><summary>原来的内容:</summary>
+
 咱致力于制作一些可爱而且有趣的东西，当然有一部分东西仍然未开源或未提交到GitHub, 导致咱的瓷砖破烂不堪的...
-
-### 个人博客
-
-- 关站重建中，敬请期待。请移步 https://gh.sbchild.top/
-- 地址: https://sbchild.top/blog
-- 旧站源代码: https://github.com/sb-child/blog [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog)](https://github.com/sb-child/blog/stargazers)
-- 新站源代码: https://github.com/sb-child/blog-next [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/blog-next)](https://github.com/sb-child/blog-next/stargazers)
 
 ### 笔记
 
@@ -197,3 +237,5 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
   > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
 - 小小的数据库包装
   > https://github.com/sb-child/dbee [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/dbee)](https://github.com/sb-child/dbee/stargazers)
+
+</details>
