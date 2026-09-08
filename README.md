@@ -1,7 +1,7 @@
 <div>
   <span>
     <h1> 👐 Hi there</h1>
-    <h2>这是咱的GitHub主页!</h2>
+    <h2>现在我的主页翻新了!</h2>
   </span>
   <a href="https://picrew.me/image_maker/47161/complete?cd=Dxrph1AliC">
     <img src="https://user-images.githubusercontent.com/55868015/185658076-3c9c3919-6c5f-4855-b66f-ab2877629d96.png" align='right' width='410px'>
@@ -13,21 +13,21 @@
 # ⬇️ ⚠️ ⚠️ ⚠️ ⬇️
 
 - **‼️👉这不是简历!👈‼️**
-- 此页面和咱的repo可能含有nsfw内容
-- 如果感觉ok的话, 还请继续康康~
+- 我的repo可能存在令人不适的内容。
+- 如果你感觉良好那你继续看吧。
 
 ---
 
 ## 投喂我
+
+目前 crypto only，我想不出除了 crypto 还有什么合适。
 
 - [Nano](https://nano.org/): `nano_3qtq4ttsm9wfct1tjdzbhocywihr6sjsiscjmys8ebch89kafk6pgqfdiund`
 - [Ethereum](https://ethereum.org/): `0x61b5d628f5275c39fcb8979c0aFdb9a89abDCa9C`
 - [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
 
-<sub>大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!</sub>
-
----
+## <sub>大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!</sub>
 
 [![stat](https://github-readme-stats.vercel.app/api?username=sb-child&show_icons=true&icon_color=0366d6&theme=dark)]()
 
@@ -39,21 +39,16 @@
 
 ## 🔰 写在~~前面~~中间
 
-:rainbow_flag: [**支持 LGBTQIA+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
-
-:transgender_flag: transgender girl | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
-
-nickname/昵称: `色妹妹` or `纱月酱`(别人帮咱起的) | ~~sorry that I haven't English name~~ just call me `sbchild`
-
-telegram/电报: https://t.me/sbchild
-
+- :rainbow_flag: [**点击链接支持 LGBTQIA+ 平权!**](https://github.com/LGBT-CN/LGBTQIA-in-China/)
+- :transgender_flag: transgender girl | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
+- nickname/昵称: `色妹妹` or `纱月酱`(别人帮咱起的) | ~~sorry that I haven't English name~~ just call me `sbchild`
+- Telegram: https://t.me/sbchild
 Discord: [@sb_child](https://discord.gg/yFnvtD3W)
+- 来 NanChat 聊天吧: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 
-来 NanChat 聊天吧: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
+## 🤔 计划板(我都快忘了还有这种东西)
 
-## 🤔 咱的计划
-
-搬到这里了: https://github.com/users/sb-child/projects/3
+<https://github.com/users/sb-child/projects/3>
 
 ## 😍 ~~好康的... 嘿嘿~~
 
