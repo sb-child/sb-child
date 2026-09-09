@@ -86,7 +86,8 @@ Next you should go check out <https://github.com/sb-child/ecosystem>, but here a
 (quite incomplete)
 
 - Some stuff with Unsafe { [see details](https://github.com/sb-child/ecosystem/blob/main/unsafe.md) }.
-- passchain -> make your unlocking more difficult -> [here](https://github.com/sb-child/ecosystem/blob/main/passchain.md).
+- passchain -> make your unlocking more difficult -> [here](https://github.com/sb-child/ecosystem/blob/main/crypto/passchain.md).
+- Do you trust seed phrases generated in the blink of an eye by wallet apps? Now we have an even more thankless [mnemonic lottery machine](https://github.com/sb-child/ecosystem/blob/main/crypto/roll-mnemonic.md).
 
 ### Libraries you can import in your next project
 
@@ -98,7 +99,7 @@ Even though I haven't played it for a long time, there are [some relics](https:/
 
 ### Duolingo related
 
-If you like collecting cards, you might be interested in [this project](https://github.com/sb-child/ecosystem/blob/main/oh-my-duo.md).
+If you like collecting cards, you might be interested in [this project](https://github.com/sb-child/ecosystem/blob/main/duolingo/oh-my-duo.md).
 
 ### Building a keyboard from scratch (for real)
 

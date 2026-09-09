@@ -86,7 +86,8 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 (完成度比较低)
 
 - 一些 Unsafe { [查看详情](https://github.com/sb-child/ecosystem/blob/main/unsafe.md) } 的东西。
-- 密码链 -> 让你的解锁变得更困难 -> [这里](https://github.com/sb-child/ecosystem/blob/main/passchain.md)。
+- 密码链 -> 让你的解锁变得更困难 -> [这里](https://github.com/sb-child/ecosystem/blob/main/crypto/passchain.md)。
+- 你相信钱包 App 随便生成的助记词吗？现在我们有了更吃力不讨好的[摇号机](https://github.com/sb-child/ecosystem/blob/main/crypto/roll-mnemonic.md)。
 
 ### 你下个项目就可以导入的类库
 
@@ -98,7 +99,7 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 
 ### Duolingo 相关
 
-如果你喜欢收集小卡片你也许对[这个项目](https://github.com/sb-child/ecosystem/blob/main/oh-my-duo.md)感兴趣。
+如果你喜欢收集小卡片你也许对[这个项目](https://github.com/sb-child/ecosystem/blob/main/duolingo/oh-my-duo.md)感兴趣。
 
 ### 从零开始搓一块键盘(真)
 
