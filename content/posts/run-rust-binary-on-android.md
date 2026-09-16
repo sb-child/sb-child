@@ -1,6 +1,6 @@
 +++
 date = '2026-08-28T23:33:33+08:00'
-draft = false
+draft = true
 title = 'Rust 的平台怎么跨到 Android 上'
 description = '你的二进制能够到 Java World 吗?'
 +++
