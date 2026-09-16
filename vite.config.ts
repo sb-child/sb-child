@@ -29,7 +29,7 @@ export default defineConfig({
         entryFileNames: "[name]-[hash].js",
         chunkFileNames: "chunks/[name]-[hash].js",
         assetFileNames: "assets/[name]-[hash].[ext]",
-        format: "iife",
+        format: "es",
       },
     },
   },
