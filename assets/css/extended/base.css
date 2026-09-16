@@ -1,14 +1,24 @@
 .md-content del {
-    text-decoration: line-through;
-    text-decoration-thickness: 3px;
-    text-decoration-color: #ff5050cc;
-    opacity: 0.6;
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #ff5050cc;
+  opacity: 0.6;
 }
 
 :root[data-theme="dark"] .md-content strong {
-    box-shadow: inset #04e3ff4a 0px -5px 0px 0px;
+  box-shadow: inset #04e3ff4a 0px -5px 0px 0px;
 }
 
 .md-content strong {
-    box-shadow: inset #ab000033 0px -5px 0px 0px;
+  box-shadow: inset #ab000033 0px -5px 0px 0px;
+}
+
+/* 不然放不下，但是可以通过设置 wide-container-xxx 来 override */
+.main:has(.echarts-codeblock):not(
+    .wide-container-1400,
+    .wide-container-1200,
+    .wide-container-1100,
+    .wide-container-1000
+  ) {
+  max-width: 1200px !important;
 }

@@ -2,10 +2,6 @@
   max-width: 1400px !important;
 }
 
-.main:has(.echarts-codeblock) {
-    max-width: 1200px !important;
-}
-
 .friends-container {
   column-count: 3;
   column-gap: 20px;
