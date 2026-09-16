@@ -8,4 +8,4 @@ description = "我的前十八年的回忆录"
 keywords = ["跨性别", "药娘", "MtF", "性别认同", "HRT", "激素替代疗法", "LGBT", "性别焦虑", "出柜", "跨性别者经历"]
 +++
 
-文章已移动至[这里]({{< relref "/trans/_index.md" >}})
+文章已移动至[这里]({{< relref "/trans" >}})

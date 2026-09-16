@@ -1,0 +1,29 @@
+{
+  "tab_size": 4,
+  "languages": {
+    "HTML": {
+      "tab_size": 2,
+    },
+    "TypeScript": {
+      "tab_size": 2,
+    },
+    "JSON": {
+      "tab_size": 2,
+    },
+    "JSONC": {
+      "tab_size": 2,
+    },
+    "CSS": {
+      "tab_size": 2,
+    },
+    "JavaScript": {
+      "tab_size": 2,
+    },
+    "Svelte": {
+      "tab_size": 2,
+    },
+    "YAML": {
+      "tab_size": 2,
+    },
+  },
+}

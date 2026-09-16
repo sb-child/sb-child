@@ -24,5 +24,6 @@ package-lock.json
 yarn.lock
 
 /static/
+/static/svelte-components
 
 /temp_data/

@@ -13,7 +13,7 @@ description = "现在没有游戏手柄可以摔了，你就是主角。"
 
 当你以为我在冒犯所有人，其实我只是在冒犯我自己。
 
-猎奇的你要瞅一眼吗？或者[回到番内]({{< relref "/trans/_index.md" >}})。
+猎奇的你要瞅一眼吗？或者[回到番内]({{< relref "/trans" >}})。
 
 全文链接: <https://github.com/sb-child/notes/blob/main/emo.md>，或者... 我给你同步过来了。
 

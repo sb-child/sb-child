@@ -1,7 +1,7 @@
 .mermaid {
-    display: flex !important;
-    justify-content: center;
+  display: flex !important;
+  justify-content: center;
 }
 .echarts-codeblock {
-    margin: 20px auto;
+  margin: 20px auto;
 }

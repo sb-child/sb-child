@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2024",
+    "jsx": "react-jsx",
+    "checkJs": false,
+    "experimentalDecorators": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strict": true,
+    "sourceMap": true,
+    "verbatimModuleSyntax": true,
+    "types": ["vite/client"],
+    "paths": {
+      "$lib": ["./src-svelte/lib"],
+      "$lib/*": ["./src-svelte/lib/*"]
+    }
+  },
+  "exclude": [
+    "public",
+    "script",
+    "layouts",
+    "content",
+    "assests",
+    "node_modules",
+    "**/node_modules/*"
+  ],
+  "include": ["src-svelte/**/*"]
+}

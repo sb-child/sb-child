@@ -10,9 +10,13 @@ cd script
 uv run main.py
 ```
 
-终端2: **启动 Hugo 服务器**(编译前端):
+终端2:
 
 ```sh
+# 构建svelte组件
+pnpm i
+pnpm build
+# 启动 Hugo 服务器 (构建前端)
 hugo server
 ```
 
@@ -24,6 +28,7 @@ hugo server
 cd assets/js
 rm mermaid.min.js
 wget https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+cd -
 ```
 
 **ECharts**:
@@ -32,6 +37,7 @@ wget https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 cd assets/js
 rm echarts.min.js
 wget https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js
+cd -
 ```
 
 **PaperMod**:

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svelte Components Playground</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        padding: 2rem;
+        background-color: rgb(245, 245, 245);
+        color: rgb(30, 30, 30);
+        transition:
+          background-color 0.2s,
+          color 0.2s;
+      }
+      body.dark {
+        background-color: rgb(29, 30, 32);
+        color: rgb(218, 218, 219);
+      }
+      .toolbar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 2rem;
+        padding: 12px 16px;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 8px;
+        border: 1px solid #e4e4e7;
+      }
+      .dark .toolbar {
+        background: rgba(24, 24, 27, 0.8);
+        border-color: #27272a;
+      }
+      .comp-title {
+        display: flex;
+        margin-bottom: 10px;
+      }
+      .comp-title > .title-left {
+        border-radius: 30px 0px 0px 30px;
+        background-color: rgb(110 73 135);
+        color: #e4e4e7;
+        padding: 3px 6px 3px 8px;
+      }
+      .comp-title > .title-right {
+        border-radius: 0px 30px 30px 0px;
+        background-color: rgb(179 160 222);
+        color: #26254f;
+        font-family: monospace;
+        font-weight: bolder;
+        line-height: 25px;
+        padding: 3px 8px 3px 6px;
+      }
+      .preview-card {
+        position: relative;
+        padding: 12px 24px 12px 12px;
+        border-radius: 12px;
+        border: 1px dashed #a1a1aa;
+        margin-bottom: 20px;
+        min-width: 200px;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      .resize-handle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 14px;
+        height: 100%;
+        cursor: ew-resize;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+      }
+      .resize-handle::after {
+        content: "";
+        width: 4px;
+        height: 28px;
+        border-radius: 9999px;
+        background-color: #a1a1aa;
+        transition:
+          background-color 0.2s,
+          height 0.2s,
+          width 0.2s;
+      }
+      .resize-handle:hover::after,
+      .resize-handle.is-dragging::after {
+        background-color: rgb(110, 73, 135);
+        height: 38px;
+        width: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar">
+      <strong>Theme:</strong>
+      <button onclick="setTheme('light')">Light Theme</button>
+      <button onclick="setTheme('dark')">Dark Theme</button>
+    </div>
+
+    <div id="component-place-here"></div>
+
+    <script>
+      function setTheme(theme) {
+        const html = document.documentElement;
+        if (theme === "dark") {
+          html.setAttribute("data-theme", "dark");
+          html.classList.add("dark");
+          document.body.classList.add("dark");
+        } else {
+          html.setAttribute("data-theme", "light");
+          html.classList.remove("dark");
+          document.body.classList.remove("dark");
+        }
+        localStorage.setItem("theme-preference", theme);
+      }
+
+      function initTheme() {
+        const savedTheme = localStorage.getItem("theme-preference");
+        if (savedTheme) {
+          setTheme(savedTheme);
+        } else {
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          setTheme(prefersDark ? "dark" : "light");
+        }
+      }
+
+      initTheme();
+
+      function insert_component(name) {
+        const container = document.getElementById("component-place-here");
+        if (!container) {
+          console.error("未找到 target 容器 #component-place-here");
+          return;
+        }
+        const wrapper = document.createElement("div");
+        wrapper.innerHTML = `
+          <div class="comp-title">
+            <span class="title-left">Component</span>
+            <span class="title-right">${name}</span>
+          </div>
+          <div class="preview-card">
+            <div id="${name}-svelte-container">Loading...</div>
+            <div class="resize-handle" title="按住拖拽调整宽度"></div>
+          </div>
+        `.trim();
+        container.appendChild(wrapper);
+        const card = wrapper.querySelector(".preview-card");
+        const handle = wrapper.querySelector(".resize-handle");
+        makeResizable(card, handle);
+      }
+
+      function makeResizable(element, handle) {
+        let isResizing = false;
+        let startX = 0;
+        let startWidth = 0;
+        handle.addEventListener("mousedown", (e) => {
+          isResizing = true;
+          startX = e.clientX;
+          startWidth = element.getBoundingClientRect().width;
+          const maxWidth = element.parentElement.clientWidth;
+          handle.classList.add("is-dragging");
+          document.body.style.cursor = "ew-resize";
+          document.body.style.userSelect = "none";
+          const onMouseMove = (moveEvent) => {
+            if (!isResizing) return;
+            const deltaX = moveEvent.clientX - startX;
+            const clampedWidth = Math.min(
+              Math.max(200, startWidth + deltaX),
+              maxWidth,
+            );
+            element.style.width = `${clampedWidth}px`;
+          };
+          const onMouseUp = () => {
+            isResizing = false;
+            handle.classList.remove("is-dragging");
+            document.body.style.cursor = "";
+            document.body.style.userSelect = "";
+            window.removeEventListener("mousemove", onMouseMove);
+            window.removeEventListener("mouseup", onMouseUp);
+          };
+          window.addEventListener("mousemove", onMouseMove);
+          window.addEventListener("mouseup", onMouseUp);
+        });
+      }
+    </script>
+    <script type="module" src="/src-svelte/playground.ts"></script>
+  </body>
+</html>
