@@ -32,7 +32,7 @@ class Classification(Enum):
     Other = "-"  # 未分类
     Common = "常用药"
     BZDs = "苯二氮䓬类"
-    ZDurgs = "Z药"
+    ZDrugs = "Z药"
     Alcohol = "酒精"
     Supplements = "补充剂"
     MoodStabilizer = "心境稳定剂"
@@ -50,6 +50,72 @@ class Classification(Enum):
 
     def other(self) -> bool:
         return self == Classification.Other
+
+
+@dataclass
+class Event:
+    name: str
+    quantity: float
+    unit: str
+    classification: Classification = Classification.Other
+    applications: List[Application] = field(default_factory=list)
+
+    def __repr__(self) -> str:
+        cl = str(self.classification.value)
+        ap = "|".join([str(v.value) for v in self.applications])
+        return f"Cl[{cl}] Ap[{ap}] *{self.name} {self.q()}"
+
+    def q(self) -> str:
+        q = self.get_quantity("mg")
+        g = (
+            f"{fmt_float(self.quantity)}{self.unit}"
+            if q is None
+            else f"{fmt_float(q)}mg"
+        )
+        return g
+
+    def get_quantity(self, target_unit: str) -> float | None:
+        current_u = self.unit.strip().lower()
+        target_u = target_unit.strip().lower()
+        if target_u == "t" or current_u == "t":
+            return None
+        if current_u == target_u:
+            return self.quantity
+        unit_factors = {
+            "g": 1.0,
+            "mg": 0.001,
+        }
+        if current_u in unit_factors and target_u in unit_factors:
+            quantity_in_g = self.quantity * unit_factors[current_u]
+            return quantity_in_g / unit_factors[target_u]
+        return None
+
+
+@dataclass
+class Notice:
+    msg: str
+    classification: Classification = Classification.Other
+    applications: List[Application] = field(default_factory=list)
+
+    def __repr__(self) -> str:
+        cl = str(self.classification.value)
+        ap = "|".join([str(v.value) for v in self.applications])
+        return f"Cl[{cl}] Ap[{ap}] !{self.msg}"
+
+
+@dataclass
+class Action:
+    dt: datetime
+    events: List[Event | Notice]
+
+    def __repr__(self) -> str:
+        dt = str(self.dt)
+        if len(self.events) == 0:
+            return f"@{dt}: no events"
+        buf = "\n"
+        for e in self.events:
+            buf += f"  - {str(e)}\n"
+        return f"@{dt}:{buf}"
 
 
 def classification(actions: List[Action]):
@@ -74,7 +140,7 @@ def classification(actions: List[Action]):
                 if any(
                     s in ev.name for s in ["佐匹克隆", "思诺思", "唑吡坦", "扎来普隆"]
                 ):
-                    ev.classification = Classification.ZDurgs
+                    ev.classification = Classification.ZDrugs
                     ev.applications.append(Application.Hypnotic)
 
                 if any(s in ev.name for s in ["唑仑", "西泮", "地达西尼"]):
@@ -191,72 +257,6 @@ def classification(actions: List[Action]):
                 pass
             pass
     pass
-
-
-@dataclass
-class Event:
-    name: str
-    quantity: float
-    unit: str
-    classification: Classification = Classification.Other
-    applications: List[Application] = field(default_factory=list)
-
-    def __repr__(self) -> str:
-        cl = str(self.classification.value)
-        ap = "|".join([str(v.value) for v in self.applications])
-        return f"Cl[{cl}] Ap[{ap}] *{self.name} {self.q()}"
-
-    def q(self) -> str:
-        q = self.get_quantity("mg")
-        g = (
-            f"{fmt_float(self.quantity)}{self.unit}"
-            if q is None
-            else f"{fmt_float(q)}mg"
-        )
-        return g
-
-    def get_quantity(self, target_unit: str) -> float | None:
-        current_u = self.unit.strip().lower()
-        target_u = target_unit.strip().lower()
-        if target_u == "t" or current_u == "t":
-            return None
-        if current_u == target_u:
-            return self.quantity
-        unit_factors = {
-            "g": 1.0,
-            "mg": 0.001,
-        }
-        if current_u in unit_factors and target_u in unit_factors:
-            quantity_in_g = self.quantity * unit_factors[current_u]
-            return quantity_in_g / unit_factors[target_u]
-        return None
-
-
-@dataclass
-class Notice:
-    msg: str
-    classification: Classification = Classification.Other
-    applications: List[Application] = field(default_factory=list)
-
-    def __repr__(self) -> str:
-        cl = str(self.classification.value)
-        ap = "|".join([str(v.value) for v in self.applications])
-        return f"Cl[{cl}] Ap[{ap}] !{self.msg}"
-
-
-@dataclass
-class Action:
-    dt: datetime
-    events: List[Event | Notice]
-
-    def __repr__(self) -> str:
-        dt = str(self.dt)
-        if len(self.events) == 0:
-            return f"@{dt}: no events"
-        buf = "\n"
-        for e in self.events:
-            buf += f"  - {str(e)}\n"
-        return f"@{dt}:{buf}"
 
 
 def preprocess(f: TextIO) -> List[Action]:
@@ -585,7 +585,7 @@ def actions_to_datapoints(actions: List[Action]) -> dict:
             elif c == Classification.MoodStabilizer:
                 series_idx = 1
             elif (
-                c in {Classification.BZDs, Classification.ZDurgs, Classification.ORAs}
+                c in {Classification.BZDs, Classification.ZDrugs, Classification.ORAs}
                 or Application.Hypnotic in apps
                 or Application.Sedative in apps
                 or Application.Anxiolytics in apps

@@ -40,7 +40,7 @@
             console.log(headerOpt);
           }, 1000);
         },
-        title: "Donate me",
+        title: "Support me",
         icon: HeartIcon,
       },
     ],

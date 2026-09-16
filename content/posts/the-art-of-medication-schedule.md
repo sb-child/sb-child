@@ -18,7 +18,7 @@ tooltip: { trigger: 'item', axisPointer: { type: 'cross' }, formatter: (params) 
   const [date, sec, items] = params.value;
   const header = `
     <div style="font-weight: bold; border-bottom: 1px solid #91d7e3; margin-bottom: 2px;">
-      ${echarts.format.encodeHTML(params.seriesName)} 
+      ${echarts.format.encodeHTML(params.seriesName)}
       <span style="font-weight: normal; font-size: 12px; color: #618bf0; margin-left: 6px;">
         ${echarts.format.encodeHTML(date)}
       </span>
@@ -26,7 +26,7 @@ tooltip: { trigger: 'item', axisPointer: { type: 'cross' }, formatter: (params) 
   `;
   const content = (items || []).map(([info, q]) => `
     <div style="line-height: 1.5;">
-      ${echarts.format.encodeHTML(q)} 
+      ${echarts.format.encodeHTML(q)}
       <span style="font-style: italic; font-size: 12px; color: #618bf0;">
         ${echarts.format.encodeHTML(info)}
       </span>
@@ -64,7 +64,7 @@ series: [
 
 我还有不知道原因的腹泻的毛病，有时容易得上感冒。这些用药归到了**其他**类别里，碍眼可以关掉。
 
-图表zoom到2026年2月25日，分类只开**抗抑郁药**。在服用**文拉法辛**期间，可见我从 225mg/d 高度不开伞降落... 但是曾经我的作息就像晶振一样稳。看12:30的树枝上趴着一只毛毛虫。然后我好长一段时间没再吃抗抑郁药... 
+图表zoom到2026年2月25日，分类只开**抗抑郁药**。在服用**文拉法辛**期间，可见我从 225mg/d 高度不开伞降落... 但是曾经我的作息就像晶振一样稳。看12:30的树枝上趴着一只毛毛虫。然后我好长一段时间没再吃抗抑郁药...
 
 能看到跳水之后我开始疯狂的乱吃药来缓解晕动症和让自己睡着。我顺便停了吃到 900mg/d 的**碳酸锂**。
 
@@ -133,7 +133,7 @@ trigger: 'axis',axisPointer: { type: 'cross' },
 formatter: (params) => {
 const [date, value] = params[0].value;
 const header = `<div style="font-weight: bold; border-bottom: 1px solid #91d7e3; margin-bottom: 2px;">
-${echarts.format.encodeHTML(params[0].seriesName)} 
+${echarts.format.encodeHTML(params[0].seriesName)}
 <span style="font-weight: normal; font-size: 12px; color: #618bf0; margin-left: 6px;">
 ${echarts.format.encodeHTML(date)}
 </span></div>`;
@@ -152,9 +152,9 @@ series: []
 
 ```echarts {width="auto",height="700px",src="chart/the-art-of-medication-schedule-data-4.json"}
 {
-title: { 
+title: {
     text: '关于应该几点睡觉这件事', subtext: '时间轴平移半天，凌晨是我的基准线!',
-    left: 'center' 
+    left: 'center'
   },
   tooltip: {
     trigger: 'item',
@@ -165,7 +165,7 @@ title: {
 
       const header = `
         <div style="font-weight: bold; border-bottom: 1px solid #91d7e3; margin-bottom: 2px;">
-          ${echarts.format.encodeHTML(params.seriesName)} 
+          ${echarts.format.encodeHTML(params.seriesName)}
           <span style="font-weight: normal; font-size: 12px; color: #618bf0; margin-left: 6px;">
             ${echarts.format.encodeHTML(date)}
           </span>
@@ -173,7 +173,7 @@ title: {
       `;
       const content = (items || []).map(([info, q]) => `
         <div style="line-height: 1.5;">
-          ${echarts.format.encodeHTML(q)} 
+          ${echarts.format.encodeHTML(q)}
           <span style="font-style: italic; font-size: 12px; color: #618bf0;">
             ${echarts.format.encodeHTML(info)}
           </span>
@@ -217,7 +217,7 @@ title: {
         return isZero ? '零点' : `${prefix}${h}:${m}`;
       }
     },
-    splitLine: { 
+    splitLine: {
       show: true,
       lineStyle: {
         color: (val) => val === 0 ? '#1890ff' : '#e0e0e0',
@@ -238,15 +238,15 @@ title: {
       }
     }
   },
-  legend: { 
-    bottom: '40px', 
-    data: ['阿普唑仑','艾司唑仑','劳拉西泮','氯硝西泮','地达西尼','茶苯海明','莱博雷生','异丙嗪','喹硫平','曲唑酮','右佐匹克隆','佐匹克隆','唑吡坦','扎来普隆','米氮平'] 
+  legend: {
+    bottom: '40px',
+    data: ['阿普唑仑','艾司唑仑','劳拉西泮','氯硝西泮','地达西尼','茶苯海明','莱博雷生','异丙嗪','喹硫平','曲唑酮','右佐匹克隆','佐匹克隆','唑吡坦','扎来普隆','米氮平']
   },
-  grid: { 
-    left: '0%', 
-    right: '0%', 
-    bottom: '23%', 
-    top: '10%' 
+  grid: {
+    left: '0%',
+    right: '0%',
+    bottom: '23%',
+    top: '10%'
   },
   dataZoom: [
     {
