@@ -1,0 +1,14 @@
+.md-content del {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #ff5050cc;
+    opacity: 0.6;
+}
+
+:root[data-theme="dark"] .md-content strong {
+    box-shadow: inset #04e3ff4a 0px -5px 0px 0px;
+}
+
+.md-content strong {
+    box-shadow: inset #ab000033 0px -5px 0px 0px;
+}

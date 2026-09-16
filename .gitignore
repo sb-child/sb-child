@@ -24,3 +24,5 @@ package-lock.json
 yarn.lock
 
 /static/
+
+/temp_data/
