@@ -1,7 +1,7 @@
 {
   "name": "sb-child",
   "version": "1.0.0",
-  "description": "",
+  "description": "svelte components for my blog",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.14.0",
+      "version": "^11.27.0",
       "onFail": "download"
     }
   },
