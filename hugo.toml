@@ -9,26 +9,20 @@ enableGitInfo = true
 description = "色妹妹的裙底"
 author = "色妹妹"
 keywords = [
-  "博客",
-  "技术",
-  "Rust",
-  "Go",
-  "Python",
-  "LGBT",
-  "sbchild",
-  "blog",
-  "色妹妹",
-  "纱月",
-  "纱月酱",
-  "transgender",
-  "sbchild.top",
+    "博客",
+    "技术",
+    "Rust",
+    "Go",
+    "Python",
+    "LGBT",
+    "sbchild",
+    "blog",
+    "色妹妹",
+    "纱月",
+    "纱月酱",
+    "transgender",
+    "sbchild.top",
 ]
-
-[params.assets]
-favicon = "/favicon.ico"
-favicon16x16 = "/favicon.ico"
-favicon32x32 = "/favicon.ico"
-apple_touch_icon = "/avatar.jpg"
 
 # PaperMod 主题配置
 ShowReadingTime = true
@@ -41,11 +35,17 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
-comments = false
+comments = true
 hidemeta = false
 hideSummary = false
 showtoc = true
 tocopen = false
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon.ico"
+favicon32x32 = "/favicon.ico"
+apple_touch_icon = "/avatar.jpg"
 
 [params.profileMode]
 enabled = true

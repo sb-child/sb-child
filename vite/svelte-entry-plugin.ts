@@ -27,10 +27,20 @@ export function svelteAutoMountPlugin(): Plugin {
       if (id.startsWith(VIRTUAL_PREFIX)) {
         const entryName = id.replace(VIRTUAL_PREFIX, "");
         return `
-          import { mountShadowApp } from "/src-svelte/lib/mount-shadow";
-          import App from "/src-svelte/${entryName}/index.svelte";
+import App from "/src-svelte/${entryName}/index.svelte";
+import { mountShadowApp } from "/src-svelte/lib/mount-shadow";
 
-          mountShadowApp(App, "${entryName}");
+const data = JSON.parse(
+  document.getElementById("svelte-mount-data")?.textContent ?? "{}"
+);
+
+for (const { target, props } of data["${entryName}"] ?? []) {
+  const host = document.getElementById(target);
+  if (!host) { console.error(\`[svelte] [${entryName}] 找不到容器: \${target}\`); continue; }
+  if (host.shadowRoot) { console.warn("[svelte] [${entryName}] 已挂载，跳过", host); continue; }
+  console.log("[svelte] [${entryName}] mounted");
+  mountShadowApp(App, host, props);
+}
         `;
       }
     },

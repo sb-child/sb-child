@@ -1,6 +1,6 @@
 import { mount, unmount, type Component } from "svelte";
+import PortalRoot from "./PortalRoot.svelte";
 import globalCss from "../global.css?inline";
-import { toContainerId } from "../meta";
 
 const cssToApply = globalCss;
 const sheet = new CSSStyleSheet();
@@ -23,13 +23,8 @@ if (typeof document !== "undefined") {
   }
 }
 
-export function mountShadowApp(App: Component, componentName: string) {
-  const targetId = toContainerId(componentName);
-  const target = document.getElementById(targetId);
-  if (!target) {
-    console.error(`[Svelte Mount Error]: Element #${targetId} not found.`);
-    return;
-  }
+export function mountShadowApp(App: Component, comp: HTMLElement, props: any) {
+  const target = comp;
   const shadow = target.shadowRoot ?? target.attachShadow({ mode: "open" });
   shadow.innerHTML = "";
   if (shadow.adoptedStyleSheets) {
@@ -52,7 +47,10 @@ export function mountShadowApp(App: Component, componentName: string) {
     attributes: true,
     attributeFilter: ["data-theme", "class"],
   });
-  const appInstance = mount(App, { target: container });
+  const appInstance = mount(PortalRoot, {
+    target: container,
+    props: { app: App, appProps: props, portalTarget: container },
+  });
   return () => {
     observer.disconnect();
     unmount(appInstance);

@@ -5,6 +5,7 @@ title = 'The Art of Medication Schedule'
 description = "吃药是一门学问，但什么时候吃药是一门艺术。"
 categories = ["数据"]
 tags = ["数据分析", "药学"]
+# comment_id = "0d1cb0502df221bc3e9aeadee13b900c"
 +++
 
 no way. 这就是大数据吗？人的用药习惯，反向体现了人的作息，身心状态，和.. 自律。

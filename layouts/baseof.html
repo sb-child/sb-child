@@ -13,19 +13,40 @@
 {{- end }}
 
 <head>
-    {{- partial "head.html" . }}
-</head>
+  {{- partial "head.html" . }}
+  </head>
 
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) }}
 <body class="list" id="top">
 {{- else }}
 <body id="top">
 {{- end }}
-    {{ partialCached "header.html" . .Page -}}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-    </main>
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+  {{ partialCached "header.html" . .Page -}}
+  <main class="main">
+      {{- block "main" . }}{{ end }}
+  </main>
+  {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
+  {{- $names := .Store.Get "svelteMounts" | default slice | uniq -}}
+  {{- with $names }}
+  {{- $data := dict }}
+  {{- range . }}
+  {{- $data = merge $data (dict . ($.Store.Get (printf "svelte-mount-%s" .) | default slice)) }}
+  {{- end }}
+  <script type="application/json" id="svelte-mount-data">{{ $data | jsonify | safeJS }}</script>
+
+  {{- $manifestPath := "static/svelte-components/.vite/manifest.json" -}}
+  {{- if os.FileExists $manifestPath -}}
+  {{- $manifest := os.ReadFile $manifestPath | transform.Unmarshal -}}
+  {{- range . -}}
+    {{- with index $manifest (printf "virtual:svelte-entry:%s" .) -}}
+    <script type="module" src="/svelte-components/{{ .file }}"></script>
+    {{- end -}}
+  {{- end -}}
+  {{- else -}}
+  {{- errorf "svelte 组件未构建。找不到: %s" $manifestPath -}}
+  {{- end -}}
+  {{- end }}
 </body>
 
 {{ if .Store.Get "hasMermaid" }}

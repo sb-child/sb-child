@@ -152,6 +152,7 @@
         const card = wrapper.querySelector(".preview-card");
         const handle = wrapper.querySelector(".resize-handle");
         makeResizable(card, handle);
+        return wrapper.querySelector(`#${name}-svelte-container`);
       }
 
       function makeResizable(element, handle) {

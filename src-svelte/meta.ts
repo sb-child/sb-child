@@ -1,11 +1,8 @@
 import { cn } from "$lib/utils";
 import { type Component } from "svelte";
 
-export function toContainerId(name: string): string {
-  return `${name}-svelte-container`;
-}
-
-export const containerWidthClass = cn("w-full max-w-275");
+export const containerWidthClass = cn("w-full");
+// export const containerWidthClass = cn("w-full max-w-275");
 export const containerWidth = 1100;
 
 export const compContainerClass = cn(

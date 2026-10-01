@@ -1,0 +1,12 @@
+{{- $page := .page -}}
+{{- $name := .name -}}
+{{- $props := .props | default dict -}}
+
+{{- $seq := add ($page.Store.Get "svelteSeq" | default 0) 1 -}}
+{{- $page.Store.Set "svelteSeq" $seq -}}
+
+{{- $id := printf "%s-%d-svelte-container" $name $seq -}}
+<div id="{{ $id }}"></div>
+
+{{- $page.Store.Add "svelteMounts" (slice $name) -}}
+{{- $page.Store.Add (printf "svelte-mount-%s" $name) (slice (dict "target" $id "props" $props)) -}}

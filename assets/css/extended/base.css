@@ -22,3 +22,15 @@
   ) {
   max-width: 1200px !important;
 }
+
+:root[data-theme="dark"] .paginav a:hover {
+  background: rgb(41 39 42);
+}
+
+.paginav a:hover {
+  background: #e3dbe7;
+}
+
+.paginav a {
+  margin: 2px;
+}
