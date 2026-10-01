@@ -4,6 +4,7 @@ title = '色妹妹的裙底'
 theme = 'PaperMod'
 enableRobotsTXT = true
 enableGitInfo = true
+hasCJKLanguage = true
 
 [params]
 description = "色妹妹的裙底"
