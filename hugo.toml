@@ -1,5 +1,6 @@
 baseURL = 'https://gh.sbchild.top/'
-locate = 'zh-cn'
+locale = 'zh-cn'
+defaultContentLanguage = "zh-cn"
 title = '色妹妹的裙底'
 theme = 'PaperMod'
 enableRobotsTXT = true
