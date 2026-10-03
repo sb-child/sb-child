@@ -111,15 +111,17 @@
     mermaid.initialize(mermaidConfig);
     mermaid.run();
   }
+  const mermaidThemeLight = "redux-color";
+  const mermaidThemeDark = "redux-dark-color";
   // FIXME: https://github.com/mermaid-js/mermaid/issues/1945
   const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
   function handleThemeChange(e) {
     if (e.matches) {
       console.log('prefers-color-scheme = dark');
-      changeMermaidTheme("dark");
+      changeMermaidTheme(mermaidThemeDark);
     } else {
       console.log('prefers-color-scheme != dark');
-      changeMermaidTheme("default");
+      changeMermaidTheme(mermaidThemeLight);
     }
   }
   darkModeQuery.addEventListener('change', handleThemeChange);
@@ -131,10 +133,10 @@
         const isDark = targetNode.classList.contains('dark') || targetNode.getAttribute('data-theme') === 'dark';
         if (isDark) {
           console.log('isDark = true');
-          changeMermaidTheme("dark");
+          changeMermaidTheme(mermaidThemeDark);
         } else {
           console.log('isDark = false');
-          changeMermaidTheme("default");
+          changeMermaidTheme(mermaidThemeLight);
         }
       }
     }
@@ -146,10 +148,10 @@
   const isCurrentDark = isDarkByClass || isDarkByAttribute;
   if (isCurrentDark) {
     console.log('isCurrentDark = true');
-    changeMermaidTheme("dark");
+    changeMermaidTheme(mermaidThemeDark);
   } else {
     console.log('isCurrentDark = false');
-    changeMermaidTheme("default");
+    changeMermaidTheme(mermaidThemeLight);
   }
 </script>
 {{ end }}
