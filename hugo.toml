@@ -84,6 +84,10 @@ name = "杂项"
 url = "/other"
 
 [[params.socialIcons]]
+name = "主站"
+url = "https://sbchild.top/"
+
+[[params.socialIcons]]
 name = "github"
 url = "https://github.com/sb-child"
 

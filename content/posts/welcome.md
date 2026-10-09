@@ -21,8 +21,10 @@ categories: ["系统信息"]
 
 本站 (https://gh.sbchild.top/) 部署在 GitHub Pages。
 
-放心，故居已经全部 302 重定向到本站。
+~~放心，故居已经全部 302 重定向到本站。~~
 
-为什么不是 301？我怕 GitHub Pages 也爆炸。
+~~为什么不是 301？我怕 GitHub Pages 也爆炸。~~
+
+这个窟窿我终于堵上了，去看看主站: <https://sbchild.top/>。
 
 如果你怀念我的旧站，请移步[这里]({{< relref "/about.md#你博客去哪了" >}})。

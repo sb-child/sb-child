@@ -52,12 +52,12 @@ Crypto only for now; I can't think of anything else suitable besides crypto.
 
 ## 😍 ~~Nice stuff... hehe~~
 
-|    Category    |                                                                                                                                                                                                                                                       value                                                                                                                                                                                                                                                        |
-| :------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|       OS       |                                                  [![-](https://img.shields.io/badge/ArchLinux-1793d1?style=flat-square&logo=archlinux&logoColor=white)]() [![-](https://img.shields.io/badge/Debian-a80030?style=flat-square&logo=debian&logoColor=white)]() [![-](https://img.shields.io/badge/Ubuntu-dd4714?style=flat-square&logo=ubuntu&logoColor=white)]() [![-](https://img.shields.io/badge/NixOS-5277c3?style=flat-square&logo=nixos&logoColor=white)]()                                                   |
+|       Category        |                                                                                                                                                                                                                                                       value                                                                                                                                                                                                                                                        |
+| :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          OS           |                                                  [![-](https://img.shields.io/badge/ArchLinux-1793d1?style=flat-square&logo=archlinux&logoColor=white)]() [![-](https://img.shields.io/badge/Debian-a80030?style=flat-square&logo=debian&logoColor=white)]() [![-](https://img.shields.io/badge/Ubuntu-dd4714?style=flat-square&logo=ubuntu&logoColor=white)]() [![-](https://img.shields.io/badge/NixOS-5277c3?style=flat-square&logo=nixos&logoColor=white)]()                                                   |
 | Programming languages | [![-](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)]() [![-](https://img.shields.io/badge/Rust-dea584?style=flat-square&logo=rust&logoColor=white)]() [![-](https://img.shields.io/badge/Python-3772a2?style=flat-square&logo=python&logoColor=white)]() [![-](https://img.shields.io/badge/JavaScript-d4b41a?style=flat-square&logo=javascript&logoColor=white)]() [![-](https://img.shields.io/badge/TypeScript-2d79c6?style=flat-square&logo=typescript&logoColor=white)]() |
-|   Frameworks   |                                                                                               [![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Tauri-black?style=flat-square&logo=tauri&logoColor=ffc131)]()                                                                                                |
-|     Tools      |                                                                                                                                                 [![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()                                                                                                                                                  |
+|      Frameworks       |                                                                                               [![-](https://img.shields.io/badge/React/React_Native-black?style=flat-square&logo=react&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Electron-black?style=flat-square&logo=electron&logoColor=61dafb)]() [![-](https://img.shields.io/badge/Tauri-black?style=flat-square&logo=tauri&logoColor=ffc131)]()                                                                                                |
+|         Tools         |                                                                                                                                                 [![-](https://img.shields.io/badge/Blender-e87d0d?style=flat-square&logo=blender&logoColor=white)]() [![-](https://img.shields.io/badge/VSCode-0066b8?style=flat-square&logo=visualstudiocode&logoColor=white)]()                                                                                                                                                  |
 
 ## 📦 Projects
 
@@ -71,11 +71,12 @@ Crypto only for now; I can't think of anything else suitable besides crypto.
 
 ### My websites
 
-Go click <https://gh.sbchild.top>.
+You can go to the main site <https://sbchild.top/>, or the blog site <https://gh.sbchild.top>.
 
 - Old site: <https://github.com/sb-child/blog>
 - Dead project: <https://github.com/sb-child/blog-next>
 - Active one: <https://github.com/sb-child/sb-child> yes, it's in the same repo as this profile
+- The main site is alive again: <https://github.com/sb-child/sbchild.top>
 
 ---
 
@@ -120,7 +121,7 @@ I like making cute and interesting things, though some of them are still not ope
 ### Notes
 
 - Private little notes
-  > https://github.com/sb-child/notes [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/notes)](https://github.com/sb-child/notes/stargazers)
+    > https://github.com/sb-child/notes [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/notes)](https://github.com/sb-child/notes/stargazers)
 
 ### Light industry
 
@@ -137,92 +138,92 @@ Estrogen drugs DIY guide, _for [Feminizing hormone therapy](https://en.wikipedia
 
 - 《Principles of groupmates' crossdressing》
 
-  > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
-  - ~~Loli literature archive~~ (deprecated)
-    > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
+    > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
+    - ~~Loli literature archive~~ (deprecated)
+        > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
-- So 色妹妹 also wants to try crossdressing, too? ~~([RLE](https://en.wikipedia.org/wiki/Real-life_experience_(transgender)))!~~
+- So 色妹妹 also wants to try crossdressing, too? ~~([RLE](<https://en.wikipedia.org/wiki/Real-life_experience_(transgender)>))!~~
 
-  > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
+    > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
 - sb-chat | a distributed data transfer tunnel solution (fuck GFW) **(in development, unusable now)**
 
-  > server: https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
-  >
-  > client (desktop/mobile): https://github.com/sb-child/?? **being planned**
+    > server: https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
+    >
+    > client (desktop/mobile): https://github.com/sb-child/?? **being planned**
 
 - sb-counter | a visit counter
-  > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
+    > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
 
 ### [Rimochan](https://github.com/RimoChan/)'s merch ~~「win-win cooperation」~~
 
 - Rimochan's home
-  > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
+    > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
 - Loli coin
-  > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
+    > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
 
 ### my merch
 
 - cute designs!
-  > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
+    > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
 - and... it's myself!
-  > https://github.com/sb-child/for-you [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/for-you)](https://github.com/sb-child/for-you/stargazers)
+    > https://github.com/sb-child/for-you [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/for-you)](https://github.com/sb-child/for-you/stargazers)
 
 ### weird hardware
 
 - The security key that is not secure at all
 
-  > firmware source code https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
-  >
-  > circuit board (not open-sourced yet)
+    > firmware source code https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
+    >
+    > circuit board (not open-sourced yet)
 
 - A simple spectrum analyzer (basically real physics)
 
-  > firmware/host computer source code https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
+    > firmware/host computer source code https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
 
 - Eternal digital life (todo)
 
-  > circuit board & source code (todo) https://github.com/sb-child/digitized [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/digitized)](https://github.com/sb-child/digitized/stargazers)
+    > circuit board & source code (todo) https://github.com/sb-child/digitized [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/digitized)](https://github.com/sb-child/digitized/stargazers)
 
 ### network handler! 🌐 ✋ 🌐
 
 - a gateway that seems pretty safe
-  > https://github.com/sb-child/seifu-gateway [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/seifu-gateway)](https://github.com/sb-child/seifu-gateway/stargazers)
+    > https://github.com/sb-child/seifu-gateway [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/seifu-gateway)](https://github.com/sb-child/seifu-gateway/stargazers)
 
 ### automation tools
 
 - bilibili bot (maybe broken)
-  > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
+    > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
 - lsp's exclusive 2D/3D movie downloader <sub>I'm not normal</sub> (maybe broken, to be fixed)
-  > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
+    > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
 - the amazing bot: 「this IS a QQ bot!」
-  > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
+    > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
 - Minecraft version list fetcher
-  > https://github.com/sb-child/mc-version-list [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-version-list)](https://github.com/sb-child/mc-version-list/stargazers)
+    > https://github.com/sb-child/mc-version-list [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-version-list)](https://github.com/sb-child/mc-version-list/stargazers)
 
 ### Makeover! Nice themes
 
 - The Gitea that looks more and more like GitHub
-  > https://github.com/sb-child/gitea-theme-github-dark [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/gitea-theme-github-dark)](https://github.com/sb-child/gitea-theme-github-dark/stargazers)
+    > https://github.com/sb-child/gitea-theme-github-dark [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/gitea-theme-github-dark)](https://github.com/sb-child/gitea-theme-github-dark/stargazers)
 
 ### simple tools
 
 - Holy Transgender Empire passport generator
-  > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
+    > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
 - Oh My Duo | Duolingo sticker generator!
-  > https://github.com/sb-child/OhMyDuo [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/OhMyDuo)](https://github.com/sb-child/OhMyDuo/stargazers)
+    > https://github.com/sb-child/OhMyDuo [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/OhMyDuo)](https://github.com/sb-child/OhMyDuo/stargazers)
 - MC-Auth | Third-party Minecraft authentication server ([Yggdrasil](https://github.com/yushijinhun/authlib-injector) protocol)
-  > https://github.com/sb-child/mc-auth [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-auth)](https://github.com/sb-child/mc-auth/stargazers)
+    > https://github.com/sb-child/mc-auth [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-auth)](https://github.com/sb-child/mc-auth/stargazers)
 - Short-Link server, written in Rust
-  > https://github.com/sb-child/short-link [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/short-link)](https://github.com/sb-child/short-link/stargazers)
+    > https://github.com/sb-child/short-link [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/short-link)](https://github.com/sb-child/short-link/stargazers)
 - File parity checker! ~~Let's have an impare~~
-  > https://github.com/sb-child/impare [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/impare)](https://github.com/sb-child/impare/stargazers)
+    > https://github.com/sb-child/impare [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/impare)](https://github.com/sb-child/impare/stargazers)
 
 ### utility plugins
 
 - tiny jsDec
-  > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
+    > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
 - a small database wrapper
-  > https://github.com/sb-child/dbee [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/dbee)](https://github.com/sb-child/dbee/stargazers)
+    > https://github.com/sb-child/dbee [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/dbee)](https://github.com/sb-child/dbee/stargazers)
 
 </details>

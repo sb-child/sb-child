@@ -43,7 +43,7 @@
 - :transgender_flag: transgender girl | pronouns: \[She/Her\] / \[They/Them\] / ~~other you want (not mind this)~~
 - nickname/昵称: `色妹妹` or `纱月酱`(别人帮咱起的) | ~~sorry that I haven't English name~~ just call me `sbchild`
 - Telegram: https://t.me/sbchild
-Discord: [@sb_child](https://discord.gg/yFnvtD3W)
+- Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 - 来 NanChat 聊天吧: ID `sbchild` | 地址 `nano_1hw954zuqwbogs4w6hrj585p75jey5yycm3kosau85586kk9gpxneegwb1e7`
 
 ## 🤔 计划板(我都快忘了还有这种东西)
@@ -71,11 +71,12 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 
 ### 我的网站
 
-请点击 <https://gh.sbchild.top>。
+你可以去主站 <https://sbchild.top/>，或者博客站 <https://gh.sbchild.top>。
 
 - 旧站: <https://github.com/sb-child/blog>
 - 死项目: <https://github.com/sb-child/blog-next>
 - 现役: <https://github.com/sb-child/sb-child> 对，和profile在同一个仓库
+- 主站又复活了: <https://github.com/sb-child/sbchild.top>
 
 ---
 
@@ -120,7 +121,7 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 ### 笔记
 
 - 私人小笔记
-  > https://github.com/sb-child/notes [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/notes)](https://github.com/sb-child/notes/stargazers)
+    > https://github.com/sb-child/notes [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/notes)](https://github.com/sb-child/notes/stargazers)
 
 ### 轻工业
 
@@ -137,101 +138,101 @@ Discord: [@sb_child](https://discord.gg/yFnvtD3W)
 
 - 《群友伪娘原理》
 
-  > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
-  - ~~幼女资料文献库~~ (已废弃)
-    > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
+    > https://github.com/sb-child/crossdressing-principle [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdressing-principle)](https://github.com/sb-child/crossdressing-principle/stargazers)
+    - ~~幼女资料文献库~~ (已废弃)
+        > https://github.com/sb-child/unv-docs [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-docs)](https://github.com/sb-child/unv-docs/stargazers)
 
 - 色妹妹也要尝试女装 ~~([RLE](https://zh.wikipedia.org/zh-cn/%e5%ae%9e%e9%99%85%e7%94%9f%e6%b4%bb%e4%bd%93%e9%aa%8c)!)~~ 了?
 
-  > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
+    > https://github.com/sb-child/crossdress [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/crossdress)](https://github.com/sb-child/crossdress/stargazers)
 
 - sb-chat 色撩呗 | 1套分布式数据传输隧道解决方案(fuck GFW)**(正在开发, 现在不能用)**
 
-  > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
-  >
-  > 客户端(桌面/移动端) https://github.com/sb-child/?? **正在策划**
+    > 服务端 https://github.com/sb-child/sea [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sea)](https://github.com/sb-child/sea/stargazers)
+    >
+    > 客户端(桌面/移动端) https://github.com/sb-child/?? **正在策划**
 
 - sb-counter 色逼数 | 访问量计数器
-  > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
+    > https://github.com/sb-child/sb-counter [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/sb-counter)](https://github.com/sb-child/sb-counter/stargazers)
 
 ### 莉沫酱周边 ~~「合作共赢」~~
 
 - 莉沫酱家
-  > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
+    > https://github.com/sb-child/rimochan-home [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/rimochan-home)](https://github.com/sb-child/rimochan-home/stargazers)
 - 幼女币
-  > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
+    > https://github.com/sb-child/unv-coin [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unv-coin)](https://github.com/sb-child/unv-coin/stargazers)
 
 ### 咱的周边
 
 - 可爱的设计们！
-  > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
+    > https://github.com/sb-child/Triple [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Triple)](https://github.com/sb-child/Triple/stargazers)
 - 咱的周边竟然是咱自己！
-  > https://github.com/sb-child/for-you [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/for-you)](https://github.com/sb-child/for-you/stargazers)
+    > https://github.com/sb-child/for-you [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/for-you)](https://github.com/sb-child/for-you/stargazers)
 
 ### 神奇硬件
 
 - 一点都不安全的安全密钥
 
-  > 固件源代码 https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
-  >
-  > 电路板 (尚未开源)
+    > 固件源代码 https://github.com/sb-child/unsafe-key-source [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/unsafe-key-source)](https://github.com/sb-child/unsafe-key-source/stargazers)
+    >
+    > 电路板 (尚未开源)
 
 - 简简单单的频谱仪(迫真物理)
 
-  > 固件/上位机源代码 https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
+    > 固件/上位机源代码 https://github.com/sb-child/Spectrum-Analyzer [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/Spectrum-Analyzer)](https://github.com/sb-child/Spectrum-Analyzer/stargazers)
 
 - 永恒的数字人生(todo)
 
-  > 电路板,源代码(todo) https://github.com/sb-child/digitized [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/digitized)](https://github.com/sb-child/digitized/stargazers)
+    > 电路板,源代码(todo) https://github.com/sb-child/digitized [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/digitized)](https://github.com/sb-child/digitized/stargazers)
 
 - 自制机械键盘!
-  > 固件源代码:
-  >
-  > 按键扫描部分 https://github.com/sb-child/keyboard-software-scanner [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-scanner)](https://github.com/sb-child/keyboard-software-scanner/stargazers)
-  >
-  > 核心部分 https://github.com/sb-child/keyboard-software-core [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-core)](https://github.com/sb-child/keyboard-software-core/stargazers)
-  >
-  > 电路板 https://github.com/sb-child/keyboard-hardware [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-hardware)](https://github.com/sb-child/keyboard-hardware/stargazers)
+    > 固件源代码:
+    >
+    > 按键扫描部分 https://github.com/sb-child/keyboard-software-scanner [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-scanner)](https://github.com/sb-child/keyboard-software-scanner/stargazers)
+    >
+    > 核心部分 https://github.com/sb-child/keyboard-software-core [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-software-core)](https://github.com/sb-child/keyboard-software-core/stargazers)
+    >
+    > 电路板 https://github.com/sb-child/keyboard-hardware [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/keyboard-hardware)](https://github.com/sb-child/keyboard-hardware/stargazers)
 
 ### 网络手！ 🌐 ✋ 🌐
 
 - 似乎挺安全的网关
-  > https://github.com/sb-child/seifu-gateway [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/seifu-gateway)](https://github.com/sb-child/seifu-gateway/stargazers)
+    > https://github.com/sb-child/seifu-gateway [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/seifu-gateway)](https://github.com/sb-child/seifu-gateway/stargazers)
 
 ### 自动化工具
 
 - b站机器人(可能坏掉了)
-  > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
+    > https://github.com/sb-child/bilibili-daily-task [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/bilibili-daily-task)](https://github.com/sb-child/bilibili-daily-task/stargazers)
 - lsp的专属二三次元电影下载器<sub>我不对劲</sub>(可能坏掉了, 待修复)
-  > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
+    > https://github.com/sb-child/lsp [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/lsp)](https://github.com/sb-child/lsp/stargazers)
 - 神奇机器人: 「这可事QQ机器人!」
-  > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
+    > https://github.com/sb-child/myqqbot [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/myqqbot)](https://github.com/sb-child/myqqbot/stargazers)
 - Minecraft 版本列表获取器
-  > https://github.com/sb-child/mc-version-list [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-version-list)](https://github.com/sb-child/mc-version-list/stargazers)
+    > https://github.com/sb-child/mc-version-list [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-version-list)](https://github.com/sb-child/mc-version-list/stargazers)
 
 ### 改头换面! 好康的主题哦
 
 - 越来越像 Github 的 Gitea
-  > https://github.com/sb-child/gitea-theme-github-dark [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/gitea-theme-github-dark)](https://github.com/sb-child/gitea-theme-github-dark/stargazers)
+    > https://github.com/sb-child/gitea-theme-github-dark [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/gitea-theme-github-dark)](https://github.com/sb-child/gitea-theme-github-dark/stargazers)
 
 ### 小工具
 
 - 神圣跨性别帝国护照生成器
-  > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
+    > https://github.com/sb-child/transport [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/transport)](https://github.com/sb-child/transport/stargazers)
 - Oh My Duo 哦我的多儿~ | 多邻国贴纸生成器!
-  > https://github.com/sb-child/OhMyDuo [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/OhMyDuo)](https://github.com/sb-child/OhMyDuo/stargazers)
+    > https://github.com/sb-child/OhMyDuo [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/OhMyDuo)](https://github.com/sb-child/OhMyDuo/stargazers)
 - MC-Auth 《我的世界》第三方认证服务器([Yggdrasil](https://github.com/yushijinhun/authlib-injector) 协议)
-  > https://github.com/sb-child/mc-auth [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-auth)](https://github.com/sb-child/mc-auth/stargazers)
+    > https://github.com/sb-child/mc-auth [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/mc-auth)](https://github.com/sb-child/mc-auth/stargazers)
 - rust 写的 Short-Link 短链接服务端
-  > https://github.com/sb-child/short-link [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/short-link)](https://github.com/sb-child/short-link/stargazers)
+    > https://github.com/sb-child/short-link [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/short-link)](https://github.com/sb-child/short-link/stargazers)
 - 涩涩数据防腐剂! ~~我们开淫趴(impare)吧~~
-  > https://github.com/sb-child/impare [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/impare)](https://github.com/sb-child/impare/stargazers)
+    > https://github.com/sb-child/impare [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/impare)](https://github.com/sb-child/impare/stargazers)
 
 ### 实用插件
 
 - 迷你 jsDec
-  > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
+    > https://github.com/sb-child/jsdec-tiny [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/jsdec-tiny)](https://github.com/sb-child/jsdec-tiny/stargazers)
 - 小小的数据库包装
-  > https://github.com/sb-child/dbee [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/dbee)](https://github.com/sb-child/dbee/stargazers)
+    > https://github.com/sb-child/dbee [![GitHub stars](https://unv-shield.librian.net/api/unv_shield?fontcolor=0000ff&anime=3&repo=sb-child/dbee)](https://github.com/sb-child/dbee/stargazers)
 
 </details>

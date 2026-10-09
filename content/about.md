@@ -6,14 +6,17 @@ draft: false
 
 ## 你博客去哪了
 
-关站重建中，敬请期待，其实你这辈子别想等到
+~~关站重建中，敬请期待，其实你这辈子别想等到~~
 
-这个是旧站地址 <https://sbchild.top/blog> 但是现在它会重定向到这里
+~~这个是旧站地址 <https://sbchild.top/blog> 但是现在它会重定向到这里~~
 
-不过你可以脑内编译源代码：
+~~不过你可以脑内编译源代码：~~
 
-- 旧站(依赖爆炸): https://github.com/sb-child/blog
-- 新站(遥遥无期): https://github.com/sb-child/blog-next
+- 旧站(依赖爆炸): <https://github.com/sb-child/blog>
+- 新站(遥遥无期): <https://github.com/sb-child/blog-next>
+- 又复活了: <https://github.com/sb-child/sbchild.top>
+
+去看看主站: <https://sbchild.top/>。
 
 ## 我是谁
 
