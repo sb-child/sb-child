@@ -15,6 +15,7 @@
 <head>
   {{- partial "head.html" . }}
 
+  {{ if hugo.IsProduction }}
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0048203c7c5c4378973198a850ed99a5"}'></script>
   <!-- End Cloudflare Web Analytics -->
@@ -29,6 +30,9 @@
     gtag('config', 'G-S70MRFEE0H');
   </script>
   <!-- End Google tag (gtag.js) -->
+  {{ else }}
+  <!-- Analytics Disabled -->
+  {{ end }}
 </head>
 
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) }}
