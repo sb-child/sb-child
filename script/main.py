@@ -31,6 +31,9 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 md = MarkdownIt("commonmark")
+md.enable("strikethrough")
+md.renderer.rules["s_open"] = lambda tokens, idx, options, env: "<del>"
+md.renderer.rules["s_close"] = lambda tokens, idx, options, env: "</del>"
 anchors_plugin(md, min_level=1, max_level=6)
 md_link_pattern = re.compile(r"\[(.*?)\]\((.*?)\)", flags=re.MULTILINE)
 
