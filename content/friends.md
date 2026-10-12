@@ -30,4 +30,6 @@ disableAnchoredHeadings = true
 
 {{< friend name="社会易姐QwQ" avatar="/images/friends/shakaianee.png" desc="给岁月以文明，而不是给文明以岁月。" link="https://shakaianee.top/" />}}
 
+{{< friend name="着火的冰块nya 的小家" avatar="https://avatars.githubusercontent.com/u/161030746?s=110" desc="我们终将在没有黑暗的地方相见" link="https://zhdbk3.github.io/" />}}
+
 </div>
