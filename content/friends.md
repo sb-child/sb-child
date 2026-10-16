@@ -26,7 +26,7 @@ disableAnchoredHeadings = true
 
 {{< friend name="27Onion" avatar="/images/friends/27Onion.png" desc="Android will become a locked-down platform in 99d 1h 46m 13s" link="https://onion108.github.io/" />}}
 
-{{< friend name="Website of HosinoNeko" avatar="/images/friends/HosinoNeko.png" desc="一隻可愛的小藥娘的網站" link="https://hosinoneko.me/" />}}
+{{< friend name="WEBSITE of EVERY TRANSGENDER PEOPLE" avatar="/images/friends/HosinoNeko.png" desc="A gift for all Transgender community" link="https://mtf.lgbt/" />}}
 
 {{< friend name="社会易姐QwQ" avatar="/images/friends/shakaianee.png" desc="给岁月以文明，而不是给文明以岁月。" link="https://shakaianee.top/" />}}
 
