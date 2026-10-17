@@ -3,6 +3,8 @@ date = '2026-10-17T19:25:22+08:00'
 title = '为什么我没能弄死我的父母'
 # comment_id = "ce61f7596c5c9261dd6b22f1030428e9"
 draft = false
+description = "也许我不死他们就死不了"
+categories = ["文学"]
 +++
 
 我最近又抑郁死了，所以突然想起了这个遗憾。
