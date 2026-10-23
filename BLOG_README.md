@@ -29,11 +29,24 @@ uv run main.py
 终端2:
 
 ```sh
-# 构建svelte组件
+# 安装依赖
 pnpm i
+# 构建svelte组件。这是一次性的，直到下次svelte那边有变动
 pnpm build
+
 # 启动 Hugo 服务器 (构建前端)
 hugo server
+# 或者 hugo server -D 同时构建 draft 页面
+```
+
+如果你想调试 svelte 组件，你可以打开终端3:
+
+```sh
+# 安装依赖
+pnpm i
+# 启动 playground
+pnpm dev
+# 打开 http://localhost:5173/svelte-components/svelte-playground.html
 ```
 
 ## 别人的东西
