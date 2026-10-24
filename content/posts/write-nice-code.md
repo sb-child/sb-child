@@ -113,4 +113,4 @@ API哪怕加个“v2”做新的规范？_但是老地铁为了兼容新车总�
 **虽然在现实中不理想，但是谁不想让现实更理想一些？**
 
 - update: 上面例子的文档在示例里删了“兼容”字段，但是参数表格里忘了删...
-- update: <https://superuser.com/questions/876100/https-proxy-vs-https-proxy>，<https://unix.stackexchange.com/questions/212894/whats-the-right-format-for-the-http-proxy-environment-variable-caps-or-no-ca>，到底用哪个呢？
+- update: <https://superuser.com/questions/876100/https-proxy-vs-https-proxy>，<https://unix.stackexchange.com/questions/212894/whats-the-right-format-for-the-http-proxy-environment-variable-caps-or-no-ca>，我又不写 CGI，到底用哪个呢？
