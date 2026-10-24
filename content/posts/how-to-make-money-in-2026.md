@@ -10,7 +10,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第一名，挖 XMR
 
-战绩：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天，**现价 0.16 USD**。
+战绩：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天，**现价 0.16 USD 每天**。
 
 [Monero](https://github.com/monero-project/monero) 是一种采用 PoW 机制的加密货币区块链，它创新性的采用了 RandomX 算法减慢我电脑挖矿的速度。
 
@@ -24,7 +24,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第二名，Coincamps 抽奖活动
 
-战绩：总收入 **0.016 USDT** 每天。
+战绩：总收入 **0.016 USDT 每天**。
 
 我是先知道 [Airdrop.io](https://airdrop.io/) 有送钱项目，才知道 [Coincamps](https://coincamps.ai/) 的。我有理由怀疑 Coincamps 是国产网站，它和 [Mesoc](https://mesoc.xyz/) 一样国产，后者甚至可能这辈子领不到钱。
 
@@ -36,7 +36,7 @@ _上面的总收入计算方式是把 10 天内领到(2个)奖励加起来算平
 
 ## 第三名，Brave 广告奖励
 
-战绩：总收入 1.6292 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每月，换算 0.0534 BAT 每天，**现价 0.0093 USD**。
+战绩：总收入 1.6292 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每月，换算 0.0534 BAT 每天，**现价 0.0093 USD 每天**。
 
 我也是先知道 [Brave](https://brave.com/) 给用户送钱，才知道 Brave 浏览器的。
 
