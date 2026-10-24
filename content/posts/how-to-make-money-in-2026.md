@@ -10,7 +10,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第一名，挖 XMR
 
-战绩：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天，**现价 0.16 USD 每天**。
+战绩 **现价 0.16 USD 每天**：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天。
 
 [Monero](https://github.com/monero-project/monero) 是一种采用 PoW 机制的加密货币区块链，它创新性的采用了 RandomX 算法减慢我电脑挖矿的速度。
 
@@ -24,7 +24,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第二名，Coincamps 抽奖活动
 
-战绩：总收入 **0.016 USDT 每天**。
+战绩 **0.016 USDT 每天**：10 天中奖 2 次。
 
 我是先知道 [Airdrop.io](https://airdrop.io/) 有送钱项目，才知道 [Coincamps](https://coincamps.ai/) 的。我有理由怀疑 Coincamps 是国产网站，它和 [Mesoc](https://mesoc.xyz/) 一样国产，后者甚至可能这辈子领不到钱。
 
@@ -36,9 +36,9 @@ _上面的总收入计算方式是把 10 天内领到(2个)奖励加起来算平
 
 ## 第三名，Brave 广告奖励
 
-战绩：总收入 1.6292 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每月，换算 0.0534 BAT 每天，**现价 0.0093 USD 每天**。
+战绩 **现价 0.0093 USD 每天**：总收入 0.053416 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每天。
 
-我也是先知道 [Brave](https://brave.com/) 给用户送钱，才知道 Brave 浏览器的。
+我也是先知道 [Brave](https://brave.com/) 每月给用户送钱，才知道 Brave 浏览器的。
 
 对，Brave 浏览器有比 Chromium 先进的广告拦截技术，和比 Firefox 优秀的总体性能表现，可以让你手机不卡顿的同时无广告观看 YouTube 视频(Brave给Google交钱了?)。
 
@@ -91,3 +91,13 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 ### Honeygain
 
 照这个速度我觉得这辈子提现不了，它哪怕送我 20% 的进度也不能，哪怕接上 Jumptask Wallet 也不能(还没做任务拿的多)。
+
+### SlopCash
+
+战绩 **0 USDC 每天**：5个PR被合并，4.33 Slop Score。
+
+[SlopCash](https://slop.cash/) 是个从 YouTube 刷到的 AI 漏洞赏金项目，顾名思义就是 AI 挖漏洞然后按每月占比给奖金。
+
+但是挖 5 个漏洞哪怕真的付我赏金也没法覆盖我花出去的 LLM 推理费用。我就不算电费了，它有一次挖漏洞硬要跑上万个测试给我电脑 RAM 耗没了，AI 毫不关心我电脑状况，它只会不顾一切等整个电脑 Freeze 在那像个冰雕。
+
+如果这个月项目方给 1000 USDC 赏金，我预计只能拿到 12 USDC。如果真的给了我才考虑把它放在排行榜，标上 0.4 USDC 每天。
