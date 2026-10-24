@@ -22,11 +22,23 @@ description = "你不赚钱，钱不赚你。"
 
 电费不是我出所以我不关心。
 
-## 第二名，Brave 广告奖励
+## 第二名，Coincamps 抽奖活动
+
+战绩：总收入 **0.016 USDT** 每天。
+
+我是先知道 [Airdrop.io](https://airdrop.io/) 有送钱项目，才知道 [Coincamps](https://coincamps.ai/) 的。我有理由怀疑 Coincamps 是国产网站，它和 [Mesoc](https://mesoc.xyz/) 一样国产，后者甚至可能这辈子领不到钱。
+
+本次抽奖活动到 2026 年 12 月 31 日截止，但是我感觉它后续还会有别的抽奖活动。
+
+领 USDT 奖励需要钱包有 0.005 [BNB](https://coinmarketcap.com/currencies/bnb/) 余额，我为了领奖我买了 0.0127 个，属于是币安币滞销帮帮我们。
+
+_上面的总收入计算方式是把 10 天内领到(2个)奖励加起来算平均值。_
+
+## 第三名，Brave 广告奖励
 
 战绩：总收入 1.6292 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每月，换算 0.0534 BAT 每天，**现价 0.0093 USD**。
 
-我是先知道 [Brave](https://brave.com/) 给用户送钱，才知道 Brave 浏览器的。
+我也是先知道 [Brave](https://brave.com/) 给用户送钱，才知道 Brave 浏览器的。
 
 对，Brave 浏览器有比 Chromium 先进的广告拦截技术，和比 Firefox 优秀的总体性能表现，可以让你手机不卡顿的同时无广告观看 YouTube 视频(Brave给Google交钱了?)。
 
@@ -36,7 +48,9 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 
 我添加付款账户的时候发现 Brave 甚至不愿意付我 0.00204428 [SOL](https://coinmarketcap.com/currencies/solana/) 来创建 Token Account，Brave 是不是穷鬼，最后这笔钱我付的。
 
-## 第三名，Aro Network
+## 避雷
+
+### Aro Network
 
 战绩：Testnet，2个IP，总收入 1533 Jade 每天，**现价 0 USD**。
 
@@ -48,17 +62,15 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 
 要瓜分 30000 USDT 需要先上 Sprint 2 Campaign 前 100 名榜单，我手里的 Jade 只有第 100 名的 11%，逗我呢。
 
-## 第四名，Grass
+### Grass
 
 战绩：1个IP，总收入 4412 Uptime Points 每天，**现价 0 USD**。0.02 Network Points 每天，**现价 0 USD**。
 
-[Grass](https://app.grass.io/) 是另一个挂在 DePIN 网站的项目，我觉得和第三名一样也是诈骗项目。
+[Grass](https://app.grass.io/) 是另一个挂在 DePIN 网站的项目，我觉得和 Aro Network 一样也是诈骗项目。
 
 这个项目支持中国IP，但是政策上禁止VPN(比如代理)，那我就用自家宽带吧。
 
 为什么我要给它第四名呢？因为我原以为 Uptime Points 能提现成 Grass 代币，我就往它的托管钱包打了 0.02 SOL，结果截至我写这篇文章，我仍然找不到哪里能让我获得 Grass 或者 USDC 代币，我节点跑了 11 天它都不给我一点面子。
-
-## 避雷
 
 ### Acurast
 
@@ -75,3 +87,7 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 它注册的时候还不能挂代理，它的API会检测IP是不是来自数据中心，如果你被拦了你可以让`api.jumptask.io`走直连。只是注册要求这样，登录不会。
 
 如果你是 2077 年出生的外星人也许你可以试一下，已经没有人类了。
+
+### Honeygain
+
+照这个速度我觉得这辈子提现不了，它哪怕送我 20% 的进度也不能，哪怕接上 Jumptask Wallet 也不能(还没做任务拿的多)。
