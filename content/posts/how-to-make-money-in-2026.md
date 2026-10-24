@@ -8,7 +8,7 @@ description = "你不赚钱，钱不赚你。"
 
 悬赏 0.008 XMR 打破我的纪录：在我的电脑上，用相同的本金和条件，用我没试过的方式/策略，获得比我高的平均日收益，USD 计价。
 
-## 第一名，挖 XMR
+## 第一名，XMR 挖矿
 
 战绩 **现价 0.15638 USD 每天**：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天。
 
@@ -48,7 +48,7 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 
 我添加付款账户的时候发现 Brave 甚至不愿意付我 0.00204428 [SOL](https://coinmarketcap.com/currencies/solana/) 来创建 Token Account，Brave 是不是穷鬼，最后这笔钱我付的。
 
-## 第四名，Solana 质押
+## 第四名，SOL 质押
 
 战绩 **现价 0.006643 USD 每天**：现锁仓 0.421687 SOL，平均质押 373 天，总收入 0.00006472 SOL 每天。
 
