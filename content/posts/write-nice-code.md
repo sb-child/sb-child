@@ -77,7 +77,7 @@ draft = false
 
 如果，错误是你(开发者)导致的，那你要修好它而不是套 workaround。你不能说无非就是一个 tokio worker thread 崩了而已，反正程序还能跑，然后你屏蔽掉了这条报错假装不存在。
 
-但是如果你是从xxx语言过来的Rust用户，不要在你的函数里写任何会panic的代码(或者你要兜住panic)，除非**用户可以忍受**。panic不等同于raise或者throw，你应该找Result或者Option。
+但是如果你是从xxx语言过来的Rust用户，不要在你的函数里写任何会panic的代码(或者确保没有能触发panic的路径，对于长期运行的程序来说panic是不能接受的)，除非**用户可以忍受**(比如panic是因为开发者没用对，总不能因为这张图不是png就一路炸到tokio rt，或者程序只运行很短时间，没有副作用炸了无所谓)。panic不等同于raise或者throw，你应该找Result或者Option。
 
 我是不想再看到 AI 写的代码包含没有明确理由的重试，更重要的是重试本身占了不少代码量或者增加了复杂度。
 
