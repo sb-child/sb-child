@@ -14,7 +14,7 @@ description = "你不赚钱，钱不赚你。"
 
 [Monero](https://github.com/monero-project/monero) 是一种采用 PoW 机制的加密货币区块链，它创新性的采用了 RandomX 算法减慢我电脑挖矿的速度。
 
-我认识门罗以来，收到的第一笔赞助是脏钱，这一点我无法验证，因为我也不知道这笔钱哪来的，这不是门罗的 bug 这是特性。我不用 2025 年差点打死门罗网络的 [Qubic](https://qubic.org/)，不用 [Zcash](https://z.cash/) 或者 [Dash](https://www.dash.org/)。
+我认识门罗以来，收到的第一笔赞助是脏钱，这一点我无法验证，因为我也不知道这笔钱哪来的，这不是门罗的 bug 这是特性。我不用 2025 年[差点打死](https://qubic.org/blog-detail/historic-takeover-complete-qubic-miners-now-secure-monero-network)门罗网络的 [Qubic](https://qubic.org/)，不用 [Zcash](https://z.cash/) 或者 [Dash](https://www.dash.org/)。
 
 [RandomX](https://github.com/tevador/RandomX) 算法采用了 "[Argon2](https://github.com/P-H-C/phc-winner-argon2)d" 哈希函数生成巨大(2GB!)数据填充到内存里，然后作为 [VM](https://github.com/tevador/RandomX/blob/master/doc/specs.md#4-virtual-machine) 的初始状态并执行程序。这个算法设计的那么复杂是为了抵御 ASIC 和 GPU 这类外挂的攻击，同时促进全球变暖。
 
