@@ -14,9 +14,11 @@ description = "你不赚钱，钱不赚你。"
 
 [Monero](https://github.com/monero-project/monero) 是一种采用 PoW 机制的加密货币区块链，它创新性的采用了 RandomX 算法减慢我电脑挖矿的速度。
 
+我认识门罗以来，收到的第一笔赞助是脏钱，这一点我无法验证，因为我也不知道这笔钱哪来的，这不是门罗的 bug 这是特性。我不用 2025 年差点打死门罗网络的 [Qubic](https://qubic.org/)，不用 [Zcash](https://z.cash/) 或者 [Dash](https://www.dash.org/)。
+
 [RandomX](https://github.com/tevador/RandomX) 算法采用了 "[Argon2](https://github.com/P-H-C/phc-winner-argon2)d" 哈希函数生成巨大(2GB!)数据填充到内存里，然后作为 [VM](https://github.com/tevador/RandomX/blob/master/doc/specs.md#4-virtual-machine) 的初始状态并执行程序。这个算法设计的那么复杂是为了抵御 ASIC 和 GPU 这类外挂的攻击，同时促进全球变暖。
 
-我应该认识有人参与过蚂蚁算力卡的开发，ta说那块算力卡采用了几颗带有 RISC-V 内核的 [SG2042](https://www.sophgo.com/sophon-u/product/introduce/sg2042.html)，同时因为它有向量扩展，可以用于加速某些算法，比如RandomX，甚至跑机器学习。它是为挖矿设计的，集群跑 LLM 受限于几个 Gbps 的总线带宽，但是我不知道去哪能搞到这块板子。
+我认识有人应该参与过蚂蚁算力卡的开发，那晚ta在路边跟我讲那块算力卡采用了几颗带有 RISC-V 内核的 [SG2042](https://www.sophgo.com/sophon-u/product/introduce/sg2042.html)，同时因为它有向量扩展，可以用于加速某些算法，比如RandomX，甚至跑机器学习。它是为挖矿设计的，集群跑 LLM 受限于几个 Gbps 的总线带宽。但是我不知道去哪能搞到这块板子。
 
 因为我没有算力，导致我两台手机电池鼓包拆掉丢垃圾桶了，笔记本电脑电池也鼓包但是我不需要拆下，眼不见心不烦。
 
