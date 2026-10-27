@@ -169,6 +169,12 @@ Honeygain Wallet 和 Jumptask Wallet 之间不能互相转钱。
 
 第一个，你万一被封号了怎么办，你要注册多个账号... 创作多份收入和多保险。第二个，你网站的流量会因为你突然挂广告而减少吗？
 
+### SuperTeam Earn
+
+我 retry 了好多次我才问出 [SuperTeam Earn](https://superteam.fun/earn/all?tab=bounties)，我属于是给 AI 交学费了。
+
+不要再在这个平台上浪费可怜的时间了，它们只是付费让你做宣传，无论是宣传什么，还不能让你加“这是广告”，还是超大额补贴。
+
 ### 合约网格
 
 早在 2025 年下半年，我在 [MEXC](https://www.mexc.com/) 交易所创建了交易机器人，放进去 5 USDT 去做 [OP](https://coinmarketcap.com/currencies/optimism-ethereum/) 币。当时至少还赚了半个 u。
