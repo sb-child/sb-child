@@ -142,11 +142,19 @@ Honeygain Wallet 和 Jumptask Wallet 之间不能互相转钱。
 
 [Immunefi](https://bugs.immunefi.com/) 也是一个(为人类设计的)漏洞赏金项目。嗯... 你想收钱？我建议你先看看你能不能过 [Human Passport](https://app.passport.xyz/)，否则你没法把你的 crypto wallet 添加到你的账户里。
 
-要拿到 20 个 points，你需要用各种方式验证你是人，比如币安 KYC，身份证件，各种社交账户...
+要拿到 20 个 points，你需要用各种方式验证你是人，比如币安 KYC，身份证件，各种社交账户... 有些验证手段会在几十天后过期需要续，有些要收几美元的费用，得不偿失。
 
 可能你弄完你就没兴致让 AI 挖漏洞了。
 
 这个平台要求是人挖，但是我哪有这么多 context 可以耗。
+
+### Algora
+
+我又不上班我怎么知道 [Algora](https://algora.io/) 的呢？答案是 Zafer Cesur <zafer@algora.io> 这个自动化机器人累计给我发了 3 封邮件，说 _“你的GitHub项目在Python开发者中排名前1%”_。
+
+还主动给我推荐 [Air Space Intelligence](https://www.airspace-intelligence.com/) 的软件工程师职位，问我要不要和 [Anything](https://www.createanything.com/) 的 CEO 聊两句。
+
+怪不得我对这个平台有那么大印象，原来是因为我经常翻垃圾邮件。我觉得不值得在这个平台上浪费我的时间。
 
 ### VIDS.ST
 
