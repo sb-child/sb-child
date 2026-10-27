@@ -26,7 +26,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第二名，Coincamps 抽奖活动
 
-战绩 **0.016 USDT 每天**：10 天中奖 2 次。
+战绩 **0.01142 USDT 每天**：14 天中奖 2 次。
 
 我是先知道 [Airdrop.io](https://airdrop.io/) 有送钱项目，才知道 [Coincamps](https://coincamps.ai/) 的。我有理由怀疑 Coincamps 是国产网站，它和 [Mesoc](https://mesoc.xyz/) 一样国产，后者甚至可能这辈子领不到钱。
 
@@ -34,7 +34,7 @@ description = "你不赚钱，钱不赚你。"
 
 领 USDT 奖励需要钱包有 0.005 [BNB](https://coinmarketcap.com/currencies/bnb/) 余额，我为了领奖我买了 0.0127 个，属于是币安币滞销帮帮我们。
 
-_上面的总收入计算方式是把 10 天内领到(2个)奖励加起来算平均值。_
+_上面的总收入计算方式是把 14 天内领到(2个)奖励加起来算平均值。_
 
 ## 第三名，Brave 广告奖励
 
@@ -159,6 +159,14 @@ Honeygain Wallet 和 Jumptask Wallet 之间不能互相转钱。
 
 第一个，你万一被封号了怎么办，你要注册多个账号... 创作多份收入和多保险。第二个，你网站的流量会因为你突然挂广告而减少吗？
 
+### 合约网格
+
+早在 2025 年下半年，我在 [MEXC](https://www.mexc.com/) 交易所创建了交易机器人，放进去 5 USDT 去做 [OP](https://coinmarketcap.com/currencies/optimism-ethereum/) 币。当时至少还赚了半个 u。
+
+然后一场突如其来的黑天鹅发生了，我朋友天刚亮就把我叫醒，我起初还以为没大碍。结果一看，[USDe](https://www.tradingview.com/chart/?symbol=KRAKEN%3AUSDEUSD) 跌了 5%，[经济大萧条](https://www.coingecko.com/learn/october-10-crypto-crash-explained)。
+
+我交易机器人因为这场爆炸被强平了。不要玩网格，玩[特朗普](https://zh.wikipedia.org/wiki/%E5%94%90%E7%B4%8D%C2%B7%E5%B7%9D%E6%99%AE)。
+
 ### 找工作
 
 有人问我为什么你不出卖劳动力呀？我可以不绕弯子的告诉你我没有劳动力可以卖。
@@ -205,6 +213,10 @@ hi我是色妹妹
 
 ### 接外包
 
-自 2025 年底，我因为 AI 员工抢我活干，还推翻我做的事情，我辞职的时候没有说一句话。
+自 2025 年底，我因为 AI 员工抢我活干，还推翻我做的事情，我辞职的时候没有说一句话，当时我拿着 **35.71 USDT 每天** 的工资。
+
+我上一次拿到那么多钱还是给初创公司写软件，**现价 17.2 USD 每天**。
+
+这句话放在这里是为了防止有人拿 2026 年已经失效的方法套走我的悬赏。
 
 总之就是这个市场已经没有了，连老年人都会用豆包。我就不写日收入了，这个可以 vibe 出来。
