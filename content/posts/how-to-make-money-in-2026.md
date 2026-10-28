@@ -211,13 +211,21 @@ $ cat ~/slop-cash-ws/AGENTS.md
 
 这个平台要求是人挖，但是我哪有这么多 context 可以耗。
 
+### Code4rena
+
+> [Code4rena](https://code4rena.com/) is winding down.
+>
+> After 5 years of securing DeFi, Code4rena is closing its doors. Active competitions and bounties are being seen through to completion.
+
+总之这个漏洞赏金平台被竞争对手干死了。2026 年 7 月 12 日，这个平台宣布“[完全关闭](https://paragraph.com/@cmaluractu/code4rena-is-shutting-down-heres-where-beginners-should-go-next)”。
+
 ### Algora
 
 我又不上班我怎么知道 [Algora](https://algora.io/) 的呢？答案是 Zafer Cesur <zafer@algora.io> 这个自动化机器人累计给我发了 3 封邮件，说 _“你的GitHub项目在Python开发者中排名前1%”_。
 
 还主动给我推荐 [Air Space Intelligence](https://www.airspace-intelligence.com/) 的软件工程师职位，问我要不要和 [Anything](https://www.createanything.com/) 的 CEO 聊两句。
 
-你在找赏金？<https://algora.io/bounties> 是 404，也就是说 algora.io 自己只是把供需双方撮合到一起了而已。举个例子 <https://algora.io/cal/home> 就不是 404，这是 cal.com ~~的开源赏金计划...~~ 的领奖台，因为你能看到的都是付过钱的而不是没付过钱的。issues / pr 都找不到关于赏金的事情，这是一个[示例](https://github.com/calcom/cal.diy/issues/22319)你可以自己看看，“Yuvraj Angad Singh” 到底是哪个人呢？
+你在找赏金？algora.io 没有自己的赏金计划，它只是把供需双方撮合到一起了而已。举个例子 <https://algora.io/cal/home> 就不是 404，这是 cal.com ~~的开源赏金计划...~~ 的领奖台，因为你能看到的都是付过钱的而不是没付过钱的。issues / pr 都找不到关于赏金的事情，这是一个[示例](https://github.com/calcom/cal.diy/issues/22319)你可以自己看看，“Yuvraj Angad Singh” 到底是哪个人呢？
 
 怪不得我对这个平台有那么大印象，原来是因为我经常翻垃圾邮件。我觉得不值得在这个平台上浪费我的时间找入口。
 
