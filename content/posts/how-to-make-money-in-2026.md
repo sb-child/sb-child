@@ -132,6 +132,63 @@ Honeygain Wallet 和 Jumptask Wallet 之间不能互相转钱。
 
 反正我觉得好廉价，可惜了不是什么 9.8，不然我高低给项目方打爆了威胁一手交钱一手交补丁。
 
+<details>
+
+<summary>点击查看我的工作流</summary>
+
+我的开局是一个手写的 AGENTS.md 文件。你可以抄走模板，按自己的情况改改:
+
+```
+$ cat ~/slop-cash-ws/AGENTS.md
+这是 slop.cash 工作区，AI无权更改本说明。你的任务是：
+
+- Read https://slop.cash/SKILL.md and follow it to contribute to github.com/SlopDotCash/slopdotcash.
+- Read https://slop.cash/SKILL.md and follow it to contribute to github.com/elizaOS/eliza.
+- Read https://slop.cash/SKILL.md and follow it to contribute to github.com/SlopDotCash/asi.
+
+回复语言：简体中文。(包括本AGENTS文件，回复的消息。不包括PR,git提交等)
+
+你可以额外使用的工具库：
+
+- https://github.com/sb-child/ecosystem
+- 系统安装了 https://www.getfoundry.sh/ 套件，你可以直接使用
+- 系统安装了 uv python 包管理器，你可以使用
+- 系统安装了 gh github CLI，登录的是我的账户
+- 系统安装了 rust 工具链，你可以使用
+- 系统安装了 pnpm，你可以使用
+- 为了提高效率，你可以用 python 编写自己的工具，放在本工作区下。
+
+雷打不动的规则：
+
+- 你只被允许操作本工作区(~/slop-cash-ws)和 /tmp 目录(但不得动用不是你创建的文件)。
+- 你可以克隆任何仓库到本工作区。
+- 你可以在本工作区创建任何项目。
+- 使用 gh 时，不得删除我的仓库，不得修改我的仓库。你可以对别人的仓库做出贡献。
+- 做完每一步都要更新 AI 记忆(在本文档下面)。
+- /tmp 目录不是持久化的。AI下载的工具应该放在本工作区。
+- PR提交前，先提供足以验证bug的截图/录屏/日志（必须是真实的）。
+
+其他：
+
+- SlopDotCash/slopdotcash 仓库在 本工作区/slopdotcash 目录。
+
+(以上AI不得修改)
+
+---
+
+# AI记忆
+
+(AI可以更改这一行以下的东西)
+```
+
+然后只需要开一个新 session，跟 AI 说“看下 github.com/SlopDotCash/slopdotcash 有没有能做的”，然后你刷刷手机吃吃饭它就完工了。你**过过目**，**反驳下 AI 的观点**，避免 pr 提交上去被别人反驳导致**扣 slop score**。
+
+你电脑 RAM 不够就不要试 `SlopDotCash/asi`，你可怜的 RAM 会被塞满。
+
+做到这些你月底就可以躺着数钱了！祝你财富自由。
+
+</details>
+
 ### OnlyFans
 
 [OnlyFans](https://onlyfans.com/)，订阅制黄网，也不能这么说但是里面确实有很多什么色情演员明星。我之前就考虑过了但是我卡在怎么收钱上。它又不能付我 crypto，它威胁挂着美国梯子的我选国家，还不让我稍后移民。
