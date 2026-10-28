@@ -213,7 +213,9 @@ $ cat ~/slop-cash-ws/AGENTS.md
 
 还主动给我推荐 [Air Space Intelligence](https://www.airspace-intelligence.com/) 的软件工程师职位，问我要不要和 [Anything](https://www.createanything.com/) 的 CEO 聊两句。
 
-怪不得我对这个平台有那么大印象，原来是因为我经常翻垃圾邮件。我觉得不值得在这个平台上浪费我的时间。
+你在找赏金？<https://algora.io/bounties> 是 404，也就是说 algora.io 自己只是把供需双方撮合到一起了而已。举个例子 <https://algora.io/cal/home> 就不是 404，这是 cal.com ~~的开源赏金计划...~~ 的领奖台，因为你能看到的都是付过钱的而不是没付过钱的。issues / pr 都找不到关于赏金的事情，这是一个[示例](https://github.com/calcom/cal.diy/issues/22319)你可以自己看看，“Yuvraj Angad Singh” 到底是哪个人呢？
+
+怪不得我对这个平台有那么大印象，原来是因为我经常翻垃圾邮件。我觉得不值得在这个平台上浪费我的时间找入口。
 
 ### VIDS.ST
 
