@@ -225,7 +225,7 @@ $ cat ~/slop-cash-ws/AGENTS.md
 
 还主动给我推荐 [Air Space Intelligence](https://www.airspace-intelligence.com/) 的软件工程师职位，问我要不要和 [Anything](https://www.createanything.com/) 的 CEO 聊两句。
 
-你在找赏金？algora.io 没有自己的赏金计划，它只是把供需双方撮合到一起了而已。举个例子 <https://algora.io/cal/home> 是 cal.com ~~的开源赏金计划...~~ 的领奖台，因为你能看到的都是付过钱的而不是没付过钱的。issues / pr 都找不到关于赏金的事情。这是一个[示例 issue](https://github.com/calcom/cal.diy/issues/22319)，有三个 closed pr 垫底，最终[被合并的 pr](https://github.com/calcom/cal.diy/pull/22434) 作者不在 issue 的 participants 里面，最后一条评论调用了 [Algora PBC](https://github.com/apps/algora-pbc) 机器人发放奖金。然后奖金又是怎么到手的呢？为什么前三个 pr 没被合并呢？
+你在找赏金？algora.io 没有自己的赏金计划，它只是把供需双方撮合到一起了而已。举个例子 <https://algora.io/cal/home> 是 cal.com ~~的开源赏金计划...~~ 的领奖台，因为你能看到的都是付过钱的而不是没付过钱的。这是一个[示例 issue](https://github.com/calcom/cal.diy/issues/22319)，有三个 closed pr 垫底，最终[被合并的 pr](https://github.com/calcom/cal.diy/pull/22434) 作者不在 issue 的 participants 里面，最后一条评论调用了 [Algora PBC](https://github.com/apps/algora-pbc) 机器人发放奖金。然后奖金又是怎么到手的呢？为什么前三个 pr 没被合并呢？
 
 我猜付款走的 Stripe，我有[证据](https://github.com/algora-io/algora#stripe)。
 
