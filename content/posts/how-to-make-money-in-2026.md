@@ -120,9 +120,9 @@ Honeygain Wallet 和 Jumptask Wallet 之间不能互相转钱。
 
 ### SlopCash
 
-战绩 **0 USDC 每天**：5个PR被合并，4.33 Slop Score。
+战绩 **0 USDC 每天**：5个PR被合并，135 Points。
 
-[SlopCash](https://slop.cash/) 是个从 YouTube 刷到的 AI 漏洞赏金项目，顾名思义就是 AI 挖漏洞然后按每月占比给奖金。
+[SlopCash](https://slop.cash/) 是个从 YouTube 刷到的 AI 漏洞赏金项目，顾名思义就是 AI 挖漏洞然后按每月占比给奖金，但是它付款之前会根据一个月的滑动窗口计算份额。上面写的 135 Points 过几周就变成 130 Points 甚至更少。截至我写这段话，项目方 Vault 里面只有 [9 USDC](https://slop.cash/projects/slopdotcash/funding)，还是 [Base](https://www.base.org/) 链，不知道最后能不能发到我的 Solana 钱包。我不清楚如果我没有添加以太坊收款地址会发生什么。
 
 但是挖 5 个漏洞哪怕真的付我赏金也没法覆盖我花出去的 LLM 推理费用。我就不算电费了，它有一次挖漏洞硬要跑上万个测试给我电脑 RAM 耗没了，AI 毫不关心我电脑状况，它只会不顾一切等整个电脑 Freeze 在那像个冰雕。所以不要再用 `/goal` 命令了它真的很危险，我一觉醒来还以为它正在努力的工作，在 Out of Memory 前一刻还乐观的报告进度。
 
