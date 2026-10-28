@@ -189,6 +189,14 @@ $ cat ~/slop-cash-ws/AGENTS.md
 
 你电脑 RAM 不够就不要试 `SlopDotCash/asi`，你可怜的 RAM 会被塞满。
 
+还有一些你会用到的 prompt:
+
+- “slopdotcash有什么新的提交吗，看看有没有什么可以做的”
+- “追踪所有pr的状态，写入最新状态”
+- “现在的进度怎么样”
+- “整理agents.md”
+- “你先落盘，下个session见”
+
 做到这些你月底就可以躺着数钱了！祝你财富自由。
 
 </details>
