@@ -16,7 +16,7 @@ draft: false
 - 新站(遥遥无期): <https://github.com/sb-child/blog-next>
 - 又复活了: <https://github.com/sb-child/sbchild.top>
 
-去看看主站: <https://sbchild.top/>。
+去看看主站: <https://sbchild.top/>，和[网站介绍]({{< relref "/posts/welcome.md" >}})。
 
 ## 我是谁
 
