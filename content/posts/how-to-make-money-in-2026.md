@@ -45,6 +45,8 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 
 我添加付款账户的时候发现 Brave 甚至不愿意付我 0.00204428 [SOL](https://coinmarketcap.com/currencies/solana/) 来创建 Token Account，Brave 是不是穷鬼，最后这笔钱我付的。
 
+你看的广告数量越多，给你的钱就越多，每个月[某一天](https://community.brave.app/t/ads-payout-status-update/287895)会直接打到你绑定的 Solana 账户，不需要你付 gas。
+
 ## 第三名，SOL 质押
 
 战绩 **现价 0.006452584 USD 每天**：本金 0.396165954 SOL，现锁仓 0.421687 SOL，平均质押 373 天，总收入 0.00006472 SOL 每天。
