@@ -28,3 +28,24 @@ categories: ["系统信息"]
 这个窟窿我终于堵上了，去看看主站: <https://sbchild.top/>。
 
 如果你怀念我的旧站，请移步[这里]({{< relref "/about.md#你博客去哪了" >}})。
+
+## 本站结构
+
+在你为本站做出贡献之前，你应该先了解本站结构：
+
+主站 **sbchild.top**:
+
+- 源码 [sb-child/sbchild.top](https://github.com/sb-child/sbchild.top)
+- 没有 CI，意味着网站是我手动部署的
+- 部署到 [Cloudflare Workers](https://www.cloudflare.com/products/workers/)
+- README.md 有些是 AI 帮我写的，你看看就行了不要全信
+- 依赖 [sb-child/sbchild-top-wasm](https://github.com/sb-child/sbchild-top-wasm)，package 托管在 [@sb-child/sbchild-top-wasm](https://github.com/sb-child/sbchild-top-wasm/pkgs/npm/sbchild-top-wasm)
+
+博客站 **gh.sbchild.top**:
+
+- 源码 [sb-child/sb-child](https://github.com/sb-child/sb-child)
+- 有 CI，意味着只要提交到 main 分支就会部署
+- 部署到 [GitHub Pages](https://pages.github.com/)
+- README.md 是 [BLOG_README.md](https://github.com/sb-child/sb-child/blob/main/BLOG_README.md)
+
+不然你会迷路找不到我站源码在哪。
