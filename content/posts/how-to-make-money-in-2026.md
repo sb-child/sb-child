@@ -55,7 +55,7 @@ _但是质押收益一直在往下降，战绩是平均值所以也会跟着下�
 
 ## 第四名，Coincamps 抽奖活动
 
-战绩 **0.002 USDT 每天**：目前 15 天中奖 2 次。
+战绩 **0.002 USDT 每天**：目前 16 天中奖 2 次。
 
 我是先知道 [Airdrop.io](https://airdrop.io/) 有送钱项目，才知道 [Coincamps](https://coincamps.ai/) 的。我有理由怀疑 Coincamps 是国产网站，它和 [Mesoc](https://mesoc.xyz/) 一样国产，后者甚至可能这辈子领不到钱。
 
