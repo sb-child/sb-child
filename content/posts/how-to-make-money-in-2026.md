@@ -13,7 +13,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第一名，XMR 挖矿
 
-战绩 **现价 0.16525 USD 每天**：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天。
+战绩 **现价 0.1582659 USD 每天**：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天。
 
 [Monero](https://github.com/monero-project/monero) 是一种采用 PoW 机制的加密货币区块链，它创新性的采用了 RandomX 算法减慢我电脑挖矿的速度。
 
@@ -25,13 +25,15 @@ description = "你不赚钱，钱不赚你。"
 
 因为我没有算力，导致我两台手机电池鼓包拆掉丢垃圾桶了，笔记本电脑电池也鼓包但是我不需要拆下，眼不见心不烦。
 
-我每天的工作是时不时盯着电脑和手机干活，手机有概率过热杀后台，它杀完之后我就再在 [Termux](https://termux.dev/en/) 把 [xmrig](https://github.com/xmrig/xmrig) 开起来。有个不是我的三星平板，因为两次充着电挖矿把电量耗尽，我不折腾灵车三星了不然把人家板子挖鼓包我赔不起。还有不要在手机上把线程数开满，不然手机屏幕会冻结。
+有人可能想问了，为什么我不用 [P2Pool](https://p2pool.io/#pool)？在我曾经有大概 8kH 算力的时候，终于在几小时后挖到了一个 Share，然后超出 PPLNS 窗口了还没出块，当时还没有适合我的 [NANO 矿池](https://nano.p2pool.observer/)。我没法评估我的垃圾在 P2Pool 能挖多少钱因为太看运气了。
+
+我每天的工作是时不时盯着电脑和手机干活，手机有概率过热杀后台，它杀完之后我就再在 [Termux](https://termux.dev/en/) 把 [xmrig](https://github.com/xmrig/xmrig) 开起来。有个不是我的三星平板，因为两次充着电挖矿把电量耗尽，我不折腾灵车三星了不然把人家板子挖鼓包我赔不起。还有不要在手机上把线程数开满，不然手机调度不过来。
 
 电费不是我出所以我不关心。
 
 ## 第二名，Brave 广告奖励
 
-战绩 **现价 0.00799 USD 每天**：总收入 0.053416 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每天。
+战绩 **现价 0.00738209 USD 每天**：总收入 0.053416 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每天。
 
 我也是先知道 [Brave](https://brave.com/) 每月给用户送钱，才知道 Brave 浏览器的。
 
@@ -45,7 +47,7 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 
 ## 第三名，SOL 质押
 
-战绩 **现价 0.006668 USD 每天**：现锁仓 0.421687 SOL，平均质押 373 天，总收入 0.00006472 SOL 每天。
+战绩 **现价 0.006452584 USD 每天**：本金 0.396165954 SOL，现锁仓 0.421687 SOL，平均质押 373 天，总收入 0.00006472 SOL 每天。
 
 你都看到这里，想必你肯定跑不起节点所以我就不讲什么是 PoS 了。我也没有那个体量的服务器所以我把钱托管给几个节点替我质押，有些节点会从奖励中收取一些费用。
 
@@ -127,7 +129,7 @@ Honeygain Wallet 和 Jumptask Wallet 之间不能互相转钱。
 
 战绩 **0 USDC 每天**：5个PR被合并，135 Points。
 
-[SlopCash](https://slop.cash/) 是个从 YouTube 刷到的 AI 漏洞赏金项目，顾名思义就是 AI 挖漏洞然后按每月占比给奖金，但是它付款之前会根据一个月的滑动窗口计算份额。上面写的 135 Points 过几周就变成 130 Points 甚至更少。截至我写这段话，项目方 Vault 里面只有 [9 USDC](https://slop.cash/projects/slopdotcash/funding)，还是 [Base](https://www.base.org/) 链，不知道最后能不能发到我的 Solana 钱包。我不清楚如果我没有添加以太坊收款地址会发生什么。
+[SlopCash](https://slop.cash/) 是个从 YouTube 刷到的 AI 漏洞赏金项目，顾名思义就是 AI 挖漏洞然后按每月占比给奖金，但是它付款之前会根据一个月的滑动窗口计算份额。上面写的 135 Points 过几周就变成 130 Points 甚至更少。截至我写这段话，项目方 Vault 里面~~只有 9 USDC~~ [1000 USDC](https://slop.cash/projects/slopdotcash/funding) 已经就绪，还是 [Base](https://www.base.org/) 链，不知道最后能不能发到我的 Solana 钱包。我不清楚如果我没有添加以太坊收款地址会发生什么。
 
 但是挖 5 个漏洞哪怕真的付我赏金也没法覆盖我花出去的 LLM 推理费用。我就不算电费了，它有一次挖漏洞硬要跑上万个测试给我电脑 RAM 耗没了，AI 毫不关心我电脑状况，它只会不顾一切等整个电脑 Freeze 在那像个冰雕。所以不要再用 `/goal` 命令了它真的很危险，我一觉醒来还以为它正在努力的工作，在 Out of Memory 前一刻还乐观的报告进度。
 
