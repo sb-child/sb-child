@@ -3,7 +3,7 @@ date = '2026-10-29T13:54:05+08:00'
 title = '我的 UI 不被定义'
 description = "如果我的屏幕是圆的，六边形，三角形，我会被适配吗？"
 # comment_id = "91e3b6ce78355bfc00274af0c5b101c4"
-draft = true
+draft = false
 +++
 
 终于有人跳出来说 Linux 下的 UI 混乱的[问题](https://youtu.be/yobj13YpzkU)了，我也来提一嘴。
