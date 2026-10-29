@@ -1,0 +1,39 @@
+{{- $meta := slice }}
+{{- $meta2 := slice }}
+{{- $created_at := .Date }}
+
+{{- if not .Date.IsZero -}}
+    {{- $meta = $meta | append (printf "<span title='%s'>%s</span>" (.Date | time.Format "创建于 2006-01-02T15:04:05-07:00") (.Date | time.Format (default ":date_long" site.Params.DateFormat))) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+    {{- $meta = $meta | append (printf "<span>%s</span>" (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+    {{- $meta = $meta | append (printf "<span>%s</span>" (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+    {{- with (partial "author.html" .) }}
+        {{- $meta = $meta | append (printf "<span>%s</span>" .) }}
+    {{- end }}
+{{- end }}
+
+{{ with .GitInfo }}
+    {{ if ne .AuthorDate $created_at }}
+        {{- $meta2 = $meta2 | append (printf "<span title='%s'>更新于 %s</span>" (.AuthorDate | time.Format "更新于 2006-01-02T15:04:05-07:00") (.AuthorDate | time.Format (default ":date_long" site.Params.DateFormat))) }}
+    {{ end }}
+    {{- $meta2 = $meta2 | append (printf "<a title='%s' href='%s/commit/%s'>提交 %s</a>" .Hash site.Params.GitRepo .Hash .AbbreviatedHash) }}
+{{ end }}
+
+{{/* Combine all meta information into a single string with separators and render it as HTML.*/}}
+
+{{- with $meta }}
+    {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}
+
+{{- with $meta2 }}
+    <br />
+    {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}
