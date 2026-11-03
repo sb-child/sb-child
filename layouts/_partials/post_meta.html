@@ -3,7 +3,7 @@
 {{- $created_at := .Date }}
 
 {{- if not .Date.IsZero -}}
-    {{- $meta = $meta | append (printf "<span title='%s'>%s</span>" (.Date | time.Format "创建于 2006-01-02T15:04:05-07:00") (.Date | time.Format (default ":date_long" site.Params.DateFormat))) }}
+    {{- $meta = $meta | append (printf "<span title='%s'>%s</span>" (.Date | time.Format "2006-01-02T15:04:05-07:00") (.Date | time.Format (default ":date_long" site.Params.DateFormat))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
@@ -22,7 +22,7 @@
 
 {{ with .GitInfo }}
     {{ if ne .AuthorDate $created_at }}
-        {{- $meta2 = $meta2 | append (printf "<span title='%s'>更新于 %s</span>" (.AuthorDate | time.Format "更新于 2006-01-02T15:04:05-07:00") (.AuthorDate | time.Format (default ":date_long" site.Params.DateFormat))) }}
+        {{- $meta2 = $meta2 | append (printf "<span title='%s'>更新于 %s</span>" (.AuthorDate | time.Format "2006-01-02T15:04:05-07:00") (.AuthorDate | time.Format (default ":date_long" site.Params.DateFormat))) }}
     {{ end }}
     {{- $meta2 = $meta2 | append (printf "<a title='%s' href='%s/commit/%s'>提交 %s</a>" .Hash site.Params.GitRepo .Hash .AbbreviatedHash) }}
 {{ end }}
