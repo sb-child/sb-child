@@ -9,7 +9,7 @@
 sudo dnf remove hugo
 
 # 去 https://github.com/gohugoio/hugo/releases 找到最新版
-wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-amd64.tar.gz
+wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.169.0/hugo_extended_0.169.0_linux-amd64.tar.gz
 tar xvzf hugo.tar.gz hugo
 # install 也会替你设置 selinux context
 sudo install hugo /usr/local/bin/hugo
