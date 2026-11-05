@@ -10,7 +10,7 @@ draft = false
 
 对了，插播一条广告，我没[赚到什么钱]({{< relref "/posts/how-to-make-money-in-2026" >}})，我来乞讨了：
 
-```echarts {width="auto",height="500px",src="chart/srs-progress.json"}
+```echarts {width="auto",height="300px",src="chart/srs-progress.json"}
 {
 title: [ { text: '我什么时候可以做变性手术', subtext: '恐怕这辈子也不能，但是如果真的可以呢？',
 left: 'center' }, ],
