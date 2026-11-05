@@ -1,0 +1,21 @@
+{
+  "series": [
+    {
+      "data": [
+        [
+          1810,
+          "我攒的钱"
+        ],
+        [
+          80000,
+          "SRS平均花销"
+        ]
+      ],
+      "type": "bar",
+      "showBackground": true,
+      "backgroundStyle": {
+        "color": "rgba(180, 180, 180, 0.2)"
+      }
+    }
+  ]
+}
