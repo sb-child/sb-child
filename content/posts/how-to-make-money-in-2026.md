@@ -13,7 +13,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第一名，XMR 挖矿
 
-战绩 **现价 0.1582659 USD 每天**：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天。
+战绩 **现价 0.1654506 USD 每天**：[MoneroOcean](https://moneroocean.stream/)，3~4 台设备，总收入 0.00027 [XMR](https://coinmarketcap.com/currencies/monero/) 每天。
 
 [Monero](https://github.com/monero-project/monero) 是一种采用 PoW 机制的加密货币区块链，它创新性的采用了 RandomX 算法减慢我电脑挖矿的速度。
 
@@ -33,7 +33,7 @@ description = "你不赚钱，钱不赚你。"
 
 ## 第二名，Brave 广告奖励
 
-战绩 **现价 0.00738209 USD 每天**：总收入 0.053416 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每天。
+战绩 **现价 0.00726 USD 每天**：总收入 0.0591224 [BAT](https://coinmarketcap.com/currencies/basic-attention-token/) 每天。
 
 我也是先知道 [Brave](https://brave.com/) 每月给用户送钱，才知道 Brave 浏览器的。
 
@@ -47,9 +47,11 @@ Brave 这种，自己赚钱不让别人赚钱的精神是值得大家学习的�
 
 你看的广告数量越多，给你的钱就越多，每个月[某一天](https://community.brave.app/t/ads-payout-status-update/287895)会直接打到你绑定的 Solana 账户，不需要你付 gas。
 
+_算式：`5.4097 / 3 / 30.5`_
+
 ## 第三名，SOL 质押
 
-战绩 **现价 0.006452584 USD 每天**：本金 0.396165954 SOL，现锁仓 0.421687 SOL，平均质押 373 天，总收入 0.00006472 SOL 每天。
+战绩 **现价 0.005815092 USD 每天**：本金 0.396165954 SOL，现锁仓 0.421687 SOL，平均质押 373 天，总收入 0.00006472 SOL 每天。
 
 你都看到这里，想必你肯定跑不起节点所以我就不讲什么是 PoS 了。我也没有那个体量的服务器所以我把钱托管给几个节点替我质押，有些节点会从奖励中收取一些费用。
 
