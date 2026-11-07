@@ -309,6 +309,57 @@ volumes:
 
 我差点打爆了 [SherlockProtocolManager](https://etherscan.io/address/0x3d0b8A0A10835Ab9b0f0BeB54C5400B8aAcaa1D3#code) 合约因为 AI 帮我找到了关于 [forceRemoveByActiveBalance](https://github.com/sherlock-protocol/sherlock-v2-core/blob/6d0ad29b504db57304ab74f942fe194e646dddb8/contracts/managers/SherlockProtocolManager.sol#L617) 的高危漏洞可以偷走 protocol 里的钱，可以用 MEV 夹心攻击，protocol 停用锁死的 7 天里也能把钱搞出来。但是当我看链上状态的时候发现这个合约很长时间没人用了，所有 protocol 都已经移除而且过期。我差点变成富婆。
 
+<details>
+
+<summary>点击查看我的工作流</summary>
+
+`~/sherlock-audit$ cat AGENTS.md`
+
+```markdown
+这是 Sherlock Audit 工作区，AI无权更改本说明。你的任务是：
+
+- 审计 sherlock-protocol/sherlock-v2-core。见 sherlock-v2-core.md
+
+## 要求
+
+- 回复语言：简体中文。(包括本AGENTS文件，回复的消息。不包括PR,git提交等)
+- 所有工具库不要放在本工作区外。不要修改外部环境。
+- 运行 shell 命令前注意评估 CPU 和内存使用。
+- 为了提高效率，你可以用 python 编写自己的工具，放在本工作区下。
+- 你可以克隆任何仓库到本工作区。/tmp 目录不是持久化的。AI下载的工具应该放在本工作区。
+- 你可以在本工作区创建任何项目。
+- 做完每一步都要更新 AI 记忆(在本文档下面)。
+
+(以上AI不得修改)
+
+---
+
+# AI记忆
+```
+
+`~/sherlock-audit$ cat sherlock-v2-core.md`
+
+```markdown
+## 审计内容
+
+github: sherlock-protocol/sherlock-v2-core
+sha: 6d0ad29b504db57304ab74f942fe194e646dddb8
+
+... (照抄 https://audits.sherlock.xyz/bug-bounties/17)
+```
+
+prompt:
+
+```markdown
+1. 拉取相关仓库
+2. 安装工具链，确保本地可以测试
+3. 为源码编写索引，放在 sherlock-v2-core-index.md，记录每个单元的审计结果
+
+@general 先把当前工作区状态落盘
+```
+
+</details>
+
 ### 合约网格
 
 早在 2025 年下半年，我在 [MEXC](https://www.mexc.com/) 交易所创建了交易机器人，放进去 5 USDT 去做 [OP](https://coinmarketcap.com/currencies/optimism-ethereum/) 币。当时至少还赚了半个 u。
