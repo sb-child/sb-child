@@ -263,6 +263,36 @@ $ cat ~/slop-cash-ws/AGENTS.md
 
 不要再在这个平台上浪费可怜的时间了，它们只是付费让你做宣传，无论是宣传什么，还不能让你加“这是广告”，还是超大额补贴。
 
+### bitping
+
+[bitping](https://nodes.bitping.com/dashboard) 是我从 AI 口中要来的项目，属于共享带宽，网络监控项目，你可以轻松的在你电脑上部署:
+
+```yml
+# ~/bitpingd$ cat compose.yaml
+services:
+    bitpingd:
+        image: bitping/bitpingd:latest
+        stdin_open: true
+        tty: true
+        volumes:
+            - bitpingd-volume:/root/.bitpingd
+
+volumes:
+    bitpingd-volume:
+```
+
+然后你先在网页注册，在终端 `docker compose up -d` 再 `docker attach bitpingd-bitpingd-1`，在 TUI 登录就可以了。
+
+按着 `Ctrl+P` 不要松开 Ctrl 再按 `Q` 退出它的 TUI。用 `docker compose ps -a` 确定服务还活着。
+
+收益通过 Solana 链付，最低提现 $0.05，不知道提现成什么 Token，我估计是等价的 SOL。
+
+已知问题是退出 TUI 再进入，终端没有全部刷新，最后我按 q 重启了程序。
+
+去[这里](https://explorer.bitping.com/)计算你的国家，你的网络环境，能赚几个钱。
+
+等我提现了我再放进排行榜。
+
 ### 合约网格
 
 早在 2025 年下半年，我在 [MEXC](https://www.mexc.com/) 交易所创建了交易机器人，放进去 5 USDT 去做 [OP](https://coinmarketcap.com/currencies/optimism-ethereum/) 币。当时至少还赚了半个 u。
