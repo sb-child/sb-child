@@ -295,13 +295,15 @@ volumes:
 
 # Sherlock
 
-[Sherlock](https://audits.sherlock.xyz/)，又是一个漏洞赏金平台。
+[Sherlock](https://audits.sherlock.xyz/bug-bounties)，又是一个漏洞赏金平台。
 
 创建账户需要你有一个 Ethereum 钱包，你可以绑定 GitHub，Discord (要手机号验证，+86也可以)，Telegram，X 账号，也许可以增加你的可信度。
 
 对了，你要提交报告那你要先交 250 USDC 押金哦。我翻箱底也翻不出这么多钱。
 
 > ⚠️ Requires $250 USDC deposit
+
+~~我拿不出 250 刀，不代表我不能挖到 Critical 打爆你的合约。~~虽然这样做我可能触犯了什么法律，但是刑法里面写的法条都是赚钱路子。
 
 ### 合约网格
 
