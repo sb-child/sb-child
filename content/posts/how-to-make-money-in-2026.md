@@ -305,6 +305,8 @@ volumes:
 
 ~~我拿不出 250 刀，不代表我不能挖到 Critical 打爆你的合约。~~ 虽然这样做我可能触犯了什么法律，但是刑法里面写的法条都是赚钱路子。
 
+我差点打爆了 [SherlockProtocolManager](https://etherscan.io/address/0x3d0b8A0A10835Ab9b0f0BeB54C5400B8aAcaa1D3#code) 合约因为 AI 帮我找到了关于 [forceRemoveByActiveBalance](https://github.com/sherlock-protocol/sherlock-v2-core/blob/6d0ad29b504db57304ab74f942fe194e646dddb8/contracts/managers/SherlockProtocolManager.sol#L617) 的高危漏洞可以偷走 protocol 里的钱，可以用 MEV 夹心攻击，protocol 停用锁死的 7 天里也能把钱搞出来。但是当我看链上状态的时候发现这个合约很长时间没人用了，所有 protocol 都已经移除而且过期。我差点变成富婆。
+
 ### 合约网格
 
 早在 2025 年下半年，我在 [MEXC](https://www.mexc.com/) 交易所创建了交易机器人，放进去 5 USDT 去做 [OP](https://coinmarketcap.com/currencies/optimism-ethereum/) 币。当时至少还赚了半个 u。
