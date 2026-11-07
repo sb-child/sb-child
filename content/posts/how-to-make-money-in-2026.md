@@ -293,6 +293,16 @@ volumes:
 
 等我提现了我再放进排行榜。
 
+# Sherlock
+
+[Sherlock](https://audits.sherlock.xyz/)，又是一个漏洞赏金平台。
+
+创建账户需要你有一个 Ethereum 钱包，你可以绑定 GitHub，Discord (要手机号验证，+86也可以)，Telegram，X 账号，也许可以增加你的可信度。
+
+对了，你要提交报告那你要先交 250 USDC 押金哦。我翻箱底也翻不出这么多钱。
+
+> ⚠️ Requires $250 USDC deposit
+
 ### 合约网格
 
 早在 2025 年下半年，我在 [MEXC](https://www.mexc.com/) 交易所创建了交易机器人，放进去 5 USDT 去做 [OP](https://coinmarketcap.com/currencies/optimism-ethereum/) 币。当时至少还赚了半个 u。
