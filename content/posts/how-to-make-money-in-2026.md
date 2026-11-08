@@ -75,9 +75,17 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 
 ## 避雷
 
+| 项目                              | 开始       | 结束 | 总收入        | 每天收入        |
+| --------------------------------- | ---------- | ---- | ------------- | --------------- |
+| Aro Network(pixel3)               | 2026-10-16 | -    | 14580 Jade    | 633 Jade (23d)  |
+| Aro Network(mi11lite)             | 2026-10-11 | -    | 19420 Jade    | 693 Jade (28d)  |
+| Grass Uptime Points(pixel3)       | 2026-10-14 | -    | 129467.6      | 5178 (25d)      |
+| Grass Network Points(pixel3)      | 2026-10-14 | -    | 12.4879       | 0.499516 (25d)  |
+| Honeygain(pixel3,Jumptask Wallet) | 2026-10-24 | -    | 209.87 Points | 13.116875 (16d) |
+
 ### Aro Network
 
-战绩：Testnet，2个IP，总收入 1533 Jade 每天，**现价 0 USD**。
+战绩：Testnet，2个IP，总收入 1326 Jade 每天，**现价 0 USD**。
 
 [Aro Network](https://aro.network/) 是挂在 [DePIN](https://depinhub.io/projects/) 网站的项目之一。这个垃圾项目截至我写这篇文章，还处于 Testnet S2 阶段。
 
@@ -87,15 +95,19 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 
 要瓜分 30000 USDT 需要先上 Sprint 2 Campaign 前 100 名榜单，我手里的 Jade 只有第 100 名的 11%，逗我呢。
 
+_最后更新: 2026-11-08，总收入: `633 + 693` Jade_
+
 ### Grass
 
-战绩：1个IP，总收入 4412 Uptime Points 每天，**现价 0 USD**。0.02 Network Points 每天，**现价 0 USD**。
+战绩：1个IP，总收入 5178 Uptime Points 每天，**现价 0 USD**。0.499516 Network Points 每天，**现价 0 USD**。
 
 [Grass](https://app.grass.io/) 是另一个挂在 DePIN 网站的项目，我觉得和 Aro Network 一样也是诈骗项目。
 
 这个项目支持中国IP，但是政策上禁止VPN(比如代理)，那我就用自家宽带吧。
 
-我原以为 Uptime Points 能提现成 [Grass 代币](https://coinmarketcap.com/currencies/grass/)，我就往它的托管钱包打了 0.02 SOL，结果截至我写这篇文章，我仍然找不到哪里能让我获得 Grass 或者 USDC 代币，我节点跑了 11 天它都不给我一点面子。
+我原以为 Uptime Points 能提现成 [Grass 代币](https://coinmarketcap.com/currencies/grass/)，我就往它的托管钱包打了 0.02 SOL，结果截至我写这篇文章，我仍然找不到哪里能让我获得 Grass 或者 USDC 代币，我节点跑了 25 天它都不给我一点面子。
+
+_最后更新: 2026-11-08_
 
 ### Acurast
 
@@ -129,7 +141,9 @@ Honeygain Wallet 和 Jumptask Wallet 之间不能互相转钱。
 
 我觉得我对这个项目的信心比那些垃圾更大，因为它有进度条。等我赚到钱我们下辈子见。
 
-_每天收益计算方式: `(1.37+0.48+1.38+1.22+3.50+13.68+5.37+0.68+3.05+10.82+0.29)/11` credits_
+~~每天收益计算方式: `(1.37+0.48+1.38+1.22+3.50+13.68+5.37+0.68+3.05+10.82+0.29)/11` credits~~ [上面](#避雷)的表格同时算上了 Gathering + Winnings。
+
+_最后更新: 2026-11-08_
 
 ### SlopCash
 
