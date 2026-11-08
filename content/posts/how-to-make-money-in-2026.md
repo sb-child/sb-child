@@ -75,13 +75,13 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 
 ## 避雷
 
-| 项目                              | 开始       | 结束 | 总收入        | 每天收入        |
-| --------------------------------- | ---------- | ---- | ------------- | --------------- |
-| Aro Network(pixel3)               | 2026-10-16 | -    | 14580 Jade    | 633 Jade (23d)  |
-| Aro Network(mi11lite)             | 2026-10-11 | -    | 19420 Jade    | 693 Jade (28d)  |
-| Grass Uptime Points(pixel3)       | 2026-10-14 | -    | 129467.6      | 5178 (25d)      |
-| Grass Network Points(pixel3)      | 2026-10-14 | -    | 12.4879       | 0.499516 (25d)  |
-| Honeygain(pixel3,Jumptask Wallet) | 2026-10-24 | -    | 209.87 Points | 13.116875 (16d) |
+| 项目                              | 开始       | 结束 | 总收入         | 每天收入        |
+| --------------------------------- | ---------- | ---- | -------------- | --------------- |
+| Aro Network(pixel3)               | 2026-10-16 | -    | 14580 Jade     | 633 Jade (23d)  |
+| Aro Network(mi11lite)             | 2026-10-11 | -    | 19420 Jade     | 693 Jade (28d)  |
+| Grass Uptime Points(pixel3)       | 2026-10-14 | -    | 129467.6       | 5178 (25d)      |
+| Grass Network Points(pixel3)      | 2026-10-14 | -    | 12.4879        | 0.499516 (25d)  |
+| Honeygain(pixel3,Jumptask Wallet) | 2026-10-24 | -    | 209.87 Credits | 13.116875 (16d) |
 
 ### Aro Network
 
