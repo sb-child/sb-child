@@ -71,7 +71,7 @@ Alias:
 - [BSC](https://www.bnbchain.org/en/bnb-smart-chain) (只收 BSC): `0x5838c07a50894fAA58EBfe5E5975f1FCc8792cD3`
 - [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
-- 支付宝商家码: [邮件或私信我获取](#联系方式)
+- 支付宝收钱码: [邮件或私信我获取](#联系方式)
 
 | 支持币种                |                        |                        |                         |
 | ----------------------- | ---------------------- | ---------------------- | ----------------------- |
