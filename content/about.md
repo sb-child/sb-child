@@ -70,3 +70,12 @@ Alias:
 - [Ethereum](https://ethereum.org/): `0x61b5d628f5275c39fcb8979c0aFdb9a89abDCa9C`
 - [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
+- 支付宝商家码: [邮件或私信我获取](#联系方式)
+
+| 支持币种                |                        |                        |                         |
+| ----------------------- | ---------------------- | ---------------------- | ----------------------- |
+| NANO<sub>Nano</sub>     | ETH<sub>L1</sub>       | ETH<sub>Arb One</sub>  | ETH<sub>Optimism</sub>  |
+| 人民币<sub>支付宝</sub> | USDT<sub>L1</sub>      | USDT<sub>Arb One</sub> | USDT<sub>Optimism</sub> |
+| USDT<sub>Solana</sub>   | USDC<sub>L1</sub>      | USDC<sub>Arb One</sub> | USDC<sub>Optimism</sub> |
+| SOL<sub>Solana</sub>    | USDC<sub>Solana</sub>  | XMR<sub>Monero</sub>   | POL<sub>Polygon</sub>   |
+| USDT<sub>Polygon</sub>  | USDC<sub>Polygon</sub> |                        |                         |

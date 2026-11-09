@@ -27,6 +27,8 @@ Crypto only for now; I can't think of anything else suitable besides crypto.
 - [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
 
+See [here](https://gh.sbchild.top/about/#%E6%8A%95%E5%96%82%E6%88%91) for details.
+
 ## <sub>Hi everyone, I'm a **loli**<sub>~~_con_~~</sub>, come check out my ~~_masturbation_~~ toys!</sub>
 
 [![stat](https://github-readme-stats.vercel.app/api?username=sb-child&show_icons=true&icon_color=0366d6&theme=dark)]()
