@@ -24,10 +24,11 @@ Crypto only for now; I can't think of anything else suitable besides crypto.
 
 - [Nano](https://nano.org/): `nano_3qtq4ttsm9wfct1tjdzbhocywihr6sjsiscjmys8ebch89kafk6pgqfdiund`
 - [Ethereum](https://ethereum.org/): `0x61b5d628f5275c39fcb8979c0aFdb9a89abDCa9C`
+- [BSC](https://www.bnbchain.org/en/bnb-smart-chain) (BSC Only): `0x5838c07a50894fAA58EBfe5E5975f1FCc8792cD3`
 - [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
 
-See [here](https://gh.sbchild.top/about/#%E6%8A%95%E5%96%82%E6%88%91) for details.
+More, such as Alipay, See [here](https://gh.sbchild.top/about/#%E6%8A%95%E5%96%82%E6%88%91) for details.
 
 ## <sub>Hi everyone, I'm a **loli**<sub>~~_con_~~</sub>, come check out my ~~_masturbation_~~ toys!</sub>
 

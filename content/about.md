@@ -68,6 +68,7 @@ Alias:
 
 - [Nano](https://nano.org/): `nano_3qtq4ttsm9wfct1tjdzbhocywihr6sjsiscjmys8ebch89kafk6pgqfdiund`
 - [Ethereum](https://ethereum.org/): `0x61b5d628f5275c39fcb8979c0aFdb9a89abDCa9C`
+- [BSC](https://www.bnbchain.org/en/bnb-smart-chain) (只收 BSC): `0x5838c07a50894fAA58EBfe5E5975f1FCc8792cD3`
 - [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
 - 支付宝商家码: [邮件或私信我获取](#联系方式)
@@ -78,4 +79,5 @@ Alias:
 | 人民币<sub>支付宝</sub> | USDT<sub>L1</sub>      | USDT<sub>Arb One</sub> | USDT<sub>Optimism</sub> |
 | USDT<sub>Solana</sub>   | USDC<sub>L1</sub>      | USDC<sub>Arb One</sub> | USDC<sub>Optimism</sub> |
 | SOL<sub>Solana</sub>    | USDC<sub>Solana</sub>  | XMR<sub>Monero</sub>   | POL<sub>Polygon</sub>   |
-| USDT<sub>Polygon</sub>  | USDC<sub>Polygon</sub> |                        |                         |
+| USDT<sub>Polygon</sub>  | USDC<sub>Polygon</sub> | BNB<sub>BSC</sub>      | USDT<sub>BSC</sub>      |
+| USDC<sub>BSC</sub>      |                        |                        |                         |
