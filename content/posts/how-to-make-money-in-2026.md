@@ -281,7 +281,7 @@ $ cat ~/slop-cash-ws/AGENTS.md
 
 ### bitping
 
-战绩 **0.000896 USD 每天**：中国家宽，1 IP，12 jobs completed 每天。
+战绩 **0.006422 USD 每天**：中国家宽，1 IP，12 jobs completed 每天。
 
 [bitping](https://nodes.bitping.com/dashboard) 是我从 AI 口中要来的项目，属于共享带宽，网络监控项目，你可以轻松的在你电脑上部署:
 
@@ -307,7 +307,9 @@ volumes:
 
 去[这里](https://explorer.bitping.com/)计算你的国家，你的网络环境，能赚几个钱。等我提现了我再放进排行榜。
 
-_每日收入: `(0.00064 / 8) * (24 / (15 / 7))`_
+_获取当前收入api: `https://nodes.bitping.com/api/v2/payouts/earnings/total`_
+
+_每日收入: `(0.003211 / 12) * 24`，每日完成job数: `(40 / 12) * 24`_
 
 ### Sherlock
 
