@@ -307,9 +307,12 @@ volumes:
 
 去[这里](https://explorer.bitping.com/)计算你的国家，你的网络环境，能赚几个钱。等我提现了我再放进排行榜。
 
-_获取当前收入api: `https://nodes.bitping.com/api/v2/payouts/earnings/total`_
+_获取总收入api: `https://nodes.bitping.com/api/v2/payouts/earnings/total`_
+_获取总jobs: `https://nodes.bitping.com/api/v2/user/jobs/total`_
 
-_每日收入: `(0.003211 / 12) * 24`，每日完成job数: `(40 / 12) * 24`_
+_快照 2026-11-10 12:41:24 usdTotal = 0.003291, jobs=41，我们几天后见_
+
+~~每日收入: `(0.003211 / 12) * 24`，每日完成job数: `(40 / 12) * 24`~~
 
 ### Sherlock
 
