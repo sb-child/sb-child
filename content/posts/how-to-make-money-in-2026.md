@@ -323,7 +323,9 @@ _每日收入: `(0.003211 / 12) * 24`，每日完成job数: `(40 / 12) * 24`_
 
 ~~我拿不出 250 刀，不代表我不能挖到 Critical 打爆你的合约。~~ 虽然这样做我可能触犯了什么法律，但是刑法里面写的法条都是赚钱路子。
 
-我差点打爆了 [SherlockProtocolManager](https://etherscan.io/address/0x3d0b8A0A10835Ab9b0f0BeB54C5400B8aAcaa1D3#code) 合约因为 AI 帮我找到了关于 [forceRemoveByActiveBalance](https://github.com/sherlock-protocol/sherlock-v2-core/blob/6d0ad29b504db57304ab74f942fe194e646dddb8/contracts/managers/SherlockProtocolManager.sol#L617) 的高危漏洞可以偷走 protocol 里的钱，可以用 MEV 夹心攻击，protocol 停用锁死的 7 天里也能把钱搞出来。但是当我看链上状态的时候发现这个合约很长时间没人用了，所有 protocol 都已经移除而且过期。我差点变成富婆。
+我差点打爆了 [SherlockProtocolManager](https://etherscan.io/address/0x3d0b8A0A10835Ab9b0f0BeB54C5400B8aAcaa1D3#code) 合约因为 AI 帮我找到了关于 [forceRemoveByActiveBalance](https://github.com/sherlock-protocol/sherlock-v2-core/blob/6d0ad29b504db57304ab74f942fe194e646dddb8/contracts/managers/SherlockProtocolManager.sol#L617) 的高危漏洞可以偷走 protocol 里的钱，可以用 MEV 夹心攻击，protocol 停用锁死的 7 天里也能把钱搞出来。但是当我看链上状态的时候发现这个合约很长时间没人用了，所有 protocol 都已经移除而且过期，但合约并没有 disable。我差点变成富婆。
+
+我就直白问你，如果 SherlockProtocolManager 有可被 forceRemoveByActiveBalance 提取的钱，是不是我立马就变成了富婆，我才能拿出 250 美金去提交这个漏洞？如果我连 250 美金都没有，我不会想着从花呗借来这笔钱把漏洞提了然后有可能平台因为重复提交否决掉我... 借来的钱，不退还。所以平台甚至不考虑我穷的吃不上饭，活该合约被我打。
 
 <details>
 
