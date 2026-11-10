@@ -392,3 +392,94 @@ for i in range(100):  # 新语法
 ---
 
 未完待续，我快累死了
+
+---
+
+## 终章
+
+最后，你看到了这一章。我不想多说什么，我只想扔给你一段代码你自己品味。
+
+```python
+class Family:
+    def __init__(self, 爸爸, 妈妈, 姐姐, 我, 弟弟):
+        self.爸爸 = 爸爸
+        self.妈妈 = 妈妈
+        self.姐姐 = 姐姐
+        self.我 = 我
+        self.弟弟 = 弟弟
+import datetime
+import time
+# 人是什么呢？我不知道人是什么类型，但是你可以自己发挥想象力，比如
+爸爸 = 0  # 爸爸是个 0
+妈妈 = 1  # 四爱女攻
+姐姐 = "b"  # 姐姐有 b
+我 = "s" + 姐姐  # 我被骂过 sb
+弟弟 = input("自己定义:")
+f = Family(爸爸, 妈妈, 姐姐, 我, 弟弟)
+# https://github.com/sb-child/notes/blob/main/trans.md#%E9%80%83%E8%B5%B0
+离家出走时刻 = datetime.datetime(2024, 10, 2, 11, 0)
+遗书 = ["再见", "如果我一周之内没有回来的话", "那我就是去别的地方生活了", "可能再也不会回来了"]
+while True:
+    now = datetime.datetime.now()
+    if now >= 离家出走时刻:
+        break
+    time.sleep(1)
+for i in 遗书:
+    print(i)
+    time.sleep(1)
+# ---
+def 未来(_我):
+    pass  # 对，我想 pass。
+    print("未来，还是来了。")
+    print("然后我写下了这段文字。")
+    print("如果你想见我的话，你要执行完下面的代码：")
+    一年 = 365  # 一年很长，但是谁都会这样说，然后一年就这样过去了。
+    一天 = 24  # 从早上到晚上。够吃三顿饭看两场剧。
+    一时 = 60  # 一时？一时快感源于一瞬爽射一张纸巾，对吗？
+    一分 = 60  # 写完这段话，一分钟就过去了呢。
+    print("我不知道要多少年才能原谅你...", end="")
+    import random
+    多少年 = random.randint(100, 1000)
+    print(f"{多少年}年如何？")
+    r = input("你愿意吗?")
+    if r == "愿意":
+        print("那就这么定了。")
+    else:
+        多少年 /= 2
+        print("我只能给到你打骨折优惠，{多少年}年。")
+    多少秒 = 多少年 * 一年 * 一天 * 一时 * 一分  # 多么美妙的算式把这一切放大到每一秒。
+    print("我们慢慢数吧。")
+    for i in range(多少秒):
+        print(f"还剩 {多少秒 - i} 秒")
+        time.sleep(1)
+    print("旅程结束了，我去见你。")
+    return _我
+# ---
+我 = f.我.copy()
+del f.我
+我会回来吗 = False
+if 我会回来吗:
+    print("我反悔了，因为家里人报我警，或者家里人对我做了什么非常坏的事情。")
+    time.sleep(1)
+    print("我思考了一秒。", end="")
+    import gc
+    print("一把光剑，", end="")
+    del 我
+    print("插入自己的身体。", end="")
+    gc.collect()
+    import ctypes
+    print("毁灭吧，", end="", flush=True)
+    ctypes.string_at(0)
+    print("我不会活着回来。")
+elif not 我会回来吗:
+    print("我不会回来。")
+    _我 = 未来(我)
+    f.我 = 我
+    print("欢迎回家。")
+elif 我会回来吗 != 我会回来吗:
+    print("我死了。")
+    del 我
+else:
+    print("也许我真的死了。")
+    del 我
+```
