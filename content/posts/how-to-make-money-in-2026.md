@@ -81,7 +81,9 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 | Aro Network<br>(mi11lite)             | 2026-10-11 | -    | 19420 Jade     | 693 Jade (28d)  |
 | Grass Uptime Points<br>(pixel3)       | 2026-10-14 | -    | 129467.6       | 5178 (25d)      |
 | Grass Network Points<br>(pixel3)      | 2026-10-14 | -    | 12.4879        | 0.499516 (25d)  |
-| Honeygain<br>(pixel3,Jumptask Wallet) | 2026-10-24 | -    | 209.87 Credits | 13.116875 (16d) |
+| Honeygain<br>(pixel3,Jumptask Wallet) | 2026-10-24 | -    | 230.06 Credits | 12.108421 (19d) |
+
+- 我在[这里](https://www.timeanddate.com/date/duration.html)算的。
 
 ### Aro Network
 
@@ -281,7 +283,7 @@ $ cat ~/slop-cash-ws/AGENTS.md
 
 ### bitping
 
-~~战绩 **0.006422 USD 每天**：中国家宽，1 IP，80 jobs completed 每天。~~
+战绩 **0.00194 USD 每天**：中国家宽，1 IP，24.22628 jobs completed 每天。
 
 [bitping](https://nodes.bitping.com/dashboard) 是我从 AI 口中要来的项目，属于共享带宽，网络监控项目，你可以轻松的在你电脑上部署:
 
@@ -305,14 +307,15 @@ volumes:
 
 收益通过 Solana 链付，最低提现 $0.05，不知道提现成什么 Token，我估计是等价的 SOL。
 
-去[这里](https://explorer.bitping.com/)计算你的国家，你的网络环境，能赚几个钱。等我提现了我再放进排行榜。
+去[这里](https://explorer.bitping.com/)计算你的国家，你的网络环境，能赚几个钱。等我提现了我再放进排行榜。我算下来要一个月才到提现门槛，比 [Honeygain](#honeygain) 快。
 
-_获取总收入api: `https://nodes.bitping.com/api/v2/payouts/earnings/total`_
-_获取总jobs: `https://nodes.bitping.com/api/v2/user/jobs/total`_
+- _获取总收入api: `https://nodes.bitping.com/api/v2/payouts/earnings/total`_
+- _获取总jobs: `https://nodes.bitping.com/api/v2/user/jobs/total`_
 
-_快照 2026-11-10 12:41:24 usdTotal = 0.003291, jobs=41，我们几天后见_
+- _快照 2026-11-10 12:41:24 usdTotal=0.003291, jobs=41_
+- _快照 2026-11-12 12:14:30 usdTotal=0.007135, jobs=89_
 
-~~每日收入: `(0.003211 / 12) * 24`，每日完成job数: `(40 / 12) * 24`~~
+_每日收入: `(0.007135 - 0.003291) / (171186 / 60 / 60 / 24)`，每日完成job数: `(89 - 41) / (171186 / 60 / 60 / 24)`_
 
 ### Sherlock
 
