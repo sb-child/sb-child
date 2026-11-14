@@ -28,7 +28,7 @@
 - [Solana](https://solana.com/): `EdNEUrxmccEANxQvjYheowGPCW2NvVDBpKyiFbgCEFpF`
 - [Monero](https://www.getmonero.org/): `45Qr1M4XDe5aWRvzzbQR9H5E5x3MoGrGhCxzFdhAVTpd7kBYVnjywkAFr5Ld5nXSozBr2WiawWQTs64TZ58FnJLcGQfvgQG`
 
-详见[这里](https://gh.sbchild.top/about/#%E6%8A%95%E5%96%82%E6%88%91)，比如支付宝。
+详见[这里](https://gh.sbchild.top/about/#%E6%8A%95%E5%96%82%E6%88%91)，比如支付宝，和收钱记录。
 
 ## <sub>大家好, 我是1个**萝莉**<sub>~~_控_~~</sub>, 快来康康我的 ~~_自慰_~~ 玩具!</sub>
 

@@ -81,3 +81,15 @@ Alias:
 | SOL<sub>Solana</sub>    | USDC<sub>Solana</sub>  | XMR<sub>Monero</sub>   | POL<sub>Polygon</sub>   |
 | USDT<sub>Polygon</sub>  | USDC<sub>Polygon</sub> | BNB<sub>BSC</sub>      | USDT<sub>BSC</sub>      |
 | USDC<sub>BSC</sub>      |                        |                        |                         |
+
+**感谢给我打钱的猫：**
+
+| 日期       | 数量         |
+| ---------- | ------------ |
+| 2026/01/10 | 0.1 XMR      |
+| 2026/04/20 | 0.043 ETH    |
+| 2026/06/10 | 88.88 人民币 |
+| 2026/06/15 | 88.88 人民币 |
+| 2026/08/09 | 50.00 人民币 |
+| 2026/09/16 | 50.00 人民币 |
+| 2026/11/13 | 25 USDT      |
