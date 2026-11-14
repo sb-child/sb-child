@@ -75,13 +75,15 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 
 ## 避雷
 
-| 项目                                  | 开始       | 结束 | 总收入         | 每天收入        |
-| ------------------------------------- | ---------- | ---- | -------------- | --------------- |
-| Aro Network<br>(pixel3)               | 2026-10-16 | -    | 14580 Jade     | 633 Jade (23d)  |
-| Aro Network<br>(mi11lite)             | 2026-10-11 | -    | 19420 Jade     | 693 Jade (28d)  |
-| Grass Uptime Points<br>(pixel3)       | 2026-10-14 | -    | 129467.6       | 5178 (25d)      |
-| Grass Network Points<br>(pixel3)      | 2026-10-14 | -    | 12.4879        | 0.499516 (25d)  |
-| Honeygain<br>(pixel3,Jumptask Wallet) | 2026-10-24 | -    | 230.06 Credits | 12.108421 (19d) |
+| 项目                                  | 开始       | 结束       | 总收入          | 每天收入         | downtime |
+| ------------------------------------- | ---------- | ---------- | --------------- | ---------------- | -------- |
+| Aro Network<br>(pixel3)               | 2026-10-16 | -          | 19550 Jade      | 651.66 (30d)     | -        |
+| Aro Network<br>(mi11lite)             | 2026-10-11 | -          | 25780 Jade      | 736.57 (31d)     | -        |
+| Grass Uptime<br>(pixel3, Epoch 5)     | 2026-10-14 | 2026-11-14 | 164841 Points   | 5176.557 (31.8d) | -        |
+| Grass Network<br>(pixel3, Epoch 5)    | 2026-10-14 | 2026-11-14 | 59.1975 Points  | 1.858999 (31.8d) | -        |
+| Grass Uptime<br>(pixel3, Epoch 6)     | 2026-10-14 | -          | 5925.875 Points | -                | -        |
+| Grass Network<br>(pixel3, Epoch 6)    | 2026-11-14 | -          | 0 Points        | -                | -        |
+| Honeygain<br>(pixel3,Jumptask Wallet) | 2026-10-24 | -          | 281.08 Credits  | 15.615 (18d)     | 5d       |
 
 - 我在[这里](https://www.timeanddate.com/date/duration.html)算的。
 
