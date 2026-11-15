@@ -81,7 +81,7 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 | Aro Network<br>(mi11lite)             | 2026-10-11 | -          | 25780 Jade      | 736.57 (31d)     | -        |
 | Grass Uptime<br>(pixel3, Epoch 5)     | 2026-10-14 | 2026-11-14 | 164841 Points   | 5176.557 (31.8d) | -        |
 | Grass Network<br>(pixel3, Epoch 5)    | 2026-10-14 | 2026-11-14 | 59.1975 Points  | 1.858999 (31.8d) | -        |
-| Grass Uptime<br>(pixel3, Epoch 6)     | 2026-10-14 | -          | 5925.875 Points | -                | -        |
+| Grass Uptime<br>(pixel3, Epoch 6)     | 2026-11-14 | -          | 5925.875 Points | -                | -        |
 | Grass Network<br>(pixel3, Epoch 6)    | 2026-11-14 | -          | 0 Points        | -                | -        |
 | Honeygain<br>(pixel3,Jumptask Wallet) | 2026-10-24 | -          | 281.08 Credits  | 15.615 (18d)     | 5d       |
 
@@ -89,7 +89,7 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 
 ### Aro Network
 
-战绩：Testnet，2个IP，总收入 1326 Jade 每天，**现价 0 USD**。
+战绩：Testnet，2个IP，总收入 1388.23 Jade 每天，**现价 0 USD**。
 
 [Aro Network](https://aro.network/) 是挂在 [DePIN](https://depinhub.io/projects/) 网站的项目之一。这个垃圾项目截至我写这篇文章，还处于 Testnet S2 阶段。
 
@@ -99,19 +99,19 @@ _计算方式是`0.16 / 79`，假设我有那个耐心从 2026 年 10 月 13 日
 
 要瓜分 30000 USDT 需要先上 Sprint 2 Campaign 前 100 名榜单，我手里的 Jade 只有第 100 名的 11%，逗我呢。
 
-_最后更新: 2026-11-08，总收入: `633 + 693` Jade_
+_最后更新: 2026-11-15，总收入: `651.66 + 736.57` Jade_
 
 ### Grass
 
-战绩：1个IP，总收入 5178 Uptime Points 每天，**现价 0 USD**。0.499516 Network Points 每天，**现价 0 USD**。
+战绩：1个IP，总收入 5176 Uptime Points 每天，**现价 0 USD**。1.858999 Network Points 每天，**现价 0 USD**。
 
 [Grass](https://app.grass.io/) 是另一个挂在 DePIN 网站的项目，我觉得和 Aro Network 一样也是诈骗项目。
 
 这个项目支持中国IP，但是政策上禁止VPN(比如代理)，那我就用自家宽带吧。
 
-我原以为 Uptime Points 能提现成 [Grass 代币](https://coinmarketcap.com/currencies/grass/)，我就往它的托管钱包打了 0.02 SOL，结果截至我写这篇文章，我仍然找不到哪里能让我获得 Grass 或者 USDC 代币，我节点跑了 25 天它都不给我一点面子。
+我原以为 Uptime Points 能提现成 [Grass 代币](https://coinmarketcap.com/currencies/grass/)，我就往它的托管钱包打了 0.02 SOL，结果截至我写这篇文章，我仍然找不到哪里能让我获得 Grass 或者 USDC 代币，~~我节点跑了 31 天它都不给我一点面子~~。要跑到 Epoch 19 才发奖励，算下来要 2027 年结束。
 
-_最后更新: 2026-11-08_
+_最后更新: 2026-11-15_
 
 ### Acurast
 
