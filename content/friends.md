@@ -34,4 +34,8 @@ disableAnchoredHeadings = true
 
 {{< friend name="kouhe3" avatar="/images/friends/kouhe3.png" desc="系统编程 · 心理学 · 游戏开发 · Rust 爱好者" link="https://kouhe3.eu.org/" />}}
 
+{{< friend name="dragonren" avatar="/images/friends/dragonren.png" desc="热爱用代码构建事物的开发者。热衷于开源、side projects 以及通过写作分享知识。" link="https://jadren.me/" />}}
+
+{{< friend name="MlgmXyysd's Cat Nest" avatar="/images/friends/MlgmXyysd.png" desc="欢迎来猫窝，喵。" link="https://www.neko.ink/" />}}
+
 </div>
