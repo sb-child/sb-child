@@ -32,4 +32,6 @@ disableAnchoredHeadings = true
 
 {{< friend name="着火的冰块nya 的小家" avatar="/images/friends/zhdbk3.png" desc="我们终将在没有黑暗的地方相见" link="https://zhdbk3.github.io/" />}}
 
+{{< friend name="kouhe3" avatar="/images/friends/kouhe3.png" desc="系统编程 · 心理学 · 游戏开发 · Rust 爱好者" link="https://kouhe3.eu.org/" />}}
+
 </div>
